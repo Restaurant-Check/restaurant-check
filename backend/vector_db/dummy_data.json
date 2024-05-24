@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Ocean's Plate",
+    "location": "123 Beach Ave, Miami, FL",
+    "rating": 4.5,
+    "cuisine": "Seafood",
+    "menu": "Menu: Grilled Salmon $19.99, Lobster Roll $15.99, Seafood Pasta $18.99",
+    "reviews": [
+      "Absolutely loved the grilled salmon! Fresh and flavorful.",
+      "The lobster roll was a bit pricey but worth every penny. Highly recommend!",
+      "Service was slow, but the seafood pasta made up for the wait.",
+      "Great atmosphere and friendly staff. Will definitely return!",
+      "Enjoyed a dinner by the beach, perfect setting and delicious food."
+    ]
+  },
+  {
+    "name": "Mountain View Grill",
+    "location": "456 Hill Rd, Denver, CO",
+    "rating": 4.7,
+    "cuisine": "American Grill",
+    "menu": "Menu: BBQ Ribs $12.99, Bison Burger $11.99, Vegetarian Chili $9.99",
+    "reviews": [
+      "The BBQ ribs are to die for! Best in the city.",
+      "Loved the bison burger, a great hearty option for meat lovers.",
+      "The vegetarian chili was surprisingly good, with just the right amount of spice.",
+      "Fantastic view and even better food.",
+      "Service could be better, but the food makes up for it."
+    ]
+  },
+  {
+    "name": "Urban Eats",
+    "location": "789 City St, New York, NY",
+    "rating": 4.3,
+    "cuisine": "Fast Casual",
+    "menu": "Menu: Chicken Wrap $7.99, Veggie Burger $8.99, Steak Sandwich $13.99",
+    "reviews": [
+      "Chicken wrap was okay, not the best I've had.",
+      "Really enjoyed the veggie burger, great flavors!",
+      "Steak sandwich was a bit tough. Could improve.",
+      "Good prices and decent service. A solid lunch spot.",
+      "Not my favorite place, but it's good for a quick bite."
+    ]
+  },
+  {
+    "name": "Garden Bistro",
+    "location": "234 Park Blvd, San Francisco, CA",
+    "rating": 4.6,
+    "cuisine": "Italian",
+    "menu": "Menu: Tomato Basil Soup $5.99, Caesar Salad $6.99, Mushroom Risotto $14.99",
+    "reviews": [
+      "The mushroom risotto is amazing! Full of flavor.",
+      "Really nice tomato basil soup, felt like homemade.",
+      "Loved the Caesar salad, fresh and crispy.",
+      "A gem in the city with authentic Italian flavors.",
+      "Great for a romantic evening or a family dinner."
+    ]
+  },
+  {
+    "name": "Spice Journey",
+    "location": "567 Curry Ave, Houston, TX",
+    "rating": 4.8,
+    "cuisine": "Indian",
+    "menu": "Menu: Tandoori Chicken $10.99, Lamb Vindaloo $12.99, Paneer Tikka $9.99",
+    "reviews": [
+      "Tandoori chicken was perfectly spiced and juicy. Absolutely loved it!",
+      "The lamb vindaloo has just the right level of heat. Spicy and delicious!",
+      "Paneer tikka was alright, but could use a bit more flavor.",
+      "Excellent service and authentic Indian cuisine. Highly recommend!",
+      "Best Indian food I've had in a long time. A must-visit!"
+    ]
+  }
+]

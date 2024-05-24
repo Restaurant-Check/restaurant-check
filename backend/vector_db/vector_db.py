@@ -4,6 +4,7 @@ import faiss
 import numpy as np
 from openai import OpenAI
 import os
+import pickle
 
 EMBEDDING_DIM = 1536
 
@@ -27,7 +28,7 @@ class RestaurantVectorDB:
     def __init__(self, data_path="./data"):
         self._index = faiss.IndexFlatL2(EMBEDDING_DIM)
         knowledge_base = []
-        self.knowledge_base_path = data_path + "/knowledge_base.txt"
+        self.knowledge_base_path = data_path + "/knowledge_base"
         self.index_path = data_path + "/index.index"
         self.data_path = data_path
 
@@ -38,15 +39,16 @@ class RestaurantVectorDB:
     def load_data(self):
         if os.path.exists(self.index_path) and os.path.exists(self.knowledge_base_path):
             self._index = faiss.read_index(self.index_path)
-            self.knowledge_base = open(self.knowledge_base_path, "r").read().split("\n")
+            with open(self.knowledge_base_path, "rb") as f:
+                self.knowledge_base = pickle.load(f)
 
     def save(self):
         if not os.path.exists(self.data_path):
             os.makedirs(self.data_path)
 
         faiss.write_index(self._index, self.index_path)
-        with open(self.knowledge_base_path, "w") as f:
-            f.write("\n".join(self.knowledge_base))
+        with open(self.knowledge_base_path, "wb") as f:
+            pickle.dump(self.knowledge_base, f)
 
     def insert(self, data: str):
         self.knowledge_base.append(data)
