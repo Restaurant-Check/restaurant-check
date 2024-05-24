@@ -113,4 +113,29 @@ def get_restaurants():
 
     return jsonify(detailed_results)
 
+    
+    
+@bp.route('api/menus', methods=['GET'])
+def get_restaurants_with_menu():
+    # Get the detailed restaurant results
+    detailed_results = get_restaurants().json
+
+    # Add the menu to each restaurant entry
+    for result in detailed_results:
+        website = result.get('website')
+        if website:
+            menu = get_menu(website)
+            result['menu'] = menu
+        else:
+            result['menu'] = "No website available"
+
+    return jsonify(detailed_results)
+
+def get_menu(website_url):
+    # Placeholder for the actual scraping logic
+    # This function should return a string or a list of menu items
+    return "Sample menu"
+
+
+
 
