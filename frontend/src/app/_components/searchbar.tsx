@@ -32,8 +32,9 @@ const Form = styled.form<FormProps>`
 const StyledTextInput = styled(TextInput)<FormProps>`
     position: absolute;
     width: ${({searched}) => searched ? '40%' : '60%'};
+    max-width: ${({searched}) => searched ? '600px' : '1000px'};
     transition: all 0.3s ease-in-out;
-    top: ${({searched}) => searched ? "32px" : "50%"};
+    top: ${({searched}) => searched ? "72px" : "50%"};
     box-shadow: ${({searched}) => searched ? '0px 3px 12px rgba(0, 0, 0, 0.16)' : '0px 6px 32px rgba(0, 0, 0, 0.32)'};
 `;
 

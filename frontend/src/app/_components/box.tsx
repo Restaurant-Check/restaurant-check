@@ -8,6 +8,7 @@ const BoxWrapper = styled.div<{ searched: boolean }>`
     border-radius: var(--mantine-radius-xl);
     box-shadow: 0 6px 32px rgba(0, 0, 0, 0.32);
     width: 75%;
+    max-width: 1500px;
     transition: all 0.2s ease-in-out;
     opacity: ${(props) => props.searched ? 1 : 0};
     z-index: -1;
