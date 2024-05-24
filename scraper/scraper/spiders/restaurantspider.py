@@ -20,6 +20,11 @@ class MenuSpider(CrawlSpider):
             'menu', 'menü', 'Menu', 'Menü', 'MENU', 'MENÜ',
             'karte', 'Karte', 'KARTE', 'speise', 'Speise', 'SPEISE'
         ]
+        
+        self.visited_urls = set()
+        
+        # flag to track if any PDF or image has been found
+        self.found_media = False  
     
     def parse_item(self, response):
         menu_urls = set()
@@ -31,20 +36,38 @@ class MenuSpider(CrawlSpider):
         
         menu_urls.update(response.xpath('//a[contains(@href, ".pdf")]/@href').extract())
         
-        for menu_url in menu_urls:
-            menu_url = response.urljoin(menu_url)
-            if menu_url.endswith('.pdf'):
-                yield {'menu_pdf': menu_url}
-            elif re.search(r'\.(jpg|jpeg|png)$', menu_url):
-                yield {'menu_image': menu_url}
-            else:
-                yield scrapy.Request(menu_url, callback=self.parse_menu_text)
+        if menu_urls:
+            
+            # sort URLs so that PDFs and images are at the front of the list
+            menu_urls = sorted(menu_urls.copy(), key=lambda x: x.endswith('.pdf') or bool(re.search(r'\.(jpg|jpeg|png)$', x)), reverse=True)
+
+            for menu_url in menu_urls:
+                menu_url = response.urljoin(menu_url)
+                if menu_url not in self.visited_urls:
+                    self.visited_urls.add(menu_url)
+                    if menu_url.endswith('.pdf'):
+                        self.found_media = True
+                        yield {'menu_pdf': menu_url}
+                    elif re.search(r'\.(jpg|jpeg|png|gif|bmp|tiff)$', menu_url):
+                        self.found_media = True
+                        yield {'menu_image': menu_url}
+                    else:
+                        yield scrapy.Request(menu_url, callback=self.parse_menu_text)
+        else:
+            # check for embedded menu content only if no media has been found yet
+            if not self.found_media:
+                text_content = ' '.join(response.xpath('//text()').extract())
+                if any(keyword.lower() in text_content.lower() for keyword in self.keywords):
+                    yield {'menu_text': text_content.strip()}
     
     def parse_menu_text(self, response):
-        text_content = ' '.join(response.xpath('//text()').extract())
-        if 'menu' in text_content.lower():
-            yield {'menu_text': text_content.strip()}
+        # check for embedded menu content only if no media has been found yet
+        if not self.found_media:
+            text_content = ' '.join(response.xpath('//text()').extract())
+            if 'menu' in text_content.lower() and response.url not in self.visited_urls:
+                self.visited_urls.add(response.url)
+                yield {'menu_text': text_content.strip()}
 
 # To run this spider:
 # 1. Save the above code in a file named menu_spider.py inside the spiders directory of your Scrapy project.
-# 2. Run the spider using the command: scrapy crawl menu_spider -a start_url=<restaurant_homepage_url>
+# 2. Run the spider using the command: scrapy crawl menu_spider -a start_url=<restaurant_homepage_url> -O output.json
