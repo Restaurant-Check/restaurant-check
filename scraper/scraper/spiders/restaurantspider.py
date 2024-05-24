@@ -15,50 +15,21 @@ class MenuSpider(CrawlSpider):
             Rule(LinkExtractor(), callback='parse_item', follow=True),
         )
         super(MenuSpider, self)._compile_rules()
+        
+        self.keywords = [
+            'menu', 'menü', 'Menu', 'Menü', 'MENU', 'MENÜ',
+            'karte', 'Karte', 'KARTE', 'speise', 'Speise', 'SPEISE'
+        ]
     
     def parse_item(self, response):
-        menu_selectors = [
-            '//a[contains(@href, "menu")]/@href',
-            '//a[contains(@href, "menü")]/@href',
-            '//a[contains(@href, "Menu")]/@href',
-            '//a[contains(@href, "Menü")]/@href',
-            '//a[contains(@href, "MENU")]/@href',
-            '//a[contains(@href, "MENÜ")]/@href',
-            '//a[contains(@href, "karte")]/@href',
-            '//a[contains(@href, "Karte")]/@href',
-            '//a[contains(@href, "KARTE")]/@href',
-            '//a[contains(@href, "speise")]/@href',
-            '//a[contains(@href, "Speise")]/@href',
-            '//a[contains(@href, "SPEISE")]/@href',
-            '//a[contains(text(), "menu")]/@href',
-            '//a[contains(text(), "menü")]/@href',
-            '//a[contains(text(), "Menu")]/@href',
-            '//a[contains(text(), "Menü")]/@href',
-            '//a[contains(text(), "MENU")]/@href',
-            '//a[contains(text(), "MENÜ")]/@href',
-            '//a[contains(text(), "karte")]/@href',
-            '//a[contains(text(), "Karte")]/@href',
-            '//a[contains(text(), "KARTE")]/@href',
-            '//a[contains(text(), "speise")]/@href',
-            '//a[contains(text(), "Speise")]/@href',
-            '//a[contains(text(), "SPEISE")]/@href',
-            '//img[contains(@src, "menu")]/@src',
-            '//img[contains(@src, "menü")]/@src',
-            '//img[contains(@src, "Menü")]/@src',
-            '//img[contains(@src, "MENU")]/@src',
-            '//img[contains(@src, "MENÜ")]/@src',
-            '//img[contains(@src, "karte")]/@src',
-            '//img[contains(@src, "Karte")]/@src',
-            '//img[contains(@src, "KARTE")]/@src',
-            '//img[contains(@src, "speise")]/@src',
-            '//img[contains(@src, "Speise")]/@src',
-            '//img[contains(@src, "SPEISE")]/@src',
-            '//a[contains(@href, ".pdf")]/@href'
-        ]
-        
         menu_urls = set()
-        for selector in menu_selectors:
-            menu_urls.update(response.xpath(selector).extract())
+        
+        for keyword in self.keywords:
+            menu_urls.update(response.xpath(f'//a[contains(@href, "{keyword}")]/@href').extract())
+            menu_urls.update(response.xpath(f'//a[contains(text(), "{keyword}")]/@href').extract())
+            menu_urls.update(response.xpath(f'//img[contains(@src, "{keyword}")]/@src').extract())
+        
+        menu_urls.update(response.xpath('//a[contains(@href, ".pdf")]/@href').extract())
         
         for menu_url in menu_urls:
             menu_url = response.urljoin(menu_url)
