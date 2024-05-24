@@ -1,4 +1,5 @@
 import '@mantine/core/styles.css';
+import 'leaflet/dist/leaflet.css';
 
 import {ColorSchemeScript, MantineProvider} from '@mantine/core';
 import React from "react";
