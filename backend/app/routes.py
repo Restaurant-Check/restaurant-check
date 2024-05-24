@@ -97,6 +97,7 @@ def get_restaurants():
                 detailed_results.append(filtered_result)
         
     # Map price levels to descriptive words
+    # This is done so we can use word similarity for the searching later on
     price_level_mapping = {
         1: 'very cheap',
         2: 'cheap',
