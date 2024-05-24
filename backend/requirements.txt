@@ -5,3 +5,4 @@ Flask-WTF
 gunicorn
 flask
 flask_cors
+requests
