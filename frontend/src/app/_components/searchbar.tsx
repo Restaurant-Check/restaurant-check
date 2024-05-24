@@ -104,7 +104,7 @@ export const Searchbar = (props: SearchbarProps) => {
       }, 3000);
       return () => clearTimeout(timeout);
     }
-  }, [query]);
+  }, [props.searched, query]);
 
   const pulse = useSpring({
     from: {transform: 'scale(1)'},
