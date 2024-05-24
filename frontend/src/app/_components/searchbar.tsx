@@ -26,13 +26,15 @@ interface FormProps {
 const Form = styled.form<FormProps>`
     display: flex;
     justify-content: center;
+    z-index: 500;
 `;
 
 const StyledTextInput = styled(TextInput)<FormProps>`
     position: absolute;
     width: ${({searched}) => searched ? '40%' : '60%'};
     transition: all 0.3s ease-in-out;
-    padding-top: ${({searched}) => searched ? "32px" : "50%"};
+    top: ${({searched}) => searched ? "32px" : "50%"};
+    box-shadow: ${({searched}) => searched ? '0px 3px 12px rgba(0, 0, 0, 0.16)' : '0px 6px 32px rgba(0, 0, 0, 0.32)'};
 `;
 
 interface SubmitButtonProps {

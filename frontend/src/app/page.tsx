@@ -1,7 +1,8 @@
 'use client'
 
 import {Searchbar} from "@/app/_components/searchbar";
-import {Map} from "@/app/_components/map";
+import {MapComponent} from "@/app/_components/mapComponent";
+import {List} from "@/app/_components/list";
 import {styled} from "styled-components";
 import React, {useState} from "react";
 
@@ -10,14 +11,28 @@ const PageContainer = styled.main`
     width: 100vw;
 `;
 
-export default function Home() {
-    const [searched, setSearched] = useState(false);
+const ContentContainer = styled.div`
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    top: 64px;
+`;
 
-    return (
-        <PageContainer>
-            <Searchbar onSearch={(query) => {
-            }} setSearched={setSearched} searched={searched}/>
-            <Map searched={searched} markers={[]}/>
-        </PageContainer>
-    );
+export default function Home() {
+  const [searched, setSearched] = useState(false);
+
+  return (
+    <PageContainer>
+      <ContentContainer>
+        <MapComponent searched={searched} markers={[]}/>
+        <List searched={searched}/>
+      </ContentContainer>
+      <Searchbar onSearch={(query) => {
+      }} setSearched={setSearched} searched={searched}/>
+    </PageContainer>
+  );
 }
