@@ -22,8 +22,8 @@
       "types": [
         "lodging",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 861,
@@ -85,8 +85,8 @@
       "types": [
         "lodging",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 452,
@@ -180,8 +180,8 @@
       "types": [
         "lodging",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 460,
@@ -213,8 +213,8 @@
         "bar",
         "lodging",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 1972,
@@ -246,8 +246,8 @@
         "lodging",
         "health",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 2087,
@@ -306,11 +306,11 @@
       "price_level": null,
       "rating": 4,
       "types": [
-        "bar",
         "lodging",
+        "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 1306,
@@ -338,13 +338,13 @@
       "price_level": null,
       "rating": 4.1,
       "types": [
-        "lodging",
-        "bar",
         "gym",
+        "bar",
+        "lodging",
         "restaurant",
         "food",
-        "health",
         "point_of_interest",
+        "health",
         "establishment"
       ],
       "user_ratings_total": 293,
@@ -372,10 +372,10 @@
       "price_level": null,
       "rating": 4,
       "types": [
-        "restaurant",
-        "food",
         "spa",
         "lodging",
+        "restaurant",
+        "food",
         "point_of_interest",
         "establishment"
       ],
@@ -404,8 +404,8 @@
       "price_level": null,
       "rating": 4.3,
       "types": [
-        "cafe",
         "night_club",
+        "cafe",
         "bar",
         "lodging",
         "restaurant",
@@ -438,9 +438,9 @@
       "price_level": null,
       "rating": 4.5,
       "types": [
+        "lodging",
         "restaurant",
         "food",
-        "lodging",
         "point_of_interest",
         "establishment"
       ],
@@ -466,12 +466,12 @@
         }
       },
       "name": "Sushi Sado & More",
-      "price_level": 1,
+      "price_level": "very cheap",
       "rating": 4.2,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 318,
@@ -496,12 +496,12 @@
         }
       },
       "name": "Insel M\u00fchle Hotel Restaurant Biergarten",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.2,
       "types": [
         "restaurant",
-        "bar",
         "lodging",
+        "bar",
         "food",
         "point_of_interest",
         "establishment"
@@ -531,9 +531,9 @@
       "price_level": null,
       "rating": 4.7,
       "types": [
-        "lodging",
         "restaurant",
         "food",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
@@ -559,7 +559,7 @@
         }
       },
       "name": "Augustiner-Keller",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "bar",
@@ -590,7 +590,7 @@
         }
       },
       "name": "Hofbr\u00e4uhaus M\u00fcnchen",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.2,
       "types": [
         "tourist_attraction",
@@ -660,8 +660,8 @@
       "types": [
         "lodging",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 197,
@@ -686,7 +686,7 @@
         }
       },
       "name": "Prinz Myshkin",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4,
       "types": [
         "restaurant",
@@ -716,7 +716,7 @@
         }
       },
       "name": "Taverna Paros",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "restaurant",
@@ -750,8 +750,8 @@
       "rating": 4.8,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 311,
@@ -776,12 +776,12 @@
         }
       },
       "name": "Tantris",
-      "price_level": 4,
+      "price_level": "pricey/expensive",
       "rating": 4.7,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 855,
@@ -806,13 +806,13 @@
         }
       },
       "name": "Kilians Irish Pub",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 6373,
@@ -837,7 +837,7 @@
         }
       },
       "name": "Spatenhaus at the opera",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.3,
       "types": [
         "restaurant",
@@ -867,7 +867,7 @@
         }
       },
       "name": "Brenner Restaurant",
-      "price_level": 3,
+      "price_level": "normal",
       "rating": 4.2,
       "types": [
         "bar",
@@ -898,13 +898,13 @@
         }
       },
       "name": "Wirtshaus Zum Straubinger",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
-        "restaurant",
-        "food",
         "bar",
+        "restaurant",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 2996,
@@ -933,14 +933,14 @@
       "rating": 3,
       "types": [
         "campground",
+        "park",
+        "lodging",
         "supermarket",
         "grocery_or_supermarket",
-        "park",
         "restaurant",
         "food",
-        "lodging",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 2693,
@@ -965,13 +965,13 @@
         }
       },
       "name": "P1 Club",
-      "price_level": 4,
+      "price_level": "pricey/expensive",
       "rating": 3.4,
       "types": [
         "night_club",
-        "bar",
         "restaurant",
         "food",
+        "bar",
         "point_of_interest",
         "establishment"
       ],
@@ -997,7 +997,7 @@
         }
       },
       "name": "Zur Schwalbe",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.5,
       "types": [
         "restaurant",
@@ -1027,7 +1027,7 @@
         }
       },
       "name": "Zum Franziskaner",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4,
       "types": [
         "restaurant",
@@ -1057,7 +1057,7 @@
         }
       },
       "name": "L'Osteria M\u00fcnchen K\u00fcnstlerhaus",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4,
       "types": [
         "restaurant",
@@ -1087,14 +1087,14 @@
         }
       },
       "name": "Schwabinger Osterwaldgarten",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.2,
       "types": [
         "bar",
         "lodging",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 2160,
@@ -1119,7 +1119,7 @@
         }
       },
       "name": "Gastst\u00e4tte FAUN",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.2,
       "types": [
         "restaurant",
@@ -1149,7 +1149,7 @@
         }
       },
       "name": "Weisses Br\u00e4uhaus im Tal",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "restaurant",
@@ -1213,7 +1213,7 @@
         }
       },
       "name": "Augustiner am Platzl",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.3,
       "types": [
         "bar",
@@ -1247,9 +1247,9 @@
       "price_level": null,
       "rating": 4.1,
       "types": [
-        "lodging",
         "restaurant",
         "food",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
@@ -1275,7 +1275,7 @@
         }
       },
       "name": "ARABESK I LEBANESE ARABIC RESTAURANT",
-      "price_level": 3,
+      "price_level": "normal",
       "rating": 4.1,
       "types": [
         "restaurant",
@@ -1305,7 +1305,7 @@
         }
       },
       "name": "Sushi+Soul",
-      "price_level": 3,
+      "price_level": "normal",
       "rating": 4.2,
       "types": [
         "restaurant",
@@ -1335,7 +1335,7 @@
         }
       },
       "name": "Caf\u00e9 Luitpold",
-      "price_level": 3,
+      "price_level": "normal",
       "rating": 3.9,
       "types": [
         "cafe",
@@ -1367,13 +1367,13 @@
         }
       },
       "name": "Hirschau im Englischen Garten",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.5,
       "types": [
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 2429,
@@ -1398,7 +1398,7 @@
         }
       },
       "name": "Restaurant Piatsa",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.3,
       "types": [
         "restaurant",
@@ -1428,7 +1428,7 @@
         }
       },
       "name": "Hofbr\u00e4ukeller",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.2,
       "types": [
         "bar",
@@ -1459,7 +1459,7 @@
         }
       },
       "name": "Teatro Bar Tapas",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.5,
       "types": [
         "bar",
@@ -1490,7 +1490,7 @@
         }
       },
       "name": "Wirtshaus in der Au",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.5,
       "types": [
         "bar",
@@ -1521,14 +1521,14 @@
         }
       },
       "name": "VAPIANO M\u00fcnchen Theatiner Stra\u00dfe",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 3.7,
       "types": [
         "restaurant",
         "cafe",
         "bar",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 3889,
@@ -1553,13 +1553,13 @@
         }
       },
       "name": "Ratskeller M\u00fcnchen",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 8867,
@@ -1584,7 +1584,7 @@
         }
       },
       "name": "Park Caf\u00e9",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.2,
       "types": [
         "restaurant",
@@ -1614,7 +1614,7 @@
         }
       },
       "name": "Paradiso Tanzbar",
-      "price_level": 3,
+      "price_level": "normal",
       "rating": 4.3,
       "types": [
         "night_club",
@@ -1645,13 +1645,13 @@
         }
       },
       "name": "Restaurant Pfisterm\u00fchle",
-      "price_level": 3,
+      "price_level": "normal",
       "rating": 4.5,
       "types": [
         "restaurant",
         "bar",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 690,
@@ -1676,7 +1676,7 @@
         }
       },
       "name": "Kennedy's Bar and Restaurant",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "bar",
@@ -1707,7 +1707,7 @@
         }
       },
       "name": "Caf\u00e9 am Beethovenplatz",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.4,
       "types": [
         "restaurant",
@@ -1742,12 +1742,12 @@
       "rating": 3.9,
       "types": [
         "bowling_alley",
-        "cafe",
         "night_club",
+        "cafe",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "user_ratings_total": 653,
@@ -1777,10 +1777,10 @@
       "types": [
         "gym",
         "spa",
+        "health",
         "restaurant",
         "food",
         "point_of_interest",
-        "health",
         "establishment"
       ],
       "user_ratings_total": 288,
@@ -1805,15 +1805,15 @@
         }
       },
       "name": "L'Osteria",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
-      "user_ratings_total": 5029,
+      "user_ratings_total": 5031,
       "vicinity": "Leopoldstra\u00dfe 28a, M\u00fcnchen",
       "website": "https://losteria.net/de/restaurants/restaurant/muenchen-leopoldstrasse/?utm_source=google&utm_medium=Yext"
     },
@@ -1835,13 +1835,13 @@
         }
       },
       "name": "Wildmosers Restaurant-Cafe am Marienplatz - M\u00fcnchen",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4.3,
       "types": [
         "cafe",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "user_ratings_total": 860,
@@ -1866,7 +1866,7 @@
         }
       },
       "name": "Augustiner am Dom",
-      "price_level": 2,
+      "price_level": "cheap",
       "rating": 4,
       "types": [
         "restaurant",

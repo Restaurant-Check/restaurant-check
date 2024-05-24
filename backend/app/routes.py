@@ -87,6 +87,7 @@ def get_restaurants():
                 filtered_result = {
                     'geometry': place_details.get('geometry'),
                     'name': place_details.get('name'),
+                    'price_level': result.get('price_level'),
                     'rating': place_details.get('rating'),
                     'types': place_details.get('types'),
                     'user_ratings_total': place_details.get('user_ratings_total'),
@@ -94,5 +95,21 @@ def get_restaurants():
                     'website': place_details.get('website')
                 }
                 detailed_results.append(filtered_result)
+        
+    # Map price levels to descriptive words
+    price_level_mapping = {
+        1: 'very cheap',
+        2: 'cheap',
+        3: 'normal',
+        4: 'pricey/expensive'
+    }
+
+    # Replace price_level with descriptive words
+    for result in detailed_results:
+        price_level = result.get('price_level')
+        if price_level in price_level_mapping:
+            result['price_level'] = price_level_mapping[price_level]
 
     return jsonify(detailed_results)
+
+
