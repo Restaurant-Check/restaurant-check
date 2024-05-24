@@ -6,3 +6,9 @@ gunicorn
 flask
 flask_cors
 requests
+langchain
+langchain-community
+langchain-core
+langchain-openai
+pydantic
+openai
