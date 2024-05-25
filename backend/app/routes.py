@@ -2,6 +2,7 @@ import os
 import requests
 from flask import Blueprint, render_template, request, jsonify, current_app
 from time import sleep
+import menu_to_json
 
 bp = Blueprint('main', __name__)
 
@@ -131,10 +132,16 @@ def get_restaurants_with_menu():
 
     return jsonify(detailed_results)
 
+
 def get_menu(website_url):
-    # Placeholder for the actual scraping logic
-    # This function should return a string or a list of menu items
-    return "Sample menu"
+
+    # Here the website url gets passed to the parsing function
+    menu_text = parsing(website_url)
+    
+    # The result is then passed to the menu_to_json.py script
+    # The result is a json with the structured menu
+    menu_json = menu_to_json.process_menu_text(menu_text)
+    return menu_json
 
 
 

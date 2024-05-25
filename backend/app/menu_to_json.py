@@ -54,30 +54,18 @@ prompt = PromptTemplate(
 # Combine prompt, model, and parser into a chain
 chain = prompt | model | parser
 
-# menu_text = """
-# [Restaurant Name]
-# Appetizers
-# - Garlic Bread: Crispy garlic bread with butter. $5.00
-# - Bruschetta: Fresh tomatoes, basil, and balsamic on toasted bread. $7.00
 
-# Entrees
-# - Spaghetti Carbonara: Spaghetti with creamy carbonara sauce. $12.00
-# - Chicken Parmesan: Breaded chicken with marinara and cheese. $15.00
+def process_menu_text(menu_text: str):
+    # Invoke the chain with the menu query
+    result = chain.invoke({"menu_text": menu_text, "format_instructions": format_instructions})
+    
+    # Return the parsed JSON result
+    return result
 
-# Desserts
-# - Tiramisu: Classic Italian dessert with mascarpone cheese. $6.00
-# - Gelato: Assorted flavors. $4.00
-# """
-
+# Example usage
 # For an example take the markdown in the aetna_neufahrn.json file inside the static folder 
 with open('app/static/aetna_neufahrn.json', 'r', encoding='utf-8') as file:
     json_data = json.load(file)
-
-# Extract the markdown content from the JSON
 menu_text = json_data[0]['menu_text_markdown']
-
-# Invoke the chain with the menu query
-result = chain.invoke({"menu_text": menu_text, "format_instructions": format_instructions})
-
-# Print the parsed JSON result
+result = process_menu_text(menu_text)
 print(result)
