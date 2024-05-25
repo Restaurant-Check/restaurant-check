@@ -12,3 +12,5 @@ langchain-core
 langchain-openai
 pydantic
 openai
+scrapy==2.11.2
+html2text
