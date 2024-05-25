@@ -20,6 +20,7 @@ interface ResetViewButtonProps {
         paddingTopLeft: Point;
         paddingBottomRight: Point;
     };
+    props: MapProps;
 }
 
 const customMarkerIcon = new Icon({
@@ -53,12 +54,25 @@ const Map = styled(MapContainer)`
     width: 100vw;
 `;
 
-const ResetViewButton = ({bounds, boundOptions}: ResetViewButtonProps) => {
+const ResetViewButton = ({bounds, boundOptions, props}: ResetViewButtonProps) => {
     const map = useMap();
 
     const handleResetView = () => {
         map.flyToBounds(bounds, boundOptions);
     };
+
+    React.useEffect(() => {
+        if (props.hoveringOver !== -1) {
+            const restaurant = props.restaurants[props.hoveringOver];
+            const coordinates = {
+                lat: restaurant.coordinates[0],
+                lng: restaurant.coordinates[1]
+            };
+            map.flyToBounds(new LatLngBounds(coordinates, coordinates), boundOptions);
+        } else {
+            map.flyToBounds(bounds, boundOptions);
+        }
+    }, [props.hoveringOver]);
 
     return (
         <div style={{position: 'absolute', top: '455px', left: '10px', zIndex: 500}}>
@@ -77,10 +91,10 @@ export const MapComponent = (props: MapProps) => {
     let bounds = new LatLngBounds(props.restaurants[0].coordinates, props.restaurants[0].coordinates);
     props.restaurants.forEach(restaurant => bounds.extend(restaurant.coordinates));
     const boundOptions = {
-        paddingTopLeft: new Point(0, 50),
-        paddingBottomRight: new Point(window.innerWidth * 0.2, window.innerHeight * 0.5)
+        paddingTopLeft: new Point((-window.innerWidth * 0.1), 50),
+        paddingBottomRight: new Point(window.innerWidth * 0.2, window.innerHeight * 0.5),
+        duration: 0.8
     }
-
 
     return (
         <Box $searched={props.searched}>
@@ -107,7 +121,7 @@ export const MapComponent = (props: MapProps) => {
                             </Popup>
                         </Marker>
                     ))}
-                    <ResetViewButton bounds={bounds} boundOptions={boundOptions}/>
+                    <ResetViewButton bounds={bounds} boundOptions={boundOptions} props={props}/>
                 </Map>
             </MapWrapper>
         </Box>
