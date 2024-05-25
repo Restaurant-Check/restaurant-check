@@ -1,0 +1,490 @@
+{
+    "menu": [
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "description": "Regular coffee",
+                    "name": "Tasse KaǗee",
+                    "price": "2,90€"
+                },
+                {
+                    "description": "Large coffee",
+                    "name": "Tasse KaǗee Grande",
+                    "price": "3,50€"
+                },
+                {
+                    "description": "Regular decaffeinated coffee",
+                    "name": "Tasse KaǗee (decaffeinated)",
+                    "price": "3,20€"
+                },
+                {
+                    "description": "Large decaffeinated coffee",
+                    "name": "Tasse KaǗee Grande (decaffeinated)",
+                    "price": "4,20€"
+                },
+                {
+                    "description": "Single shot of espresso",
+                    "name": "Espresso",
+                    "price": "2,50€"
+                },
+                {
+                    "description": "Double shot of espresso",
+                    "name": "Espresso Doppio",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Espresso with a dash of milk foam",
+                    "name": "Espresso Macchiato",
+                    "price": "2,90€"
+                },
+                {
+                    "description": "Latte with a shot of espresso",
+                    "name": "Latte Macchiato 8g",
+                    "price": "3,50€"
+                },
+                {
+                    "description": "Cappuccino with frothy milk",
+                    "name": "Cappuccino 8g",
+                    "price": "3,40€"
+                },
+                {
+                    "description": "Large cappuccino with frothy milk",
+                    "name": "Cappuccino Grande 8g",
+                    "price": "4,00€"
+                },
+                {
+                    "description": "Hot chocolate, optionally with whipped cream",
+                    "name": "Heiße Schokolade",
+                    "price": "4,00€"
+                },
+                {
+                    "description": "Chai tea latte",
+                    "name": "Chai Latte",
+                    "price": "4,50€"
+                },
+                {
+                    "description": "Cup of tea",
+                    "name": "Tasse Tee",
+                    "price": "2,70€"
+                }
+            ]
+        },
+        {
+            "category": "Beers",
+            "items": [
+                {
+                    "description": "Paulaner Lager Beer",
+                    "name": "Paulaner Hell 0.50l",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Paulaner Wheat Beer",
+                    "name": "Paulaner Weißbier 0.50l",
+                    "price": "4,10€"
+                },
+                {
+                    "description": "Paulaner Pilsner",
+                    "name": "Paulaner Pils 0.33l",
+                    "price": "3,40€"
+                },
+                {
+                    "description": "Non-alcoholic Paulaner Lager",
+                    "name": "Paulaner Hell Alkoholfrei 0.33l",
+                    "price": "3,40€"
+                },
+                {
+                    "description": "Beer mixed with lemonade",
+                    "name": "Radler 0.50l",
+                    "price": "4,00€"
+                }
+            ]
+        },
+        {
+            "category": "Wines",
+            "items": [
+                {
+                    "description": "Beer with Lugana wine",
+                    "name": "Bier m Lugana 0.10l",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Beer with Gavi wine",
+                    "name": "Bier m Gavi 0.10l",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Beer with Chianti wine",
+                    "name": "Bier m Chianti 0.10l",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Beer with Necroamaro wine",
+                    "name": "Bier m Necroamaro 0.10l",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Beer with Santa Cristina Rose wine",
+                    "name": "Bier m Santa Cristina Rose 0.10l",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Hugo wine",
+                    "name": "Wein Hugo 0.20l",
+                    "price": "6,50€"
+                },
+                {
+                    "description": "Red touch wine",
+                    "name": "Tocco Rosso 0.20l",
+                    "price": "6,50€"
+                },
+                {
+                    "description": "Aperol Spritz",
+                    "name": "Aperol Spritz 0.20l",
+                    "price": "6,50€"
+                },
+                {
+                    "description": "Veneto Spritz",
+                    "name": "Veneto Spritz 0.20l",
+                    "price": "6,50€"
+                },
+                {
+                    "description": "Campari with orange juice",
+                    "name": "Campari Orange 0.20l",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Aperol with orange juice",
+                    "name": "Aperol Orange 0.20l",
+                    "price": "5,90€"
+                }
+            ]
+        },
+        {
+            "category": "Longdrinks",
+            "items": [
+                {
+                    "description": "Martini Bianco",
+                    "name": "Martini Bianco 2cl",
+                    "price": "3,80€"
+                },
+                {
+                    "description": "Martini Extra Dry",
+                    "name": "Martini Extra Dry 2cl",
+                    "price": "3,80€"
+                },
+                {
+                    "description": "Amaretto",
+                    "name": "Amaretto 2cl",
+                    "price": "3,80€"
+                },
+                {
+                    "description": "Sambuca",
+                    "name": "Sambuca 2cl",
+                    "price": "3,80€"
+                },
+                {
+                    "description": "Ramazotti",
+                    "name": "Ramazotti 2cl",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Averna",
+                    "name": "Averna 2cl",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Vodka",
+                    "name": "Wodka 2cl",
+                    "price": "3,90€"
+                },
+                {
+                    "description": "Jim Beam or Jack Daniels",
+                    "name": "Jim Beam or Jack Daniels 2cl",
+                    "price": "4,50€"
+                }
+            ]
+        },
+        {
+            "category": "Frozen Drinks",
+            "items": [
+                {
+                    "description": "Iced coffee with vanilla ice cream and whipped cream",
+                    "name": "EiskaǗee",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Iced chocolate with vanilla ice cream and whipped cream",
+                    "name": "Eisschokolade",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Frozen white chocolate with vanilla ice cream and whipped cream",
+                    "name": "Frozen White Chocolate",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Vanilla milkshake",
+                    "name": "Vanille Shake",
+                    "price": "4,90€"
+                },
+                {
+                    "description": "Strawberry milkshake",
+                    "name": "Erdbeer Shake",
+                    "price": "4,90€"
+                },
+                {
+                    "description": "Chocolate milkshake",
+                    "name": "Schokoladen Shake",
+                    "price": "4,90€"
+                }
+            ]
+        },
+        {
+            "category": "Ice Treats",
+            "items": [
+                {
+                    "description": "Vanilla ice cream with hot raspberries",
+                    "name": "Heiße Liebe",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Chocolate ice cream with chocolate sauce and whipped cream",
+                    "name": "Schokoladentraum",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Strawberry ice cream with whipped cream and strawberry sauce",
+                    "name": "Erdbeertraum",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "One scoop of ice cream",
+                    "name": "Ein Kugel Eis",
+                    "price": "1,50€"
+                },
+                {
+                    "description": "Mixed ice cream with 3 scoops and whipped cream",
+                    "name": "Gemischtes Eis mit 3 Kugeln und Sahne",
+                    "price": "4,90€"
+                },
+                {
+                    "description": "Fruit cup with 3 scoops of ice cream, fresh fruit pieces, and whipped cream",
+                    "name": "Früchte-Becher Vita",
+                    "price": "6,90€"
+                },
+                {
+                    "description": "Banana split with vanilla ice cream, whipped cream, chocolate sauce, and a fresh banana",
+                    "name": "Bananen Splitt",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Children's cup with ice cream",
+                    "name": "Kinderbecher Pinocchino",
+                    "price": "3,90€"
+                }
+            ]
+        },
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "description": "Steamed dumplings filled with minced meat and onions, topped with lentil sauce and quark",
+                    "name": "Mantu",
+                    "price": "9,90€ for 5 pieces, 13,90€ for 8 pieces"
+                },
+                {
+                    "description": "Pastry filled with minced meat and onions",
+                    "name": "Sambosa",
+                    "price": "11,90€"
+                },
+                {
+                    "description": "Pastry filled with potatoes and onions",
+                    "name": "Sambosa vegetarian",
+                    "price": "11,90€"
+                },
+                {
+                    "description": "Handmade noodles in soup with chickpeas, kidney beans, herbed quark, and a drizzle of pumpkin seed oil",
+                    "name": "Suppe (Aash)",
+                    "price": "10,90€"
+                },
+                {
+                    "description": "Afghan lentil soup",
+                    "name": "Suppe (Dal)",
+                    "price": "8,90€"
+                },
+                {
+                    "description": "Leek-filled dumplings served on herbed quark",
+                    "name": "Ashak",
+                    "price": "9,90€ for 5 pieces, 13,90€ for 8 pieces"
+                },
+                {
+                    "description": "Pan-fried pumpkin with garlic and ginger in tomato sauce on yogurt-mint and bread",
+                    "name": "Borani Kado",
+                    "price": "11,90€"
+                },
+                {
+                    "description": "Mixed salad with arugula, tomatoes, cucumbers, and olives",
+                    "name": "Pivasta Salat",
+                    "price": "7,90€"
+                }
+            ]
+        },
+        {
+            "category": "Main Course",
+            "items": [
+                {
+                    "description": "Rice with braised veal shoulder, carrots, and raisins, with Borani Badenjan",
+                    "name": "Qabuli-Palau",
+                    "price": "15,90€"
+                },
+                {
+                    "description": "Afghan-style meatballs with rice",
+                    "name": "Kofta-Chalau",
+                    "price": "13,90€"
+                },
+                {
+                    "description": "Pickled and fried eggplant with tomato sauce, garlic, quark, and rice",
+                    "name": "Borani Badenjan-Chalau",
+                    "price": "13,90€"
+                },
+                {
+                    "description": "Afghan-style lentils with rice",
+                    "name": "Dal-Chalau",
+                    "price": "12,90€"
+                },
+                {
+                    "description": "Grilled chicken breast, tomatoes, and bell peppers with Afghan rice and coriander dip",
+                    "name": "Chicken Tekka Kabab-Chalau",
+                    "price": "14,90€"
+                },
+                {
+                    "description": "Grilled lamb, tomatoes, and bell peppers with Afghan rice and coriander dip",
+                    "name": "Lamm Tekka Kabab-Chalau",
+                    "price": "19,90€"
+                },
+                {
+                    "description": "Spicy minced lamb skewers with Afghan rice and okra",
+                    "name": "Gegrillte gehackte Lammspieß-Chalau",
+                    "price": "18,90€"
+                },
+                {
+                    "description": "Rice dish with chicken or vegetarian, vegetables, cashews, and peanuts",
+                    "name": "Biryani",
+                    "price": "12,90€"
+                }
+            ]
+        },
+        {
+            "category": "Pizza",
+            "items": [
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, and fresh basil",
+                    "name": "Margherita",
+                    "price": "8,50€"
+                },
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, and fresh mushrooms",
+                    "name": "Funghi",
+                    "price": "10,50€"
+                },
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, and salami",
+                    "name": "Salami",
+                    "price": "10,50€"
+                },
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, garlic sausage, jalapenos, and onions",
+                    "name": "Sucuk",
+                    "price": "11,90€"
+                },
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, tuna, and onions",
+                    "name": "Tonno",
+                    "price": "12,50€"
+                },
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, and fresh vegetables",
+                    "name": "Vegetariana",
+                    "price": "12,50€"
+                },
+                {
+                    "description": "Pizza with tomato sauce and four different cheeses",
+                    "name": "Quattro Formaggi",
+                    "price": "12,50€"
+                },
+                {
+                    "description": "Pizza with tomato sauce, mozzarella, and ham",
+                    "name": "Prosciutto",
+                    "price": "10,50€"
+                }
+            ]
+        },
+        {
+            "category": "Burgers",
+            "items": [
+                {
+                    "description": "Beef burger with fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+                    "name": "Hamburger",
+                    "price": "9,90€"
+                },
+                {
+                    "description": "Beef burger with cheese, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+                    "name": "Cheeseburger",
+                    "price": "10,90€"
+                },
+                {
+                    "description": "Beef burger with jalapenos, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+                    "name": "Mexican Burger",
+                    "price": "10,90€"
+                },
+                {
+                    "description": "Vegetarian burger with mozzarella, arugula, fresh tomatoes, pickles, and mayonnaise",
+                    "name": "Veggie Burger",
+                    "price": "11,90€"
+                },
+                {
+                    "description": "Beef burger with bacon, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+                    "name": "Bacon Burger",
+                    "price": "11,90€"
+                },
+                {
+                    "description": "Chicken burger with fresh tomatoes, lettuce, and mayonnaise",
+                    "name": "Chicken Burger",
+                    "price": "10,90€"
+                },
+                {
+                    "description": "French fries",
+                    "name": "Pommes",
+                    "price": "3,50€"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "description": "Afghan milk pudding with pistachios",
+                    "name": "Firni",
+                    "price": "5,90€"
+                },
+                {
+                    "description": "Pistachio crème with white chocolate crème",
+                    "name": "Pistazien Crème",
+                    "price": "7,50€"
+                },
+                {
+                    "description": "Panna cotta with marinated wild berries",
+                    "name": "Panna Cotta",
+                    "price": "6,90€"
+                },
+                {
+                    "description": "Piece of cake",
+                    "name": "Stück Kuchen",
+                    "price": "3,90€"
+                }
+            ]
+        }
+    ],
+    "restaurant_name": "Name not found"
+}

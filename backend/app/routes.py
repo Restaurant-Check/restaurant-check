@@ -2,7 +2,8 @@ import os
 import requests
 from flask import Blueprint, render_template, request, jsonify, current_app
 from time import sleep
-import menu_to_json
+from app.menu_to_json import process_menu_text
+from scraper.scrape import scraper
 
 bp = Blueprint('main', __name__)
 
@@ -74,7 +75,7 @@ def get_restaurants():
     print(f'Found {len(nearby_results)} restaurants nearby')
     
     detailed_results = []
-    for result in nearby_results:
+    for result in nearby_results[:5]: # TODO: Remove Limit
         place_id = result.get('place_id')
         if place_id:
             place_details_params = {
@@ -116,7 +117,7 @@ def get_restaurants():
 
     
     
-@bp.route('api/menus', methods=['GET'])
+@bp.route('/api/menus', methods=['GET'])
 def get_restaurants_with_menu():
     # Get the detailed restaurant results
     detailed_results = get_restaurants().json
@@ -130,17 +131,41 @@ def get_restaurants_with_menu():
         else:
             result['menu'] = "No website available"
 
+    print(f'Found {len(detailed_results)} restaurants with menu')
+    print(f'Items: {detailed_results}')
     return jsonify(detailed_results)
 
 
-def get_menu(website_url):
+@bp.route('/api/menu', methods=['GET'])
+def get_menu(website_url=''):
+
+    if (website_url == ''):
+        #Check the request parameters
+        website_url = request.args.get('website_url')
+        if not website_url:
+            return jsonify({'error': 'No website URL provided'}), 400
 
     # Here the website url gets passed to the parsing function
-    menu_text = parsing(website_url)
+    try:
+        menu_text = scraper(website_url)
+    except Exception as e:
+        print(f"Error running scraper: {e}")
+        return jsonify({'error': 'Failed to scrape menu data'}), 500
+    
+    
+
+    #Check if menu_text is None
+    if menu_text is None:
+        return jsonify({'error': 'Failed to scrape menu data'}), 500
     
     # The result is then passed to the menu_to_json.py script
     # The result is a json with the structured menu
-    menu_json = menu_to_json.process_menu_text(menu_text)
+    menu_json = process_menu_text(menu_text)
+    
+    #Check if menu_json is None
+    if menu_json is None:
+        return jsonify({'error': 'Failed to process menu data'}), 500
+    
     return menu_json
 
 
