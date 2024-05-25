@@ -1,0 +1,45 @@
+{
+    "restaurant_name": "Samoan Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Taro Fritters",
+                    "description": "Crispy fritters made from mashed taro mixed with coconut milk and spices",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Palusami Rolls",
+                    "description": "Taro leaves filled with coconut cream and onions, wrapped in breadfruit leaves.",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "Crispy Taro Bites",
+                    "description": "Crispy fritters made from mashed taro and coconut milk, served with a tangy tamarind dipping sauce.",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Palusami",
+                    "description": "Taro leaves baked in coconut cream",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Golden Taro Tidbits",
+                    "description": "Deep-fried taro balls served with a spicy mango dipping sauce",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "\"Coconut Creamed Spinach\"",
+                    "description": "Taro leaves baked in coconut cream",
+                    "price": "$12.99"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "restaurant_name": "Iraqi Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Kubba Halab",
+                    "description": "Fried bulgur wheat stuffed with spiced ground meat",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Lamb Biryani",
+                    "description": "Tender lamb cooked with fragrant basmati rice and aromatic spices",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Saffron Chicken Biryani",
+                    "description": "A flavorful rice dish with tender chicken marinated in saffron and spices",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Kebab Platter",
+                    "description": "Grilled skewers of marinated meat served with rice and salad",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Saffron Chicken Kebab",
+                    "description": "Tender chicken marinated in saffron and grilled to perfection",
+                    "price": "$15.99"
+                }
+            ]
+        }
+    ]
+}

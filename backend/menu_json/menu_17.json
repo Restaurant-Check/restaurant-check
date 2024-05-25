@@ -1,0 +1,100 @@
+{
+    "restaurant_name": "British Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Yorkshire Pudding Bites",
+                    "description": "Crispy bites filled with savory beef and onion gravy",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Yorkshire Pudding",
+                    "description": "Traditional British dish made of a savory batter baked until crispy",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Crispy Fish and Chips Bites",
+                    "description": "Mini fish and chips served with tartar sauce",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "\"Mini Yorkshire Puddings\"",
+                    "description": "Mini Yorkshire puddings filled with savory beef and gravy",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Yorkshire Pudding Bites\"",
+                    "description": "Fluffy mini Yorkshire puddings filled with savory beef and onion gravy",
+                    "price": "$9.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Spiced Carrot Soup",
+                    "description": "Deliciously spiced carrot soup served with a hint of coconut milk",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Roasted Lamb Shank",
+                    "description": "Tender lamb shank slow-roasted with rosemary and garlic, served with minted peas and roasted potatoes",
+                    "price": "$18.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Sticky Toffee Pudding",
+                    "description": "A classic British dessert made with dates and topped with a rich toffee sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Royal Bread Pudding",
+                    "description": "Traditional British bread pudding served with a dollop of vanilla custard",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Toffee Bread Pudding",
+                    "description": "A classic British pudding made with dates, covered in a rich toffee sauce, and served with vanilla ice cream.",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "London Fog Latte",
+                    "description": "Earl Grey tea infused with frothy steamed milk and vanilla syrup",
+                    "price": "$4.50"
+                },
+                {
+                    "name": "Earl Grey Delight",
+                    "description": "A classic British black tea infused with bergamot oil, served with a splash of milk",
+                    "price": "$3.50"
+                },
+                {
+                    "name": "\"Earl Grey Fog Latte\"",
+                    "description": "Earl Grey tea with steamed milk and a hint of vanilla",
+                    "price": "$4.50"
+                },
+                {
+                    "name": "Earl Grey Tea",
+                    "description": "A classic British black tea with bergamot flavor",
+                    "price": "$3.50"
+                },
+                {
+                    "name": "Earl Grey Elixir",
+                    "description": "A classic British black tea with a hint of bergamot",
+                    "price": "$3.99"
+                }
+            ]
+        }
+    ]
+}

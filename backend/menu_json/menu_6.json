@@ -1,0 +1,75 @@
+{
+    "restaurant_name": "German Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Bavarian Pretzel",
+                    "description": "Soft pretzel served with mustard and cheese dip",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "\"German Soft Pretzel\"",
+                    "description": "Freshly baked pretzel served with spicy mustard and cheese dip",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Schweinshaxe",
+                    "description": "Slow-roasted pork knuckle with crispy skin, served with sauerkraut and mashed potatoes",
+                    "price": "$18.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Black Forest Cake",
+                    "description": "A decadent chocolate cake layered with cherries and whipped cream, topped with chocolate shavings.",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Forest Berry Delight\"",
+                    "description": "A traditional German dessert made with layers of chocolate cake, whipped cream, and cherries.",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "Schwarzwälder Kirschtorte",
+                    "description": "Layers of chocolate sponge cake, whipped cream, and cherries soaked in cherry brandy",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"German Chocolate Cake\"",
+                    "description": "A rich chocolate cake layered with cherries and whipped cream, topped with chocolate shavings",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Forest Noir Cake\"",
+                    "description": "A traditional Black Forest cake made with layers of chocolate sponge, cherries, and whipped cream, soaked in cherry brandy",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Black Forest Brew",
+                    "description": "A dark and rich German beer brewed in-house",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "Apfelwein",
+                    "description": "Traditional German apple wine",
+                    "price": "$8.99"
+                }
+            ]
+        }
+    ]
+}

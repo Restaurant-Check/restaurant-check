@@ -148,7 +148,8 @@ def get_menu(website_url=''):
 
     # Here the website url gets passed to the parsing function
     try:
-        menu_text = scraper(website_url)
+        # TODO: send the links of pdfs also to langchain
+        menu_text, links = scraper(website_url)
     except Exception as e:
         print(f"Error running scraper: {e}")
         return jsonify({'error': 'Failed to scrape menu data'}), 500

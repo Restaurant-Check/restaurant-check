@@ -1,0 +1,50 @@
+{
+    "restaurant_name": "Mexican Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Crunchy Calamari",
+                    "description": "Crispy fried calamari served with a zesty marinara sauce",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "Guacamole Fresco",
+                    "description": "Freshly made guacamole with ripe avocados, tomatoes, onions, and cilantro",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Chili Lime Shrimp",
+                    "description": "Grilled shrimp marinated in chili and lime, served with a side of guacamole",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Spicy Shrimp Taco",
+                    "description": "Grilled shrimp with spicy chipotle sauce, cilantro, and lime on a warm tortilla",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Tacos al Pastor",
+                    "description": "Marinated pork cooked on a vertical spit, served with pineapple, onions, and cilantro on a corn tortilla",
+                    "price": "$10.99"
+                },
+                {
+                    "name": "Spicy Szechuan Stir-Fry",
+                    "description": "A flavorful stir-fry with bell peppers, broccoli, and chicken in a spicy Szechuan sauce.",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Spicy Shrimp Tacos",
+                    "description": "Grilled shrimp served in warm corn tortillas with spicy chipotle sauce, avocado, and cilantro",
+                    "price": "$12.99"
+                }
+            ]
+        }
+    ]
+}

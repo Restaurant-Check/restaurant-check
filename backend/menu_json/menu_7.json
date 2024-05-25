@@ -1,0 +1,55 @@
+{
+    "restaurant_name": "Timorese Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Sizzling Shrimp Skewers",
+                    "description": "Grilled shrimp skewers marinated in a spicy Timorese sauce",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Grilled Coconut Chicken",
+                    "description": "Tender chicken marinated in coconut milk and spices, grilled to perfection",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Braised Lamb Shank",
+                    "description": "Tender lamb shank slow-cooked in a savory broth with fragrant spices",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "Grilled Octopus with Piri Piri Sauce",
+                    "description": "Tender octopus grilled to perfection and served with a spicy Timorese Piri Piri sauce",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "Grilled Marinated Barramundi",
+                    "description": "Fresh barramundi fillet marinated in Timorese spices and grilled to perfection. Served with fragrant rice and sauteed vegetables.",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "Grilled Crocodile Skewers",
+                    "description": "Tender crocodile meat marinated in Timorese spices and grilled to perfection. Served with a side of sambal matah.",
+                    "price": "$15.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Bebinca",
+                    "description": "A traditional layered pudding made with coconut milk, eggs, and sugar.",
+                    "price": "$5.99"
+                }
+            ]
+        }
+    ]
+}

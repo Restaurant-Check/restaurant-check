@@ -35,11 +35,6 @@ def process_menu_text(menu_text: str):
 
     # Define the menu query prompt
     menu_query = """
-    Take the following restaurant menu in consideration and extract the relevant information:\n
-    {menu_text}
-    \n
-    Format it into the following JSON schema:\n
-    {format_instructions}
     \n
     Under no circumstances should the JSON schema be altered or extra COMMENTS be added.\n
     It should only contain the data given to you as the menu_text.\n
@@ -48,6 +43,12 @@ def process_menu_text(menu_text: str):
     Make sure to include ALL the menu, do not forget items.
     Under no circumstances should you translate the menu items. They should be in the same language as the menu_text.\n
     Just respond with the json, do not ask any questions.\n
+
+    Take the following restaurant menu in consideration and extract the relevant information:\n
+    {menu_text}
+    \n
+    Format it into the following JSON schema:\n
+    {format_instructions}
 
     """
 

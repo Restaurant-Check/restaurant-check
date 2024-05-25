@@ -1,0 +1,60 @@
+{
+    "restaurant_name": "Malian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Savory Suya Skewers",
+                    "description": "Grilled skewers of marinated beef with a spicy peanut sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Savannah Sambusas",
+                    "description": "Crispy pastry filled with seasoned ground beef and vegetables, served with spicy dipping sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Savannah Samosas",
+                    "description": "Crispy pastry filled with spiced minced meat and vegetables, served with tangy tamarind chutney",
+                    "price": "$7.99"
+                },
+                {
+                    "name": "Suya Skewers",
+                    "description": "Grilled spicy beef skewers with a peanut dipping sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Savory Plantain Fritters",
+                    "description": "Crispy fritters made from ripe plantains and savory spices",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Grilled Safari Steak",
+                    "description": "Tender steak marinated in African spices, grilled to perfection",
+                    "price": "$19.99"
+                },
+                {
+                    "name": "Grilled Mango Chicken",
+                    "description": "Tender grilled chicken marinated in a savory mango sauce, served with a side of plantains and couscous",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Savory Coconut Curry",
+                    "description": "Tender chicken simmered in a rich coconut curry sauce, served with fragrant jasmine rice",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Grilled Lamb Chops",
+                    "description": "Tender grilled lamb chops marinated in savory herbs and spices",
+                    "price": "$17.99"
+                }
+            ]
+        }
+    ]
+}

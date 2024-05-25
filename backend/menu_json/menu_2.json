@@ -1,0 +1,65 @@
+{
+    "restaurant_name": "Kenyan Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Safari Spring Rolls",
+                    "description": "Crispy spring rolls filled with a flavorful mix of minced meat and vegetables",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Jungle Spring Rolls\"",
+                    "description": "Crispy spring rolls filled with a mix of vegetables and served with a sweet chili sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Savannah Samosas",
+                    "description": "Crispy pastry filled with spiced minced meat and vegetables",
+                    "price": "$6.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Savannah Spiced Chicken",
+                    "description": "Grilled chicken marinated in traditional African spices, served with a side of plantain chips.",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Savannah Steak",
+                    "description": "Grilled steak seasoned with African spices, served with a side of plantain chips",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Mombasa Coconut Curry",
+                    "description": "Tender chicken cooked in a rich coconut curry sauce, served with fragrant rice",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "\"Savannah Sirloin\"",
+                    "description": "Tender grilled steak seasoned with African spices, served with roasted vegetables and plantain chips",
+                    "price": "$18.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Maji ya Ukwaju",
+                    "description": "Tangy tamarind juice served with a hint of sugar",
+                    "price": "Ksh 150"
+                },
+                {
+                    "name": "Maji ya Ubuyu",
+                    "description": "Refreshing baobab fruit juice served with a scoop of vanilla ice cream",
+                    "price": "10.99"
+                }
+            ]
+        }
+    ]
+}

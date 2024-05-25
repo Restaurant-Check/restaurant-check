@@ -1,0 +1,55 @@
+{
+    "restaurant_name": "Iraqi Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Fried Kibbeh",
+                    "description": "Ground meat mixed with bulgur wheat, onions, and spices, then deep-fried to perfection",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Kubba Mosul",
+                    "description": "Fried bulgur wheat with a spiced ground meat filling",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Sultan's Delight",
+                    "description": "Tender lamb stewed in a savory tomato sauce, served with fluffy basmati rice",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "\"Sultan's Feast\"",
+                    "description": "Tender lamb cooked in a savory tomato sauce, served with fluffy rice",
+                    "price": "$14.99"
+                },
+                {
+                    "name": "Lamb Shawarma Plate",
+                    "description": "Tender slices of marinated lamb served with saffron rice and grilled vegetables",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Saffron Chicken",
+                    "description": "Tender chicken marinated in saffron-infused yogurt and grilled to perfection",
+                    "price": "$15.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Baklava",
+                    "description": "Layers of phyllo pastry filled with chopped nuts and sweetened with honey",
+                    "price": "$5.99"
+                }
+            ]
+        }
+    ]
+}

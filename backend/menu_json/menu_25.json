@@ -1,0 +1,85 @@
+{
+    "restaurant_name": "Slovak Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Bryndzové Halušky",
+                    "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "\"Bryndzové Halušky\" is a traditional Slovak dish made of potato dumplings with sheep cheese. \nTo avoid confusion, a different name suggestion for this item in the \"Appetizers\" category could be \"Slovak Potato Dumplings with Sheep Cheese\".",
+                    "description": "Traditional Slovak potato dumplings with sheep cheese sauce and bacon",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "\"Bryndzové Halušky\" can be renamed to \"Slovak Potato Dumplings with Sheep Cheese\"",
+                    "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "\"Slovak Potato Dumplings with Sheep Cheese\"",
+                    "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "\"Traditional Slovak Potato Dumplings with Sheep Cheese\"",
+                    "description": "Traditional potato dumplings with sheep cheese and bacon",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Slovak Potato Dumplings with Sheep Cheese",
+                    "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Honey Walnut Cake",
+                    "description": "A decadent cake made with layers of honey-infused sponge and walnuts, topped with a creamy frosting",
+                    "price": "$7.99"
+                },
+                {
+                    "name": "Halušky Cake",
+                    "description": "A delicious cake inspired by the traditional Slovak dish Halušky, made with potato dumplings and bacon",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Halušky Cake\" could be renamed to \"Slovak Potato Dumpling Cake\" in the Desserts category.",
+                    "description": "A decadent cake made with potato dumplings, poppy seeds, and honey",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Kofola",
+                    "description": "A popular Slovak soda made from a secret blend of herbs and spices",
+                    "price": "$2.50"
+                },
+                {
+                    "name": "\"Cola\"",
+                    "description": "A popular Slovak soft drink with a unique flavor",
+                    "price": "3.50"
+                },
+                {
+                    "name": "Sure, a different proper food name for \"Kofola\" in the Beverages category could be \"Czech Cola\".",
+                    "description": "A popular Slovakian cola-like soft drink with a unique taste",
+                    "price": "2.50"
+                }
+            ]
+        }
+    ]
+}

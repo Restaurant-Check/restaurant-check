@@ -1,0 +1,85 @@
+{
+    "restaurant_name": "Indian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Samosa Chaat",
+                    "description": "A popular Indian street food made with crispy samosas topped with yogurt, chutneys, and spices",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Tandoori Chicken Tikka",
+                    "description": "Tender pieces of chicken marinated in yogurt and spices, cooked in a tandoor",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "\"Punjabi Samosa Chaat\"",
+                    "description": "Crispy samosas topped with tangy tamarind chutney and yogurt",
+                    "price": "$7.99"
+                },
+                {
+                    "name": "\"Samosa Chaat\" can be renamed to \"Spicy Samosa Salad\" in the \"Appetizers\" category.",
+                    "description": "Crispy samosas topped with tangy chutneys and yogurt",
+                    "price": "$6.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Tandoori Chicken",
+                    "description": "Chicken marinated in yogurt and spices, cooked in a clay oven",
+                    "price": "$10.99"
+                },
+                {
+                    "name": "Samosa",
+                    "description": "Crispy pastry filled with spiced potatoes and peas",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Crispy Cauliflower Bites",
+                    "description": "Battered cauliflower florets fried to perfection, served with a tangy dipping sauce",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Gulab Jamun",
+                    "description": "Deep-fried milk-solid dumplings soaked in sugar syrup, served warm",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Gulab Jamun Cheesecake",
+                    "description": "A fusion of traditional Indian Gulab Jamun with creamy cheesecake",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Rose Jamun Cheesecake\"",
+                    "description": "A fusion of traditional Indian Gulab Jamun and creamy cheesecake",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Rose Jamun Delight\"",
+                    "description": "A fusion of traditional Indian Gulab Jamun with creamy cheesecake, topped with saffron-infused syrup",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Mango Lassi",
+                    "description": "A refreshing blend of mango, yogurt, and spices",
+                    "price": "$3.99"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "restaurant_name": "Persian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Saffron-spiced Meatballs",
+                    "description": "Juicy meatballs seasoned with saffron and served with a tangy yogurt sauce",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "Saffron Infused Hummus",
+                    "description": "Creamy chickpea dip with a hint of saffron",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Persian Lamb Kebabs",
+                    "description": "Tender lamb skewers marinated in saffron and spices, grilled to perfection",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Saffron Infused Meatballs",
+                    "description": "Juicy meatballs cooked in a saffron-infused sauce",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "Kashk-e Bademjan",
+                    "description": "Eggplant dip with whey, mint, and garlic",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Saffron Chicken Kabobs",
+                    "description": "Tender chicken marinated in saffron and spices, grilled to perfection",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Tahchin",
+                    "description": "Baked saffron rice cake with chicken",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "\"Persian Lamb Skewers\"",
+                    "description": "Grilled lamb skewers marinated in saffron and spices",
+                    "price": "$12.99"
+                }
+            ]
+        }
+    ]
+}

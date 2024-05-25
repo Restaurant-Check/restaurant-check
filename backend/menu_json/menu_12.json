@@ -1,0 +1,50 @@
+{
+    "restaurant_name": "Ethiopian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Savory Samosas",
+                    "description": "Crispy pastry filled with spiced potatoes and peas, served with mint chutney",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "Spicy Mango Shrimp",
+                    "description": "Grilled shrimp marinated in a spicy mango sauce",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Samosa",
+                    "description": "Crispy pastry filled with spiced potatoes and peas",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Berbere Chicken",
+                    "description": "Tender chicken marinated in spicy berbere sauce, served with injera",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Safari Stew",
+                    "description": "A hearty stew with a blend of African spices, vegetables, and your choice of protein",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Samosa Chaat",
+                    "description": "Crispy pastry filled with spiced potatoes and peas, topped with yogurt, tamarind chutney, and chaat masala",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Safari Lamb Stew",
+                    "description": "Tender lamb slow-cooked in a blend of African spices, served with injera bread",
+                    "price": "$15.99"
+                }
+            ]
+        }
+    ]
+}

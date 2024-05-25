@@ -19,9 +19,9 @@ PyMuPDF
 pytesseract
 pillow
 tesseract
+faiss-cpu
+pypdf
 
 # TODO: installing this package might raise an error
 # maybe remove if not needed
 # tesseract-ocr
-
-marker-pdf
