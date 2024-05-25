@@ -4,19 +4,13 @@ import {Paper, Text, Button, Rating, Tooltip} from '@mantine/core';
 import {IconClock} from '@tabler/icons-react';
 import {styled} from "styled-components";
 
-const Separator = styled.div`
-    width: 100%;
-    height: 1px;
-    background-color: #00000045;
-    margin-top: 20px;
-    margin-bottom: 8px;
-`;
 
 interface Restaurant {
     name: string;
     rating: number;
     distance: string;
     closingTime: string;
+    top3MenuItems: string[];
 }
 
 interface ListProps {
@@ -24,6 +18,69 @@ interface ListProps {
     restaurants: Restaurant[];
     setHoveringOver: (hoveringOver: number) => void;
 }
+
+interface ButtonProps {
+    onClick?: () => void;
+    children: string;
+    variant: string;
+    radius: string;
+}
+
+const Separator = styled.div`
+    width: 100%;
+    height: 2px;
+    background-color: #00000055;
+    margin-top: 20px;
+    margin-bottom: 8px;
+`;
+
+const Divider = styled.div`
+    width: 2px;
+    height: 100%;
+    background-color: #00000055;
+    margin-right: 20px;
+    margin-left: 20px;
+`;
+
+const MenuButton = styled(Button)<ButtonProps>`
+    margin-top: 10px;
+`;
+
+const MenuItemsTable = ({menuItems}: { menuItems: string[] }) => {
+    const menuItemsProcessed = menuItems.reduce((acc: { [key: string]: { name: string, price: string }[] }, item) => {
+        const [fullCategory, price] = item.split(' | ');
+        const [category, name] = fullCategory.split(/:(.+)/);
+        if (!acc[category]) {
+            acc[category] = [];
+        }
+        acc[category].push({name: name.trim(), price});
+        return acc;
+    }, {});
+
+    return (
+        <table>
+            <tbody>
+            {Object.entries(menuItemsProcessed).map(([category, items]: [string, {
+                name: string,
+                price: string
+            }[]], index) => (
+                <React.Fragment key={index}>
+                    {items.map(({name, price}, index) => (
+                        <tr key={index}>
+                            <td><Text>{index === 0 ? category : ''}</Text></td>
+                            <td><Text>{name} </Text></td>
+                            <td><Text style={{marginLeft: '4px'}}> {price} €</Text></td>
+                        </tr>
+                    ))}
+                </React.Fragment>
+            ))}
+            <tr>
+                <MenuButton variant="light" radius="lg">Show whole menu</MenuButton>
+            </tr>
+            </tbody>
+        </table>
+    );
+};
 
 const calculateTimeLeft = (closingTime: string) => {
     const now = new Date();
@@ -61,19 +118,23 @@ export const List = (props: ListProps) => {
                      style={{display: 'flex', flexDirection: 'column', marginBottom: '10px'}}
                      onMouseEnter={() => props.setHoveringOver(index)}>
                     <Paper style={{display: 'flex', justifyContent: 'space-between'}}>
-                        <div style={{display: 'flex', flexDirection: 'column'}}>
-                            <div style={{display: 'flex', alignItems: 'center'}}>
-                                <Text size="xl">{restaurant.name}</Text>
-                                <Rating value={restaurant.rating} fractions={10} readOnly style={{marginLeft: '28px'}}/>
+                        <div style={{display: 'flex', flexDirection: 'row'}}>
+                            <div style={{display: 'flex', flexDirection: 'column'}}>
+                                <div style={{display: 'flex', alignItems: 'center'}}>
+                                    <Text size="xl">{restaurant.name}</Text>
+                                    <Rating value={restaurant.rating} fractions={10} readOnly
+                                            style={{marginLeft: '28px'}}/>
+                                </div>
+                                <div style={{display: 'flex', alignItems: 'center'}}>
+                                    <Text size="md">Closes at {restaurant.closingTime}</Text>
+                                    <Tooltip label={timeLeft[index]} withArrow color={"blue"}
+                                             transitionProps={{transition: 'pop', duration: 300}}>
+                                        <IconClock style={{marginLeft: "4px", marginRight: "8px"}}/>
+                                    </Tooltip>
+                                </div>
                             </div>
-                            <div style={{display: 'flex', alignItems: 'center'}}>
-                                <Text size="md">Closes at {restaurant.closingTime}</Text>
-                                <Tooltip label={timeLeft[index]} withArrow color={"blue"}
-                                         transitionProps={{transition: 'pop', duration: 300}}>
-                                    <IconClock style={{marginLeft: "4px", marginRight: "8px"}}/>
-                                </Tooltip>
-                                <Button style={{marginLeft: '10px', marginRight: '10px'}}>Menu</Button>
-                            </div>
+                            <Divider/>
+                            <MenuItemsTable menuItems={restaurant.top3MenuItems}/>
                         </div>
                         <Text size="xxl" style={{
                             textAlign: 'right',
