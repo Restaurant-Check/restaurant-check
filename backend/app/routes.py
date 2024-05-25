@@ -4,6 +4,7 @@ from flask import Blueprint, render_template, request, jsonify, current_app
 from time import sleep
 from app.menu_to_json import process_menu_text
 from scraper.scrape import scraper
+from app.vector_db.vector_db import RestaurantVectorDB
 
 bp = Blueprint('main', __name__)
 
@@ -27,7 +28,7 @@ def call_openai_api():
     }
 
     response = requests.post('https://api.openai.com/v1/completions', headers=headers, json=payload)
-    
+
     if response.status_code != 200:
         return jsonify({'error': 'Failed to get response from OpenAI'}), response.status_code
 
@@ -65,7 +66,7 @@ def get_restaurants():
             return jsonify({'error': 'Failed to get response from Google Maps API'}), nearby_search_response.status_code
 
         nearby_results.extend(nearby_search_response.json().get('results', []))
-        
+
         next_page_token = nearby_search_response.json().get('next_page_token')
         if not next_page_token:
             break  # No more results available
@@ -73,7 +74,7 @@ def get_restaurants():
         sleep(2) # Delay to wait for next page token to become valid
 
     print(f'Found {len(nearby_results)} restaurants nearby')
-    
+
     detailed_results = []
     for result in nearby_results[:5]: # TODO: Remove Limit
         place_id = result.get('place_id')
@@ -97,7 +98,7 @@ def get_restaurants():
                     'website': place_details.get('website')
                 }
                 detailed_results.append(filtered_result)
-        
+
     # Map price levels to descriptive words
     # This is done so we can use word similarity for the searching later on
     price_level_mapping = {
@@ -115,8 +116,8 @@ def get_restaurants():
 
     return jsonify(detailed_results)
 
-    
-    
+
+
 @bp.route('/api/menus', methods=['GET'])
 def get_restaurants_with_menu():
     # Get the detailed restaurant results
@@ -151,23 +152,37 @@ def get_menu(website_url=''):
     except Exception as e:
         print(f"Error running scraper: {e}")
         return jsonify({'error': 'Failed to scrape menu data'}), 500
-    
-    
+
+
 
     #Check if menu_text is None
     if menu_text is None:
         return jsonify({'error': 'Failed to scrape menu data'}), 500
-    
+
     # The result is then passed to the menu_to_json.py script
     # The result is a json with the structured menu
     menu_json = process_menu_text(menu_text)
-    
+
     #Check if menu_json is None
     if menu_json is None:
         return jsonify({'error': 'Failed to process menu data'}), 500
-    
+
     return menu_json
 
 
 
 
+database = RestaurantVectorDB("./data")
+print("loaded database")
+
+@bp.route('/', methods=['GET'])
+def index():
+    return "hello there!"
+
+@bp.route('/query', methods=['GET'])
+def query():
+    query = request.args.get('query')
+    if not query:
+        return jsonify({'error': 'No query provided'}), 400
+
+    return jsonify(database.query(query))
