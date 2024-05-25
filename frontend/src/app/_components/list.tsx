@@ -81,7 +81,7 @@ export const List = (props: ListProps) => {
                             fontWeight: 'bold'
                         }}>{restaurant.distance}</Text>
                     </Paper>
-                    <Separator/>
+                    {index < props.restaurants.length - 1 && <Separator/>}
                 </div>
             ))}
         </Box>
