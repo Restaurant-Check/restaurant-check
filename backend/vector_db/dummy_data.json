@@ -1,72 +1,1881 @@
 [
-  {
-    "name": "Ocean's Plate",
-    "location": "123 Beach Ave, Miami, FL",
-    "rating": 4.5,
-    "cuisine": "Seafood",
-    "menu": "Menu: Grilled Salmon $19.99, Lobster Roll $15.99, Seafood Pasta $18.99",
-    "reviews": [
-      "Absolutely loved the grilled salmon! Fresh and flavorful.",
-      "The lobster roll was a bit pricey but worth every penny. Highly recommend!",
-      "Service was slow, but the seafood pasta made up for the wait.",
-      "Great atmosphere and friendly staff. Will definitely return!",
-      "Enjoyed a dinner by the beach, perfect setting and delicious food."
-    ]
-  },
-  {
-    "name": "Mountain View Grill",
-    "location": "456 Hill Rd, Denver, CO",
-    "rating": 4.7,
-    "cuisine": "American Grill",
-    "menu": "Menu: BBQ Ribs $12.99, Bison Burger $11.99, Vegetarian Chili $9.99",
-    "reviews": [
-      "The BBQ ribs are to die for! Best in the city.",
-      "Loved the bison burger, a great hearty option for meat lovers.",
-      "The vegetarian chili was surprisingly good, with just the right amount of spice.",
-      "Fantastic view and even better food.",
-      "Service could be better, but the food makes up for it."
-    ]
-  },
-  {
-    "name": "Urban Eats",
-    "location": "789 City St, New York, NY",
-    "rating": 4.3,
-    "cuisine": "Fast Casual",
-    "menu": "Menu: Chicken Wrap $7.99, Veggie Burger $8.99, Steak Sandwich $13.99",
-    "reviews": [
-      "Chicken wrap was okay, not the best I've had.",
-      "Really enjoyed the veggie burger, great flavors!",
-      "Steak sandwich was a bit tough. Could improve.",
-      "Good prices and decent service. A solid lunch spot.",
-      "Not my favorite place, but it's good for a quick bite."
-    ]
-  },
-  {
-    "name": "Garden Bistro",
-    "location": "234 Park Blvd, San Francisco, CA",
-    "rating": 4.6,
-    "cuisine": "Italian",
-    "menu": "Menu: Tomato Basil Soup $5.99, Caesar Salad $6.99, Mushroom Risotto $14.99",
-    "reviews": [
-      "The mushroom risotto is amazing! Full of flavor.",
-      "Really nice tomato basil soup, felt like homemade.",
-      "Loved the Caesar salad, fresh and crispy.",
-      "A gem in the city with authentic Italian flavors.",
-      "Great for a romantic evening or a family dinner."
-    ]
-  },
-  {
-    "name": "Spice Journey",
-    "location": "567 Curry Ave, Houston, TX",
-    "rating": 4.8,
-    "cuisine": "Indian",
-    "menu": "Menu: Tandoori Chicken $10.99, Lamb Vindaloo $12.99, Paneer Tikka $9.99",
-    "reviews": [
-      "Tandoori chicken was perfectly spiced and juicy. Absolutely loved it!",
-      "The lamb vindaloo has just the right level of heat. Spicy and delicious!",
-      "Paneer tikka was alright, but could use a bit more flavor.",
-      "Excellent service and authentic Indian cuisine. Highly recommend!",
-      "Best Indian food I've had in a long time. A must-visit!"
-    ]
-  }
-]
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.139801,
+          "lng": 11.562207
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.14125638029149,
+            "lng": 11.5634678802915
+          },
+          "southwest": {
+            "lat": 48.1385584197085,
+            "lng": 11.5607699197085
+          }
+        }
+      },
+      "name": "Excelsior by Geisel",
+      "price_level": null,
+      "rating": 4.5,
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 861,
+      "vicinity": "Sch\u00fctzenstr 11, M\u00fcnchen",
+      "website": "http://www.excelsior-hotel.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1416538,
+          "lng": 11.5592044
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1429646802915,
+            "lng": 11.5605276802915
+          },
+          "southwest": {
+            "lat": 48.1402667197085,
+            "lng": 11.5578297197085
+          }
+        }
+      },
+      "name": "Eden Hotel Wolff",
+      "price_level": null,
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1662,
+      "vicinity": "Arnulfstra\u00dfe 4, M\u00fcnchen",
+      "website": "https://www.eden-hotel-wolff.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1353541,
+          "lng": 11.57709
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13715733029149,
+            "lng": 11.5788419302915
+          },
+          "southwest": {
+            "lat": 48.13445936970849,
+            "lng": 11.5761439697085
+          }
+        }
+      },
+      "name": "Hotel Am Markt",
+      "price_level": null,
+      "rating": 4.3,
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 452,
+      "vicinity": "Heiliggeiststra\u00dfe 6, M\u00fcnchen",
+      "website": "http://www.hotel-am-markt.eu/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1390286,
+          "lng": 11.5570631
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1404445802915,
+            "lng": 11.5584183802915
+          },
+          "southwest": {
+            "lat": 48.1377466197085,
+            "lng": 11.55572041970849
+          }
+        }
+      },
+      "name": "Flemings Hotel M\u00fcnchen-City",
+      "price_level": null,
+      "rating": 4.3,
+      "types": [
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1121,
+      "vicinity": "Bayerstra\u00dfe 47, M\u00fcnchen",
+      "website": "https://www.flemings-hotels.com/muenchen-city-hotel"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1372618,
+          "lng": 11.5789586
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1385572302915,
+            "lng": 11.5802945302915
+          },
+          "southwest": {
+            "lat": 48.1358592697085,
+            "lng": 11.5775965697085
+          }
+        }
+      },
+      "name": "Hotel Lux",
+      "price_level": null,
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 532,
+      "vicinity": "Ledererstra\u00dfe 13, M\u00fcnchen",
+      "website": "http://www.hotel-lux-muenchen.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1359729,
+          "lng": 11.5758069
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13710573029149,
+            "lng": 11.5769093302915
+          },
+          "southwest": {
+            "lat": 48.1344077697085,
+            "lng": 11.5742113697085
+          }
+        }
+      },
+      "name": "LOUIS Hotel",
+      "price_level": null,
+      "rating": 4.4,
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 460,
+      "vicinity": "Viktualienmarkt 6, M\u00fcnchen",
+      "website": "https://www.louis-hotel.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1519229,
+          "lng": 11.5563283
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1533136302915,
+            "lng": 11.5577518802915
+          },
+          "southwest": {
+            "lat": 48.1506156697085,
+            "lng": 11.5550539197085
+          }
+        }
+      },
+      "name": "Hotel Europa",
+      "price_level": null,
+      "rating": 4.4,
+      "types": [
+        "cafe",
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1972,
+      "vicinity": "Dachauer Stra\u00dfe 115, M\u00fcnchen",
+      "website": "http://www.hotel-europa.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1327495,
+          "lng": 11.5764049
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1341166802915,
+            "lng": 11.5776438302915
+          },
+          "southwest": {
+            "lat": 48.1314187197085,
+            "lng": 11.5749458697085
+          }
+        }
+      },
+      "name": "Hotel Deutsche Eiche",
+      "price_level": null,
+      "rating": 4.5,
+      "types": [
+        "spa",
+        "lodging",
+        "health",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 2087,
+      "vicinity": "Reichenbachstra\u00dfe 13, M\u00fcnchen",
+      "website": "http://www.deutsche-eiche.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.135557,
+          "lng": 11.5816012
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1368129802915,
+            "lng": 11.5828886802915
+          },
+          "southwest": {
+            "lat": 48.1341150197085,
+            "lng": 11.5801907197085
+          }
+        }
+      },
+      "name": "Hotel Torbr\u00e4u",
+      "price_level": null,
+      "rating": 4.5,
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 536,
+      "vicinity": "Tal 41, M\u00fcnchen",
+      "website": "http://www.torbraeu.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.16760519999999,
+          "lng": 11.5867732
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1688300302915,
+            "lng": 11.5879583302915
+          },
+          "southwest": {
+            "lat": 48.1661320697085,
+            "lng": 11.5852603697085
+          }
+        }
+      },
+      "name": "Flemings Hotel M\u00fcnchen-Schwabing",
+      "price_level": null,
+      "rating": 4,
+      "types": [
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 1306,
+      "vicinity": "Leopoldstra\u00dfe 130-132, M\u00fcnchen",
+      "website": "https://www.flemings-hotels.de/hotel-muenchen-schwabing"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.18090249999999,
+          "lng": 11.6300489
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1822564802915,
+            "lng": 11.6314728802915
+          },
+          "southwest": {
+            "lat": 48.1795585197085,
+            "lng": 11.6287749197085
+          }
+        }
+      },
+      "name": "Scheck Hotel",
+      "price_level": null,
+      "rating": 4.1,
+      "types": [
+        "lodging",
+        "bar",
+        "gym",
+        "restaurant",
+        "food",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 293,
+      "vicinity": "M\u00fcnchner Stra\u00dfe 15, Unterf\u00f6hring",
+      "website": "https://scheckhotel.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.13780889999999,
+          "lng": 11.5452191
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13920888029149,
+            "lng": 11.5465902802915
+          },
+          "southwest": {
+            "lat": 48.13651091970849,
+            "lng": 11.5438923197085
+          }
+        }
+      },
+      "name": "Hotel Westend",
+      "price_level": null,
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "spa",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 645,
+      "vicinity": "Schwanthalerstra\u00dfe 121, M\u00fcnchen",
+      "website": "https://www.westend-hotel.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1344066,
+          "lng": 11.5739138
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1357323302915,
+            "lng": 11.5753576802915
+          },
+          "southwest": {
+            "lat": 48.1330343697085,
+            "lng": 11.5726597197085
+          }
+        }
+      },
+      "name": "Hotel Blauer Bock",
+      "price_level": null,
+      "rating": 4.3,
+      "types": [
+        "cafe",
+        "night_club",
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 323,
+      "vicinity": "Sebastiansplatz 9, M\u00fcnchen",
+      "website": "http://www.hotelblauerbock.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1405195,
+          "lng": 11.6818741
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1418156302915,
+            "lng": 11.6831476302915
+          },
+          "southwest": {
+            "lat": 48.1391176697085,
+            "lng": 11.6804496697085
+          }
+        }
+      },
+      "name": "Hotel Prinzregent M\u00fcnchen",
+      "price_level": null,
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 776,
+      "vicinity": "Riemer Stra\u00dfe 350, M\u00fcnchen",
+      "website": "https://www.prinzregent.de/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1869135,
+          "lng": 11.5255158
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1882913802915,
+            "lng": 11.5269933302915
+          },
+          "southwest": {
+            "lat": 48.1855934197085,
+            "lng": 11.5242953697085
+          }
+        }
+      },
+      "name": "Sushi Sado & More",
+      "price_level": 1,
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 318,
+      "vicinity": "Bingener Stra\u00dfe 43, M\u00fcnchen",
+      "website": "https://sushi-sado.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1765258,
+          "lng": 11.4622763
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1780152802915,
+            "lng": 11.4636039802915
+          },
+          "southwest": {
+            "lat": 48.1753173197085,
+            "lng": 11.4609060197085
+          }
+        }
+      },
+      "name": "Insel M\u00fchle Hotel Restaurant Biergarten",
+      "price_level": 2,
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "bar",
+        "lodging",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1910,
+      "vicinity": "Von-Kahr-Stra\u00dfe 87, M\u00fcnchen",
+      "website": "http://www.insel-muehle.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.17424219999999,
+          "lng": 11.6291234
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1755113802915,
+            "lng": 11.6306278802915
+          },
+          "southwest": {
+            "lat": 48.1728134197085,
+            "lng": 11.6279299197085
+          }
+        }
+      },
+      "name": "Hotel Freisinger Hof",
+      "price_level": null,
+      "rating": 4.7,
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 960,
+      "vicinity": "Oberf\u00f6hringer Stra\u00dfe 189-191, M\u00fcnchen",
+      "website": "http://www.freisinger-hof.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.14353229999999,
+          "lng": 11.5514911
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.14473748029149,
+            "lng": 11.5525104302915
+          },
+          "southwest": {
+            "lat": 48.14203951970849,
+            "lng": 11.5498124697085
+          }
+        }
+      },
+      "name": "Augustiner-Keller",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 31865,
+      "vicinity": "Arnulfstra\u00dfe 52, M\u00fcnchen",
+      "website": "http://www.augustinerkeller.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1376098,
+          "lng": 11.5799253
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1389888302915,
+            "lng": 11.5811348302915
+          },
+          "southwest": {
+            "lat": 48.1362908697085,
+            "lng": 11.5784368697085
+          }
+        }
+      },
+      "name": "Hofbr\u00e4uhaus M\u00fcnchen",
+      "price_level": 2,
+      "rating": 4.2,
+      "types": [
+        "tourist_attraction",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 86713,
+      "vicinity": "Platzl 9, M\u00fcnchen",
+      "website": "https://www.hofbraeuhaus.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1748263,
+          "lng": 11.6382055
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.17624213029149,
+            "lng": 11.6398040302915
+          },
+          "southwest": {
+            "lat": 48.17354416970849,
+            "lng": 11.6371060697085
+          }
+        }
+      },
+      "name": "Dream-Bowl Palace",
+      "price_level": null,
+      "rating": 4.2,
+      "types": [
+        "bowling_alley",
+        "parking",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4511,
+      "vicinity": "Apianstra\u00dfe 9, Unterf\u00f6hring",
+      "website": "https://www.dreambowl.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1367159,
+          "lng": 11.4611476
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1381171802915,
+            "lng": 11.4623952302915
+          },
+          "southwest": {
+            "lat": 48.1354192197085,
+            "lng": 11.4596972697085
+          }
+        }
+      },
+      "name": "Hotel Stadt Pasing",
+      "price_level": null,
+      "rating": 4,
+      "types": [
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 197,
+      "vicinity": "Blumenauer Stra\u00dfe 131, M\u00fcnchen",
+      "website": "http://www.stadtpasing.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.13596019999999,
+          "lng": 11.5708059
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1372871302915,
+            "lng": 11.5720763802915
+          },
+          "southwest": {
+            "lat": 48.13458916970851,
+            "lng": 11.5693784197085
+          }
+        }
+      },
+      "name": "Prinz Myshkin",
+      "price_level": 2,
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1424,
+      "vicinity": "Hackenstra\u00dfe 2, M\u00fcnchen",
+      "website": "http://prinzmyshkin.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1339279,
+          "lng": 11.6017373
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1352090302915,
+            "lng": 11.6032151302915
+          },
+          "southwest": {
+            "lat": 48.1325110697085,
+            "lng": 11.6005171697085
+          }
+        }
+      },
+      "name": "Taverna Paros",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1934,
+      "vicinity": "Kirchenstra\u00dfe 27, M\u00fcnchen",
+      "website": "http://www.paros-muenchen.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1361514,
+          "lng": 11.5829336
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1374873802915,
+            "lng": 11.5841960802915
+          },
+          "southwest": {
+            "lat": 48.1347894197085,
+            "lng": 11.5814981197085
+          }
+        }
+      },
+      "name": "Le Stollberg",
+      "price_level": null,
+      "rating": 4.8,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 311,
+      "vicinity": "Stollbergstra\u00dfe 2, M\u00fcnchen",
+      "website": "https://lestollberg.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.169796,
+          "lng": 11.588339
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1710756802915,
+            "lng": 11.5895605802915
+          },
+          "southwest": {
+            "lat": 48.1683777197085,
+            "lng": 11.5868626197085
+          }
+        }
+      },
+      "name": "Tantris",
+      "price_level": 4,
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 855,
+      "vicinity": "Johann-Fichte-Stra\u00dfe 7, M\u00fcnchen",
+      "website": "https://www.tantris.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.13881010000001,
+          "lng": 11.5746769
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1402420302915,
+            "lng": 11.5755099802915
+          },
+          "southwest": {
+            "lat": 48.1375440697085,
+            "lng": 11.5728120197085
+          }
+        }
+      },
+      "name": "Kilians Irish Pub",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 6373,
+      "vicinity": "Frauenplatz 11, M\u00fcnchen",
+      "website": "https://www.kiliansirishpub.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1398456,
+          "lng": 11.577291
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1410702302915,
+            "lng": 11.5788167302915
+          },
+          "southwest": {
+            "lat": 48.1383722697085,
+            "lng": 11.5761187697085
+          }
+        }
+      },
+      "name": "Spatenhaus at the opera",
+      "price_level": 2,
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4946,
+      "vicinity": "Residenzstra\u00dfe 12, M\u00fcnchen",
+      "website": "https://www.kuffler.de/de/spatenhaus"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1393599,
+          "lng": 11.581047
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1406065802915,
+            "lng": 11.5825360302915
+          },
+          "southwest": {
+            "lat": 48.1379086197085,
+            "lng": 11.5798380697085
+          }
+        }
+      },
+      "name": "Brenner Restaurant",
+      "price_level": 3,
+      "rating": 4.2,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4827,
+      "vicinity": "Maximilianstra\u00dfe 15, M\u00fcnchen",
+      "website": "https://www.brennergrill.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.133834,
+          "lng": 11.5744094
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1352051802915,
+            "lng": 11.5757406802915
+          },
+          "southwest": {
+            "lat": 48.13250721970851,
+            "lng": 11.5730427197085
+          }
+        }
+      },
+      "name": "Wirtshaus Zum Straubinger",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2996,
+      "vicinity": "Blumenstra\u00dfe 5, M\u00fcnchen",
+      "website": "http://www.zumstraubinger.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.0909305,
+          "lng": 11.5449689
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.0923009802915,
+            "lng": 11.5462705802915
+          },
+          "southwest": {
+            "lat": 48.08960301970851,
+            "lng": 11.5435726197085
+          }
+        }
+      },
+      "name": "Campingplatz M\u00fcnchen Thalkirchen",
+      "price_level": null,
+      "rating": 3,
+      "types": [
+        "campground",
+        "supermarket",
+        "grocery_or_supermarket",
+        "park",
+        "restaurant",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 2693,
+      "vicinity": "Zentrall\u00e4ndstra\u00dfe 49, M\u00fcnchen",
+      "website": "http://www.campingplatz-thalkirchen.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1444649,
+          "lng": 11.5853152
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.14595843029149,
+            "lng": 11.5866687802915
+          },
+          "southwest": {
+            "lat": 48.1432604697085,
+            "lng": 11.5839708197085
+          }
+        }
+      },
+      "name": "P1 Club",
+      "price_level": 4,
+      "rating": 3.4,
+      "types": [
+        "night_club",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1465,
+      "vicinity": "Prinzregentenstra\u00dfe 1, M\u00fcnchen",
+      "website": "http://www.p1-club.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.13760329999999,
+          "lng": 11.5415807
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1390131802915,
+            "lng": 11.5429265302915
+          },
+          "southwest": {
+            "lat": 48.1363152197085,
+            "lng": 11.5402285697085
+          }
+        }
+      },
+      "name": "Zur Schwalbe",
+      "price_level": 2,
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 671,
+      "vicinity": "Schwanthalerstra\u00dfe 149, M\u00fcnchen",
+      "website": "http://www.zurschwalbe.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1393887,
+          "lng": 11.5771912
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.14056653029149,
+            "lng": 11.5787557302915
+          },
+          "southwest": {
+            "lat": 48.1378685697085,
+            "lng": 11.5760577697085
+          }
+        }
+      },
+      "name": "Zum Franziskaner",
+      "price_level": 2,
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 6064,
+      "vicinity": "Residenzstra\u00dfe 9, M\u00fcnchen",
+      "website": "https://www.zum-franziskaner.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1402368,
+          "lng": 11.5677123
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.14170148029149,
+            "lng": 11.5689823802915
+          },
+          "southwest": {
+            "lat": 48.1390035197085,
+            "lng": 11.5662844197085
+          }
+        }
+      },
+      "name": "L'Osteria M\u00fcnchen K\u00fcnstlerhaus",
+      "price_level": 2,
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 8376,
+      "vicinity": "Lenbachplatz 8, M\u00fcnchen",
+      "website": "https://losteria.net/de/restaurants/restaurant/muenchen-kuenstlerhaus/?utm_source=google&utm_medium=Yext"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.16194439999999,
+          "lng": 11.5941667
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.16322863029149,
+            "lng": 11.5954901302915
+          },
+          "southwest": {
+            "lat": 48.16053066970849,
+            "lng": 11.5927921697085
+          }
+        }
+      },
+      "name": "Schwabinger Osterwaldgarten",
+      "price_level": 2,
+      "rating": 4.2,
+      "types": [
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2160,
+      "vicinity": "Keferstra\u00dfe 12, M\u00fcnchen",
+      "website": "http://www.osterwaldgarten.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1287821,
+          "lng": 11.569782
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1301156802915,
+            "lng": 11.5710472302915
+          },
+          "southwest": {
+            "lat": 48.1274177197085,
+            "lng": 11.5683492697085
+          }
+        }
+      },
+      "name": "Gastst\u00e4tte FAUN",
+      "price_level": 2,
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1279,
+      "vicinity": "Hans-Sachs-Stra\u00dfe 17, M\u00fcnchen",
+      "website": "https://www.faun-muenchen.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1364226,
+          "lng": 11.578467
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13773708029149,
+            "lng": 11.57972768029151
+          },
+          "southwest": {
+            "lat": 48.1350391197085,
+            "lng": 11.5770297197085
+          }
+        }
+      },
+      "name": "Weisses Br\u00e4uhaus im Tal",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 13009,
+      "vicinity": "Tal 7, M\u00fcnchen",
+      "website": "https://www.schneider-brauhaus.de/de"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.16787060000001,
+          "lng": 11.5856952
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1692135802915,
+            "lng": 11.5872550802915
+          },
+          "southwest": {
+            "lat": 48.16651561970851,
+            "lng": 11.5845571197085
+          }
+        }
+      },
+      "name": "Hotel Leopold",
+      "price_level": null,
+      "rating": 4.4,
+      "types": [
+        "night_club",
+        "lodging",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 317,
+      "vicinity": "Leopoldstra\u00dfe 119, M\u00fcnchen",
+      "website": "https://www.hotel-leopold.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1375632,
+          "lng": 11.57947
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13891618029151,
+            "lng": 11.5808806802915
+          },
+          "southwest": {
+            "lat": 48.13621821970851,
+            "lng": 11.5781827197085
+          }
+        }
+      },
+      "name": "Augustiner am Platzl",
+      "price_level": 2,
+      "rating": 4.3,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5114,
+      "vicinity": "Orlandostra\u00dfe 5, M\u00fcnchen",
+      "website": "https://augustiner-am-platzl.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.214419,
+          "lng": 11.528325
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.2157059302915,
+            "lng": 11.5298796302915
+          },
+          "southwest": {
+            "lat": 48.2130079697085,
+            "lng": 11.5271816697085
+          }
+        }
+      },
+      "name": "Feldmochinger Hof",
+      "price_level": null,
+      "rating": 4.1,
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 609,
+      "vicinity": "Feldmochinger Stra\u00dfe 389, M\u00fcnchen",
+      "website": "http://www.feldmochinger-hof.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1548144,
+          "lng": 11.5856544
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.15616523029151,
+            "lng": 11.5869190302915
+          },
+          "southwest": {
+            "lat": 48.15346726970851,
+            "lng": 11.5842210697085
+          }
+        }
+      },
+      "name": "ARABESK I LEBANESE ARABIC RESTAURANT",
+      "price_level": 3,
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 985,
+      "vicinity": "Kaulbachstra\u00dfe 86, M\u00fcnchen",
+      "website": "http://www.arabesk.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1284262,
+          "lng": 11.5709728
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1298122302915,
+            "lng": 11.5722724802915
+          },
+          "southwest": {
+            "lat": 48.1271142697085,
+            "lng": 11.5695745197085
+          }
+        }
+      },
+      "name": "Sushi+Soul",
+      "price_level": 3,
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1677,
+      "vicinity": "Klenzestra\u00dfe 71, M\u00fcnchen",
+      "website": "http://www.sushi-soul.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1429452,
+          "lng": 11.5750041
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1444019802915,
+            "lng": 11.5762758802915
+          },
+          "southwest": {
+            "lat": 48.1417040197085,
+            "lng": 11.5735779197085
+          }
+        }
+      },
+      "name": "Caf\u00e9 Luitpold",
+      "price_level": 3,
+      "rating": 3.9,
+      "types": [
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3337,
+      "vicinity": "Brienner Stra\u00dfe 11, M\u00fcnchen",
+      "website": "http://www.cafe-luitpold.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.16200799999999,
+          "lng": 11.6027427
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1633569802915,
+            "lng": 11.6040916802915
+          },
+          "southwest": {
+            "lat": 48.1606590197085,
+            "lng": 11.6013937197085
+          }
+        }
+      },
+      "name": "Hirschau im Englischen Garten",
+      "price_level": 2,
+      "rating": 4.5,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2429,
+      "vicinity": "Gy\u00dflingstra\u00dfe 15, M\u00fcnchen",
+      "website": "http://www.hirschau-muenchen.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1588551,
+          "lng": 11.5848194
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1601670302915,
+            "lng": 11.5863471302915
+          },
+          "southwest": {
+            "lat": 48.1574690697085,
+            "lng": 11.5836491697085
+          }
+        }
+      },
+      "name": "Restaurant Piatsa",
+      "price_level": 2,
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 812,
+      "vicinity": "Leopoldstra\u00dfe 33, M\u00fcnchen",
+      "website": "http://www.restaurant-piatsa.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.13417659999999,
+          "lng": 11.5952068
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13542648029149,
+            "lng": 11.5966283802915
+          },
+          "southwest": {
+            "lat": 48.13272851970849,
+            "lng": 11.5939304197085
+          }
+        }
+      },
+      "name": "Hofbr\u00e4ukeller",
+      "price_level": 2,
+      "rating": 4.2,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 7525,
+      "vicinity": "Innere Wiener Stra\u00dfe 19, M\u00fcnchen",
+      "website": "http://www.hofbraeukeller.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.12648009999999,
+          "lng": 11.5953801
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1277954802915,
+            "lng": 11.59662943029151
+          },
+          "southwest": {
+            "lat": 48.1250975197085,
+            "lng": 11.5939314697085
+          }
+        }
+      },
+      "name": "Teatro Bar Tapas",
+      "price_level": 2,
+      "rating": 4.5,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1804,
+      "vicinity": "Balanstra\u00dfe 23, M\u00fcnchen",
+      "website": "http://www.teatro-bar-tapas.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1289862,
+          "lng": 11.5864746
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1302916302915,
+            "lng": 11.5877765302915
+          },
+          "southwest": {
+            "lat": 48.1275936697085,
+            "lng": 11.58507856970849
+          }
+        }
+      },
+      "name": "Wirtshaus in der Au",
+      "price_level": 2,
+      "rating": 4.5,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4512,
+      "vicinity": "Lilienstra\u00dfe 51, M\u00fcnchen",
+      "website": "https://wirtshausinderau.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.14044889999999,
+          "lng": 11.5752066
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1418543302915,
+            "lng": 11.5761673802915
+          },
+          "southwest": {
+            "lat": 48.1391563697085,
+            "lng": 11.5734694197085
+          }
+        }
+      },
+      "name": "VAPIANO M\u00fcnchen Theatiner Stra\u00dfe",
+      "price_level": 2,
+      "rating": 3.7,
+      "types": [
+        "restaurant",
+        "cafe",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3889,
+      "vicinity": "Theatinerstra\u00dfe 15, M\u00fcnchen",
+      "website": "https://www.vapiano.de/de/?mtm_campaign=google_mb&mtm_source=google&mtm_medium=organic&mtm_keyword=muenchen"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.137397,
+          "lng": 11.5760462
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13851423029151,
+            "lng": 11.5777670802915
+          },
+          "southwest": {
+            "lat": 48.13581626970851,
+            "lng": 11.5750691197085
+          }
+        }
+      },
+      "name": "Ratskeller M\u00fcnchen",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 8867,
+      "vicinity": "Marienplatz 8, M\u00fcnchen",
+      "website": "http://www.ratskeller.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1423542,
+          "lng": 11.5645988
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1438028802915,
+            "lng": 11.5660088802915
+          },
+          "southwest": {
+            "lat": 48.1411049197085,
+            "lng": 11.5633109197085
+          }
+        }
+      },
+      "name": "Park Caf\u00e9",
+      "price_level": 2,
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4576,
+      "vicinity": "Sophienstra\u00dfe 7, M\u00fcnchen",
+      "website": "https://www.parkcafe089.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1332081,
+          "lng": 11.574893
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13459938029149,
+            "lng": 11.5761892302915
+          },
+          "southwest": {
+            "lat": 48.1319014197085,
+            "lng": 11.5734912697085
+          }
+        }
+      },
+      "name": "Paradiso Tanzbar",
+      "price_level": 3,
+      "rating": 4.3,
+      "types": [
+        "night_club",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 221,
+      "vicinity": "Rumfordstra\u00dfe 2, M\u00fcnchen",
+      "website": "http://www.paradiso-tanzbar.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1382803,
+          "lng": 11.5792016
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1397386302915,
+            "lng": 11.5805454802915
+          },
+          "southwest": {
+            "lat": 48.1370406697085,
+            "lng": 11.5778475197085
+          }
+        }
+      },
+      "name": "Restaurant Pfisterm\u00fchle",
+      "price_level": 3,
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 690,
+      "vicinity": "Pfisterstra\u00dfe 4, M\u00fcnchen",
+      "website": "https://www.pfistermuehle.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1341115,
+          "lng": 11.5671289
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13525073029149,
+            "lng": 11.5685931802915
+          },
+          "southwest": {
+            "lat": 48.13255276970849,
+            "lng": 11.5658952197085
+          }
+        }
+      },
+      "name": "Kennedy's Bar and Restaurant",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 7252,
+      "vicinity": "Sendlinger-Tor-Platz 11, M\u00fcnchen",
+      "website": "https://www.kennedysmunich.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1333402,
+          "lng": 11.5588918
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.13475203029149,
+            "lng": 11.5601645802915
+          },
+          "southwest": {
+            "lat": 48.1320540697085,
+            "lng": 11.5574666197085
+          }
+        }
+      },
+      "name": "Caf\u00e9 am Beethovenplatz",
+      "price_level": 2,
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 906,
+      "vicinity": "Goethestra\u00dfe 51, M\u00fcnchen",
+      "website": "https://www.mariandl.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1515598,
+          "lng": 11.5453604
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1528370802915,
+            "lng": 11.5467732802915
+          },
+          "southwest": {
+            "lat": 48.1501391197085,
+            "lng": 11.5440753197085
+          }
+        }
+      },
+      "name": "Bavaria Bowling - M\u00fcnchen",
+      "price_level": null,
+      "rating": 3.9,
+      "types": [
+        "bowling_alley",
+        "cafe",
+        "night_club",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 653,
+      "vicinity": "Lazarettstra\u00dfe 3, M\u00fcnchen",
+      "website": "http://www.bavaria-bowling.com/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1531677,
+          "lng": 11.4790411
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1544455302915,
+            "lng": 11.4803658802915
+          },
+          "southwest": {
+            "lat": 48.1517475697085,
+            "lng": 11.4776679197085
+          }
+        }
+      },
+      "name": "Vitalis Fitness-Sauna-Wellness",
+      "price_level": null,
+      "rating": 4.5,
+      "types": [
+        "gym",
+        "spa",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "user_ratings_total": 288,
+      "vicinity": "Peter-Anders-Stra\u00dfe 11-13, M\u00fcnchen",
+      "website": "http://www.vitalis-muenchen.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1551693,
+          "lng": 11.5840578
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1566432802915,
+            "lng": 11.5853852302915
+          },
+          "southwest": {
+            "lat": 48.1539453197085,
+            "lng": 11.5826872697085
+          }
+        }
+      },
+      "name": "L'Osteria",
+      "price_level": 2,
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5029,
+      "vicinity": "Leopoldstra\u00dfe 28a, M\u00fcnchen",
+      "website": "https://losteria.net/de/restaurants/restaurant/muenchen-leopoldstrasse/?utm_source=google&utm_medium=Yext"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.13686490000001,
+          "lng": 11.5752684
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1380288302915,
+            "lng": 11.5763939302915
+          },
+          "southwest": {
+            "lat": 48.13533086970851,
+            "lng": 11.5736959697085
+          }
+        }
+      },
+      "name": "Wildmosers Restaurant-Cafe am Marienplatz - M\u00fcnchen",
+      "price_level": 2,
+      "rating": 4.3,
+      "types": [
+        "cafe",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 860,
+      "vicinity": "Marienplatz 22, M\u00fcnchen",
+      "website": "https://wildmosers.de/"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 48.1381917,
+          "lng": 11.5740655
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1399732802915,
+            "lng": 11.5749924802915
+          },
+          "southwest": {
+            "lat": 48.1372753197085,
+            "lng": 11.5722945197085
+          }
+        }
+      },
+      "name": "Augustiner am Dom",
+      "price_level": 2,
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4593,
+      "vicinity": "Frauenplatz 8, M\u00fcnchen",
+      "website": "http://augustineramdom.de/"
+    }
+  ]
