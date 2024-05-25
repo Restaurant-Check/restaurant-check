@@ -50,15 +50,16 @@ class RestaurantVectorDB:
         with open(self.knowledge_base_path, "wb") as f:
             pickle.dump(self.knowledge_base, f)
 
-    def insert(self, data: str):
+    def insert(self, data: str, log=False):
         self.knowledge_base.append(data)
         emb = get_embedding(data, self._client)
         self._index.add(np.array([emb]))
-        print("Inserted: ", data)
+        if log:
+            print("Inserted: ", data)
 
-    def query(self, query: str):
+    def query(self, query: str, max_k=3):
         emb = get_embedding(query, self._client)
-        D, I = self._index.search(np.array([emb]), k = min(len(self.knowledge_base), 3))
+        D, I = self._index.search(np.array([emb]), k = min(len(self.knowledge_base), max_k))
         return [(self.knowledge_base[i], D[0][j]) for j, i in enumerate(I[0])]
 
     def get_index(self):
