@@ -18,3 +18,8 @@ requests
 PyMuPDF
 pytesseract
 pillow
+tesseract
+
+# TODO: installing this package might raise an error
+# maybe remove if not needed
+tesseract-ocr
