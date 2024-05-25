@@ -16,11 +16,13 @@ const BoxWrapper = styled.div<{ $searched: boolean }>`
 interface BoxProps {
     $searched: boolean;
     children: React.ReactNode;
+    style?: React.CSSProperties;
+    id?: string;
 }
 
 export const Box = (props: BoxProps) => {
     return (
-        <BoxWrapper $searched={props.$searched}>
+        <BoxWrapper $searched={props.$searched} style={props.style} id={props.id}>
             {props.children}
         </BoxWrapper>
     );

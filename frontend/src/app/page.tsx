@@ -23,7 +23,7 @@ const ContentContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     top: 168px;
-    flex-direction: column;;
+    flex-direction: column;
 `;
 
 export interface Restaurant {
