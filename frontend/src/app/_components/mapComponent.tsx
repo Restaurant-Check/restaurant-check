@@ -82,7 +82,11 @@ const ResetViewButton = ({bounds, boundOptions, props, scrolled}: ResetViewButto
 
     useEffect(() => {
         props.setLocateRestaurant(() => flyToRestaurant);
-    }, [scrolled]);
+    }, [scrolled, props]);
+
+    useEffect(() => {
+        handleResetView()
+    }, [props.restaurants]);
 
     return (
         <div style={{position: 'absolute', top: '455px', left: '10px', zIndex: 500}}>
@@ -98,6 +102,19 @@ const ResetViewButton = ({bounds, boundOptions, props, scrolled}: ResetViewButto
 };
 
 export const MapComponent = (props: MapProps) => {
+    if (props.restaurants.length === 0) {
+        return <Box
+            $searched={props.searched}
+            style={
+                {
+                    zIndex: props.searched ? 999 : -1,
+                    height: "542px",
+                    backgroundColor: '#242424',
+                }
+            }
+        ><></>
+        </Box>
+    }
     let bounds = new LatLngBounds(props.restaurants[0].coordinates, props.restaurants[0].coordinates);
     props.restaurants.forEach(restaurant => bounds.extend(restaurant.coordinates));
     const [scrolled, setScrolled] = React.useState(false);

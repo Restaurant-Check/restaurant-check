@@ -4,8 +4,8 @@ import {Searchbar} from "@/app/_components/searchbar";
 import {List} from "@/app/_components/list";
 import {styled, StyleSheetManager} from "styled-components";
 import React, {useState} from "react";
-import {SampleData} from "@/app/_sample_data";
 import dynamic from "next/dynamic";
+import {fetchRestaurants} from "@/app/api";
 
 const MapComponent = dynamic(
     () => import('@/app/_components/mapComponent').then(mod => mod.MapComponent),
@@ -31,27 +31,36 @@ export interface Restaurant {
     rating: number;
     distance: string;
     closingTime: string;
-    top3MenuItems: string[];
+    highlights: string[];
     coordinates: [number, number];
 }
 
 export default function Home() {
     const [searched, setSearched] = useState(false);
     const [hoveringOver, setHoveringOver] = useState(-1);
-    const [locateRestaurant, setLocateRestaurant] = useState<(index: number) => void>(() => (index: number) => {
+    const [locateRestaurant, setLocateRestaurant] = useState<(index: number) => void>(() => (_: number) => {
     });
+    const [restaurantsData, setRestaurantsData] = useState<Restaurant[]>([]);
+
+    const search = (query: string) => {
+        fetchRestaurants(query).then((restaurants) => {
+            console.log('Fetched restaurants:', restaurants);
+            setRestaurantsData(restaurants);
+        }).catch((error) => {
+            console.error('Error fetching restaurants:', error);
+        });
+    }
 
     return (
         <StyleSheetManager shouldForwardProp={(prop) => !['$searched'].includes(prop)}>
             <PageContainer>
                 <ContentContainer>
-                    <MapComponent searched={searched} restaurants={SampleData} hoveringOver={hoveringOver}
+                    <MapComponent searched={searched} restaurants={restaurantsData} hoveringOver={hoveringOver}
                                   setLocateRestaurant={setLocateRestaurant}/>
-                    <List searched={searched} restaurants={SampleData} setHoveringOver={setHoveringOver}
+                    <List searched={searched} restaurants={restaurantsData} setHoveringOver={setHoveringOver}
                           locateRestaurant={locateRestaurant}/>
                 </ContentContainer>
-                <Searchbar onSearch={(query) => {
-                }} setSearched={setSearched} searched={searched}/>
+                <Searchbar onSearch={search} setSearched={setSearched} searched={searched}/>
             </PageContainer>
         </StyleSheetManager>
     );
