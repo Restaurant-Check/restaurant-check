@@ -47,6 +47,9 @@ class BasicVectorDB:
         self.index.add(np.array([emb]))
 
     def query(self, query: str, max_k=3):
+        if len(self.knowledge_base) == 0:
+            return None
+
         query_emb = get_embedding(query, self.client)
         _, I = self.index.search(np.array([query_emb]), k=min(len(self.knowledge_base), max_k))
         return [self.knowledge_base[i] for _, i in enumerate(I[0])]
@@ -62,6 +65,9 @@ class BasicVectorDB:
 
     def set_knowledge_base(self, knowledge_base):
         self.knowledge_base = knowledge_base
+
+    def is_empty(self):
+        return len(self.knowledge_base) == 0
 
 
 class RestaurantVectorDB:
@@ -136,6 +142,9 @@ class RestaurantVectorDB:
             print("Inserted: ", data)
 
     def query(self, query: str, max_k=3) -> DatabaseQueryResult:
+        if self.restaurants_db.is_empty():
+            return DatabaseQueryResult(restaurants=[])
+
         database_query_result = DatabaseQueryResult(restaurants=[])
 
         restaurants = self.restaurants_db.query(query, max_k)
