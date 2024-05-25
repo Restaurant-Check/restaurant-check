@@ -3,6 +3,8 @@ import io
 import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
+from marker.convert import convert_single_pdf
+from marker.models import load_all_models
 
 
 def convert_image(path: str) -> str:
@@ -24,7 +26,8 @@ def convert_image(path: str) -> str:
 
     return text
 
-def convert_pdf(path: str, ocr: bool = True) -> str:
+
+def convert_pdf_old(path: str, ocr: bool = True) -> str:
     """
     Converts a PDF file to text.
 
@@ -66,7 +69,15 @@ def convert_pdf(path: str, ocr: bool = True) -> str:
     complete_text = complete_text.replace("\n", " ")
     print("Extracted text of length:", len(complete_text))
     print("\n\n--- START OF EXTRACTED TEXT ---\n" + complete_text)
-    
+
     doc.close()
-    
+
     return complete_text
+
+
+def convert_pdf(path: str) -> str:
+    model_lst = load_all_models()
+    full_text, _, _ = convert_single_pdf(
+        path, model_lst, langs=["English", "German", "Spanish"]
+    )
+    return full_text
