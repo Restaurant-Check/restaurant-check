@@ -62,7 +62,7 @@ const MenuItemsTable = ({menuItems}: { menuItems: string[] }) => {
                         <tr key={index}>
                             <td><Text>{index === 0 ? category : ''}</Text></td>
                             <td><Text>{name} </Text></td>
-                            <td><Text style={{marginLeft: '4px'}}> {price} €</Text></td>
+                            <td><Text style={{marginLeft: '4px'}}> {price}</Text></td>
                         </tr>
                     ))}
                 </React.Fragment>

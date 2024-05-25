@@ -6,7 +6,7 @@ import {styled} from "styled-components";
 import {Box} from "@/app/_components/box";
 import {Icon, LatLngBounds, Point} from "leaflet";
 import {Restaurant} from "@/app/page";
-import {Button} from "@mantine/core";
+import {Button, Skeleton} from "@mantine/core";
 
 interface MapProps {
     searched: boolean;
@@ -112,7 +112,7 @@ export const MapComponent = (props: MapProps) => {
                     backgroundColor: '#242424',
                 }
             }
-        ><></>
+        ><Skeleton height={500}/>
         </Box>
     }
     let bounds = new LatLngBounds(props.restaurants[0].coordinates, props.restaurants[0].coordinates);
