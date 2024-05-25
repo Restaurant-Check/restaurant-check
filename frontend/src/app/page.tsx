@@ -38,13 +38,17 @@ export interface Restaurant {
 export default function Home() {
     const [searched, setSearched] = useState(false);
     const [hoveringOver, setHoveringOver] = useState(-1);
+    const [locateRestaurant, setLocateRestaurant] = useState<(index: number) => void>(() => (index: number) => {
+    });
 
-    return ( // TODO: when scrolling, the map should stick to the top of the page and get a bit slimmer, also highlight the marker of the restaurant that is currently being hovered over
+    return (
         <StyleSheetManager shouldForwardProp={(prop) => !['$searched'].includes(prop)}>
             <PageContainer>
                 <ContentContainer>
-                    <MapComponent searched={searched} restaurants={SampleData} hoveringOver={hoveringOver}/>
-                    <List searched={searched} restaurants={SampleData} setHoveringOver={setHoveringOver}/>
+                    <MapComponent searched={searched} restaurants={SampleData} hoveringOver={hoveringOver}
+                                  setLocateRestaurant={setLocateRestaurant}/>
+                    <List searched={searched} restaurants={SampleData} setHoveringOver={setHoveringOver}
+                          locateRestaurant={locateRestaurant}/>
                 </ContentContainer>
                 <Searchbar onSearch={(query) => {
                 }} setSearched={setSearched} searched={searched}/>

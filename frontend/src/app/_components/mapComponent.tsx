@@ -1,7 +1,7 @@
 "use client";
 
 import {MapContainer, TileLayer, Marker, Popup, useMap} from 'react-leaflet';
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import {styled} from "styled-components";
 import {Box} from "@/app/_components/box";
 import {Icon, LatLngBounds, Point} from "leaflet";
@@ -12,6 +12,7 @@ interface MapProps {
     searched: boolean;
     restaurants: Restaurant[];
     hoveringOver: number;
+    setLocateRestaurant: React.Dispatch<React.SetStateAction<(index: number) => void>>;
 }
 
 interface ResetViewButtonProps {
@@ -21,6 +22,7 @@ interface ResetViewButtonProps {
         paddingBottomRight: Point;
     };
     props: MapProps;
+    scrolled: boolean;
 }
 
 const customMarkerIcon = new Icon({
@@ -62,25 +64,25 @@ const InvisibleBox = styled.div`
     visibility: hidden;
 `;
 
-const ResetViewButton = ({bounds, boundOptions, props}: ResetViewButtonProps) => {
+const ResetViewButton = ({bounds, boundOptions, props, scrolled}: ResetViewButtonProps) => {
     const map = useMap();
 
     const handleResetView = () => {
         map.flyToBounds(bounds, boundOptions);
     };
 
-    React.useEffect(() => {
-        if (props.hoveringOver !== -1) {
-            const restaurant = props.restaurants[props.hoveringOver];
-            const coordinates = {
-                lat: restaurant.coordinates[0],
-                lng: restaurant.coordinates[1]
-            };
-            map.flyToBounds(new LatLngBounds(coordinates, coordinates), {...boundOptions, maxZoom: 13});
-        } else {
-            map.flyToBounds(bounds, boundOptions);
-        }
-    }, [props.hoveringOver]);
+    const flyToRestaurant = (index: number) => {
+        const restaurant = props.restaurants[index];
+        const coordinates = {
+            lat: restaurant.coordinates[0],
+            lng: restaurant.coordinates[1]
+        };
+        map.flyToBounds(new LatLngBounds(coordinates, coordinates), {...boundOptions, maxZoom: 13});
+    };
+
+    useEffect(() => {
+        props.setLocateRestaurant(() => flyToRestaurant);
+    }, [scrolled]);
 
     return (
         <div style={{position: 'absolute', top: '455px', left: '10px', zIndex: 500}}>
@@ -165,7 +167,7 @@ export const MapComponent = (props: MapProps) => {
                                 </Popup>
                             </Marker>
                         ))}
-                        <ResetViewButton bounds={bounds} boundOptions={boundOptions} props={props}/>
+                        <ResetViewButton bounds={bounds} boundOptions={boundOptions} props={props} scrolled={scrolled}/>
                     </Map>
                 </MapWrapper>
             </Box>

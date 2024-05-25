@@ -1,7 +1,7 @@
 import {Box} from "@/app/_components/box";
 import React from 'react';
 import {Paper, Text, Button, Rating, Tooltip} from '@mantine/core';
-import {IconClock} from '@tabler/icons-react';
+import {IconClock, IconMap} from '@tabler/icons-react';
 import {styled} from "styled-components";
 import {Restaurant} from "@/app/page";
 
@@ -9,6 +9,7 @@ interface ListProps {
     searched: boolean;
     restaurants: Restaurant[];
     setHoveringOver: (hoveringOver: number) => void;
+    locateRestaurant: (index: number) => void;
 }
 
 interface ButtonProps {
@@ -121,13 +122,30 @@ export const List = (props: ListProps) => {
                                     <Rating value={restaurant.rating} fractions={10} readOnly
                                             style={{marginLeft: '28px'}}/>
                                 </div>
-                                <div style={{display: 'flex', alignItems: 'center'}}>
-                                    <Text size="md">Closes at {restaurant.closingTime}</Text>
-                                    <Tooltip label={timeLeft[index]} withArrow color={"blue"}
-                                             transitionProps={{transition: 'pop', duration: 300}}>
-                                        <IconClock style={{marginLeft: "4px", marginRight: "8px"}}/>
-                                    </Tooltip>
-                                </div>
+                                <Paper style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-end',
+                                    flexDirection: 'column',
+                                    justifyContent: 'space-between',
+                                    height: '100%',
+                                }}>
+                                    <div style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                    }}>
+                                        <Text size="md">Closes at {restaurant.closingTime}</Text>
+                                        <Tooltip label={timeLeft[index]} withArrow color={"blue"}
+                                                 transitionProps={{transition: 'pop', duration: 300}}>
+                                            <IconClock style={{marginLeft: "4px", marginRight: "8px"}}/>
+                                        </Tooltip>
+                                    </div>
+                                    <Button variant="light" size="xs" radius="lg"
+                                            style={{marginTop: 'auto', marginBottom: '4px'}}
+                                            onClick={() => props.locateRestaurant(index)}
+                                    >
+                                        <IconMap/>
+                                    </Button>
+                                </Paper>
                             </div>
                             <Divider/>
                             <MenuItemsTable menuItems={restaurant.top3MenuItems}/>
