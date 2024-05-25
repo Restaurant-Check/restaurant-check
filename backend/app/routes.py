@@ -160,6 +160,7 @@ def get_menu(website_url=''):
     
     # The result is then passed to the menu_to_json.py script
     # The result is a json with the structured menu
+    print(f"Menu text\n\n\n: {menu_text}\n\n\n")
     menu_json = process_menu_text(menu_text)
     
     #Check if menu_json is None

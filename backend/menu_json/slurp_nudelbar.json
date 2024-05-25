@@ -1,0 +1,130 @@
+{
+    "menu": [
+        {
+            "category": "LUNCH MENU",
+            "items": [
+                {
+                    "description": "ROASTED ALMONDS",
+                    "name": "BROCCOLI-COCONUT-CREAM SOUP (VG) A.C.",
+                    "price": "7,80"
+                },
+                {
+                    "description": "WHEAT TORTILLA | GUACAMOLE | BELL PEPPER | SWEET CORN | KIDNEY BEANS | PEAS | LEEK JALAPENOS | SRIRACHA | CORIANDER",
+                    "name": "MEXICAN WRAP (VG) A.C.G",
+                    "price": "14,90"
+                },
+                {
+                    "description": "BIG SEASONAL SALAD | TUNA | RED ONIONS | BOILED ORGANIC EGG | OLIVES | CAPERS BALSAMIC DRESSING",
+                    "name": "SALAD WITH TUNA A.C.G",
+                    "price": "15,40"
+                },
+                {
+                    "description": "ASPARAGUS | CHERRY TOMATOES | SPRING ONIONS | TRUFFLE SAUCE",
+                    "name": "FRESH LINGUINE (V) A.C.G",
+                    "price": "16,50"
+                },
+                {
+                    "description": "ROASTED POTATOE DUMPLINGS | PLUM SAUCE",
+                    "name": "GRILLED TENDER PORK LOIN A.C.G.",
+                    "price": "17,20"
+                },
+                {
+                    "description": "FRESH VEGETABLES | BASMATI RICE | CORIANDER",
+                    "name": "TERIYAKI VEGETABLES (VG) I.F.M",
+                    "price": "12,80"
+                },
+                {
+                    "description": "APPLE STRUDEL (V) | VANILLA ICE CREAM | WHIPPED CREAM",
+                    "name": "DESSERT",
+                    "price": "8,50"
+                }
+            ]
+        },
+        {
+            "category": "EVENING- & WEEKENDMENU",
+            "items": [
+                {
+                    "description": "ROSTED CASHEWS",
+                    "name": "SPINACH-PEAS-COCONUT SOUP (VG) A.C.",
+                    "price": "7,80"
+                },
+                {
+                    "description": "QUINOA | ARUGOLA | GRILLED CHEESE | CHERRY TOMATOES | SPRING ONIONS | BELL PEPPER CUCUMBER | OLIVES | EDAMAME | GOJIBERRIES | HEMP SEEDS | BALSAMIC DRESSING",
+                    "name": "HALLOUMI BOWL (V) A.C.G",
+                    "price": "17,20"
+                },
+                {
+                    "description": "ASPARAGUS | SPRING ONIONS | CHERRY TOMATOES | ARUGOLA | PARMESAN",
+                    "name": "SAFFRON RISOTTO (V) A,C,G,N,A1",
+                    "price": "17,50"
+                },
+                {
+                    "description": "JUICY BREADED CHICKEN BREAST | CHEDDAR CHEESE | GUACAMOLE | JALAPENOS | ICEBERG LETTUCE | TOMATOES | RED ONIONS | WHEAT BRIOCHE BUN | BURGER SAUCE",
+                    "name": "MEXICAN CRISPY CHICKEN BURGER A.C.G",
+                    "price": "17,80"
+                },
+                {
+                    "description": "PEAR-WALNUT-GORGONZOLA SAUCE | BABY SPINACH | PARMESAN",
+                    "name": "FRESH PAPPARDELLE (V) A.C.G.",
+                    "price": "17,50"
+                },
+                {
+                    "description": "TRADITIONAL SPINACH NOODLES | CREAMY MUSHROOM SAUCE | ROASTED ONIONS",
+                    "name": "GRILLED PORK TENDERLOIN A.C.G.",
+                    "price": "20,90"
+                },
+                {
+                    "description": "FRESH VEGETABLES ASIA STYLE | BASMATI RICE | CORIANDER",
+                    "name": "FISCH CURRY A,C,G,N,A1",
+                    "price": "21,90"
+                },
+                {
+                    "description": "HOMEMADE RHUBARB COMPOTE (V) | MASCARPONE CREAM",
+                    "name": "DESSERT",
+                    "price": "8,50"
+                }
+            ]
+        },
+        {
+            "category": "MITTAGSKARTE",
+            "items": [
+                {
+                    "description": "GERÖSTETE MANDELN",
+                    "name": "BROKKOLI-KOKOS-CREMESUPPE (VG) A.C.",
+                    "price": "7,80"
+                },
+                {
+                    "description": "WEIZEN TORTILLA | GUACAMOLE | PAPRIKA | MAIS | KIDNEY BOHNEN | ERBSEN | LAUCH JALAPENOS | SRIRACHA | KORIANDER",
+                    "name": "MEXICAN WRAP (VG) A.C.G",
+                    "price": "14,90"
+                },
+                {
+                    "description": "GROSSER FRÜHLINGSSALAT | THUNFISCH | ROTE ZWIEBELN | GEKOCHTES BIO EI OLIVEN | KAPERN | BALSAMICO DRESSING",
+                    "name": "SALAT AL TONNO A.C.G",
+                    "price": "15,40"
+                },
+                {
+                    "description": "SPARGEL | KIRSCHTOMATEN | LAUCHZWIEBELN | TRÜFFELSAUCE",
+                    "name": "FRISCHE LINGUINE (V) A.C.G",
+                    "price": "16,50"
+                },
+                {
+                    "description": "GEBRATENE KARTOFFELKNÖDEL | PFLAUMENSAUCE",
+                    "name": "GEGRILLTE SCHWEINELENDE A.C.G.",
+                    "price": "17,20"
+                },
+                {
+                    "description": "FRISCHES GEMÜSE | BASMATIREIS | KORIANDER",
+                    "name": "TERIYAKI GEMÜSE (VG) I.F.M",
+                    "price": "12,80"
+                },
+                {
+                    "description": "APFELSTRUDEL (V) | VANILLEEIS | SAHNE",
+                    "name": "DESSERT",
+                    "price": "8,50"
+                }
+            ]
+        }
+    ],
+    "restaurant_name": "Name not found"
+}
