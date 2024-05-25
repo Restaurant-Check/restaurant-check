@@ -1,0 +1,153 @@
+{
+  "restaurant_name": "Aetna Ristorante",
+  "menu": [
+    {
+      "category": "Soups",
+      "items": [
+        {
+          "name": "Zuppa di Pomodoro",
+          "description": "Tomato cream soup",
+          "price": "7.50"
+        },
+        {
+          "name": "Minestrone",
+          "description": "Vegetable soup",
+          "price": "7.50"
+        },
+        {
+          "name": "Zuppa di Pesce",
+          "description": "Seafood soup with crostini",
+          "price": "12.50"
+        }
+      ]
+    },
+    {
+      "category": "Starters",
+      "items": [
+        {
+          "name": "Antipasto Frutti di Mare",
+          "description": "Seafood salad",
+          "price": "15.00"
+        },
+        {
+          "name": "Mozzarella Caprese",
+          "description": "Mozzarella with tomatoes and basil",
+          "price": "10.50"
+        },
+        {
+          "name": "Carpaccio di Salmone",
+          "description": "Salmon carpaccio with arugula and pink peppercorns",
+          "price": "14.50"
+        }
+      ]
+    },
+    {
+      "category": "Salads",
+      "items": [
+        {
+          "name": "Insalata Fagioli",
+          "description": "Bean salad with tuna and onions",
+          "price": "11.50"
+        },
+        {
+          "name": "Insalata di Pomodoro",
+          "description": "Tomato salad with onions",
+          "price": "8.50"
+        },
+        {
+          "name": "Insalata di Cetrioli",
+          "description": "Cucumber salad",
+          "price": "7.00"
+        }
+      ]
+    },
+    {
+      "category": "Pasta",
+      "items": [
+        {
+          "name": "Spaghetti alla Bolognese",
+          "description": "Spaghetti with fresh minced meat sauce",
+          "price": "11.50"
+        },
+        {
+          "name": "Spaghetti Carbonara",
+          "description": "Spaghetti with egg, bacon, and cream",
+          "price": "11.50"
+        },
+        {
+          "name": "Spaghetti Frutti di Mare",
+          "description": "Spaghetti with seafood, white wine, garlic, and tomato sauce",
+          "price": "15.50"
+        }
+      ]
+    },
+    {
+      "category": "Meat Dishes",
+      "items": [
+        {
+          "name": "Cotoletta alla Primavera",
+          "description": "Breaded turkey cutlet with arugula, tomatoes, and garlic",
+          "price": "23.50"
+        },
+        {
+          "name": "Tagliata alla griglia",
+          "description": "Sliced grilled beef tenderloin on arugula with shaved Parmesan",
+          "price": "26.50"
+        },
+        {
+          "name": "Saltimbocca alla Romana",
+          "description": "With Parma ham and sage in white wine sauce",
+          "price": "24.50"
+        }
+      ]
+    },
+    {
+      "category": "Fish Dishes",
+      "items": [
+        {
+          "name": "Calamari alla Griglia",
+          "description": "Grilled squid",
+          "price": "21.50"
+        },
+        {
+          "name": "Salmone alla Griglia",
+          "description": "Grilled salmon",
+          "price": "25.50"
+        },
+        {
+          "name": "Gamberoni alla Griglia",
+          "description": "Grilled prawns",
+          "price": "24.50"
+        }
+      ]
+    },
+    {
+      "category": "Pizza",
+      "items": [
+        {
+          "name": "Margherita",
+          "description": "Tomato sauce, cheese",
+          "price": "9.50"
+        },
+        { "name": "Funghi", "description": "Mushrooms", "price": "11.00" },
+        { "name": "Salami", "description": "Salami", "price": "11.00" }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        { "name": "Tiramisú", "description": "Tiramisu", "price": "7.90" },
+        {
+          "name": "Panna Cotta",
+          "description": "Panna cotta",
+          "price": "7.90"
+        },
+        {
+          "name": "Dessert misto",
+          "description": "Mixed dessert",
+          "price": "16.50"
+        }
+      ]
+    }
+  ]
+}
