@@ -1,0 +1,817 @@
+[
+  {
+    "menu": [
+      {
+        "category": "LUNCH MENU",
+        "items": [
+          {
+            "description": "ROASTED ALMONDS",
+            "name": "BROCCOLI-COCONUT-CREAM SOUP (VG) A.C.",
+            "price": "7,80"
+          },
+          {
+            "description": "WHEAT TORTILLA | GUACAMOLE | BELL PEPPER | SWEET CORN | KIDNEY BEANS | PEAS | LEEK JALAPENOS | SRIRACHA | CORIANDER",
+            "name": "MEXICAN WRAP (VG) A.C.G",
+            "price": "14,90"
+          },
+          {
+            "description": "BIG SEASONAL SALAD | TUNA | RED ONIONS | BOILED ORGANIC EGG | OLIVES | CAPERS BALSAMIC DRESSING",
+            "name": "SALAD WITH TUNA A.C.G",
+            "price": "15,40"
+          },
+          {
+            "description": "ASPARAGUS | CHERRY TOMATOES | SPRING ONIONS | TRUFFLE SAUCE",
+            "name": "FRESH LINGUINE (V) A.C.G",
+            "price": "16,50"
+          },
+          {
+            "description": "ROASTED POTATOE DUMPLINGS | PLUM SAUCE",
+            "name": "GRILLED TENDER PORK LOIN A.C.G.",
+            "price": "17,20"
+          },
+          {
+            "description": "FRESH VEGETABLES | BASMATI RICE | CORIANDER",
+            "name": "TERIYAKI VEGETABLES (VG) I.F.M",
+            "price": "12,80"
+          },
+          {
+            "description": "APPLE STRUDEL (V) | VANILLA ICE CREAM | WHIPPED CREAM",
+            "name": "DESSERT",
+            "price": "8,50"
+          }
+        ]
+      },
+      {
+        "category": "EVENING- & WEEKENDMENU",
+        "items": [
+          {
+            "description": "ROSTED CASHEWS",
+            "name": "SPINACH-PEAS-COCONUT SOUP (VG) A.C.",
+            "price": "7,80"
+          },
+          {
+            "description": "QUINOA | ARUGOLA | GRILLED CHEESE | CHERRY TOMATOES | SPRING ONIONS | BELL PEPPER CUCUMBER | OLIVES | EDAMAME | GOJIBERRIES | HEMP SEEDS | BALSAMIC DRESSING",
+            "name": "HALLOUMI BOWL (V) A.C.G",
+            "price": "17,20"
+          },
+          {
+            "description": "ASPARAGUS | SPRING ONIONS | CHERRY TOMATOES | ARUGOLA | PARMESAN",
+            "name": "SAFFRON RISOTTO (V) A,C,G,N,A1",
+            "price": "17,50"
+          },
+          {
+            "description": "JUICY BREADED CHICKEN BREAST | CHEDDAR CHEESE | GUACAMOLE | JALAPENOS | ICEBERG LETTUCE | TOMATOES | RED ONIONS | WHEAT BRIOCHE BUN | BURGER SAUCE",
+            "name": "MEXICAN CRISPY CHICKEN BURGER A.C.G",
+            "price": "17,80"
+          },
+          {
+            "description": "PEAR-WALNUT-GORGONZOLA SAUCE | BABY SPINACH | PARMESAN",
+            "name": "FRESH PAPPARDELLE (V) A.C.G.",
+            "price": "17,50"
+          },
+          {
+            "description": "TRADITIONAL SPINACH NOODLES | CREAMY MUSHROOM SAUCE | ROASTED ONIONS",
+            "name": "GRILLED PORK TENDERLOIN A.C.G.",
+            "price": "20,90"
+          },
+          {
+            "description": "FRESH VEGETABLES ASIA STYLE | BASMATI RICE | CORIANDER",
+            "name": "FISCH CURRY A,C,G,N,A1",
+            "price": "21,90"
+          },
+          {
+            "description": "HOMEMADE RHUBARB COMPOTE (V) | MASCARPONE CREAM",
+            "name": "DESSERT",
+            "price": "8,50"
+          }
+        ]
+      },
+      {
+        "category": "MITTAGSKARTE",
+        "items": [
+          {
+            "description": "GER\u00d6STETE MANDELN",
+            "name": "BROKKOLI-KOKOS-CREMESUPPE (VG) A.C.",
+            "price": "7,80"
+          },
+          {
+            "description": "WEIZEN TORTILLA | GUACAMOLE | PAPRIKA | MAIS | KIDNEY BOHNEN | ERBSEN | LAUCH JALAPENOS | SRIRACHA | KORIANDER",
+            "name": "MEXICAN WRAP (VG) A.C.G",
+            "price": "14,90"
+          },
+          {
+            "description": "GROSSER FR\u00dcHLINGSSALAT | THUNFISCH | ROTE ZWIEBELN | GEKOCHTES BIO EI OLIVEN | KAPERN | BALSAMICO DRESSING",
+            "name": "SALAT AL TONNO A.C.G",
+            "price": "15,40"
+          },
+          {
+            "description": "SPARGEL | KIRSCHTOMATEN | LAUCHZWIEBELN | TR\u00dcFFELSAUCE",
+            "name": "FRISCHE LINGUINE (V) A.C.G",
+            "price": "16,50"
+          },
+          {
+            "description": "GEBRATENE KARTOFFELKN\u00d6DEL | PFLAUMENSAUCE",
+            "name": "GEGRILLTE SCHWEINELENDE A.C.G.",
+            "price": "17,20"
+          },
+          {
+            "description": "FRISCHES GEM\u00dcSE | BASMATIREIS | KORIANDER",
+            "name": "TERIYAKI GEM\u00dcSE (VG) I.F.M",
+            "price": "12,80"
+          },
+          {
+            "description": "APFELSTRUDEL (V) | VANILLEEIS | SAHNE",
+            "name": "DESSERT",
+            "price": "8,50"
+          }
+        ]
+      }
+    ],
+    "restaurant_name": "Slurp Nudelbar"
+  },
+  {
+    "menu": [
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "description": "Regular coffee",
+            "name": "Tasse Ka\u01d7ee",
+            "price": "2,90\u20ac"
+          },
+          {
+            "description": "Large coffee",
+            "name": "Tasse Ka\u01d7ee Grande",
+            "price": "3,50\u20ac"
+          },
+          {
+            "description": "Regular decaffeinated coffee",
+            "name": "Tasse Ka\u01d7ee (decaffeinated)",
+            "price": "3,20\u20ac"
+          },
+          {
+            "description": "Large decaffeinated coffee",
+            "name": "Tasse Ka\u01d7ee Grande (decaffeinated)",
+            "price": "4,20\u20ac"
+          },
+          {
+            "description": "Single shot of espresso",
+            "name": "Espresso",
+            "price": "2,50\u20ac"
+          },
+          {
+            "description": "Double shot of espresso",
+            "name": "Espresso Doppio",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Espresso with a dash of milk foam",
+            "name": "Espresso Macchiato",
+            "price": "2,90\u20ac"
+          },
+          {
+            "description": "Latte with a shot of espresso",
+            "name": "Latte Macchiato 8g",
+            "price": "3,50\u20ac"
+          },
+          {
+            "description": "Cappuccino with frothy milk",
+            "name": "Cappuccino 8g",
+            "price": "3,40\u20ac"
+          },
+          {
+            "description": "Large cappuccino with frothy milk",
+            "name": "Cappuccino Grande 8g",
+            "price": "4,00\u20ac"
+          },
+          {
+            "description": "Hot chocolate, optionally with whipped cream",
+            "name": "Hei\u00dfe Schokolade",
+            "price": "4,00\u20ac"
+          },
+          {
+            "description": "Chai tea latte",
+            "name": "Chai Latte",
+            "price": "4,50\u20ac"
+          },
+          {
+            "description": "Cup of tea",
+            "name": "Tasse Tee",
+            "price": "2,70\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Beers",
+        "items": [
+          {
+            "description": "Paulaner Lager Beer",
+            "name": "Paulaner Hell 0.50l",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Paulaner Wheat Beer",
+            "name": "Paulaner Wei\u00dfbier 0.50l",
+            "price": "4,10\u20ac"
+          },
+          {
+            "description": "Paulaner Pilsner",
+            "name": "Paulaner Pils 0.33l",
+            "price": "3,40\u20ac"
+          },
+          {
+            "description": "Non-alcoholic Paulaner Lager",
+            "name": "Paulaner Hell Alkoholfrei 0.33l",
+            "price": "3,40\u20ac"
+          },
+          {
+            "description": "Beer mixed with lemonade",
+            "name": "Radler 0.50l",
+            "price": "4,00\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Wines",
+        "items": [
+          {
+            "description": "Beer with Lugana wine",
+            "name": "Bier m Lugana 0.10l",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Beer with Gavi wine",
+            "name": "Bier m Gavi 0.10l",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Beer with Chianti wine",
+            "name": "Bier m Chianti 0.10l",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Beer with Necroamaro wine",
+            "name": "Bier m Necroamaro 0.10l",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Beer with Santa Cristina Rose wine",
+            "name": "Bier m Santa Cristina Rose 0.10l",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Hugo wine",
+            "name": "Wein Hugo 0.20l",
+            "price": "6,50\u20ac"
+          },
+          {
+            "description": "Red touch wine",
+            "name": "Tocco Rosso 0.20l",
+            "price": "6,50\u20ac"
+          },
+          {
+            "description": "Aperol Spritz",
+            "name": "Aperol Spritz 0.20l",
+            "price": "6,50\u20ac"
+          },
+          {
+            "description": "Veneto Spritz",
+            "name": "Veneto Spritz 0.20l",
+            "price": "6,50\u20ac"
+          },
+          {
+            "description": "Campari with orange juice",
+            "name": "Campari Orange 0.20l",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Aperol with orange juice",
+            "name": "Aperol Orange 0.20l",
+            "price": "5,90\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Longdrinks",
+        "items": [
+          {
+            "description": "Martini Bianco",
+            "name": "Martini Bianco 2cl",
+            "price": "3,80\u20ac"
+          },
+          {
+            "description": "Martini Extra Dry",
+            "name": "Martini Extra Dry 2cl",
+            "price": "3,80\u20ac"
+          },
+          {
+            "description": "Amaretto",
+            "name": "Amaretto 2cl",
+            "price": "3,80\u20ac"
+          },
+          {
+            "description": "Sambuca",
+            "name": "Sambuca 2cl",
+            "price": "3,80\u20ac"
+          },
+          {
+            "description": "Ramazotti",
+            "name": "Ramazotti 2cl",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Averna",
+            "name": "Averna 2cl",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Vodka",
+            "name": "Wodka 2cl",
+            "price": "3,90\u20ac"
+          },
+          {
+            "description": "Jim Beam or Jack Daniels",
+            "name": "Jim Beam or Jack Daniels 2cl",
+            "price": "4,50\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Frozen Drinks",
+        "items": [
+          {
+            "description": "Iced coffee with vanilla ice cream and whipped cream",
+            "name": "Eiska\u01d7ee",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Iced chocolate with vanilla ice cream and whipped cream",
+            "name": "Eisschokolade",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Frozen white chocolate with vanilla ice cream and whipped cream",
+            "name": "Frozen White Chocolate",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Vanilla milkshake",
+            "name": "Vanille Shake",
+            "price": "4,90\u20ac"
+          },
+          {
+            "description": "Strawberry milkshake",
+            "name": "Erdbeer Shake",
+            "price": "4,90\u20ac"
+          },
+          {
+            "description": "Chocolate milkshake",
+            "name": "Schokoladen Shake",
+            "price": "4,90\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Ice Treats",
+        "items": [
+          {
+            "description": "Vanilla ice cream with hot raspberries",
+            "name": "Hei\u00dfe Liebe",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Chocolate ice cream with chocolate sauce and whipped cream",
+            "name": "Schokoladentraum",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Strawberry ice cream with whipped cream and strawberry sauce",
+            "name": "Erdbeertraum",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "One scoop of ice cream",
+            "name": "Ein Kugel Eis",
+            "price": "1,50\u20ac"
+          },
+          {
+            "description": "Mixed ice cream with 3 scoops and whipped cream",
+            "name": "Gemischtes Eis mit 3 Kugeln und Sahne",
+            "price": "4,90\u20ac"
+          },
+          {
+            "description": "Fruit cup with 3 scoops of ice cream, fresh fruit pieces, and whipped cream",
+            "name": "Fr\u00fcchte-Becher Vita",
+            "price": "6,90\u20ac"
+          },
+          {
+            "description": "Banana split with vanilla ice cream, whipped cream, chocolate sauce, and a fresh banana",
+            "name": "Bananen Splitt",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Children's cup with ice cream",
+            "name": "Kinderbecher Pinocchino",
+            "price": "3,90\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "description": "Steamed dumplings filled with minced meat and onions, topped with lentil sauce and quark",
+            "name": "Mantu",
+            "price": "9,90\u20ac for 5 pieces, 13,90\u20ac for 8 pieces"
+          },
+          {
+            "description": "Pastry filled with minced meat and onions",
+            "name": "Sambosa",
+            "price": "11,90\u20ac"
+          },
+          {
+            "description": "Pastry filled with potatoes and onions",
+            "name": "Sambosa vegetarian",
+            "price": "11,90\u20ac"
+          },
+          {
+            "description": "Handmade noodles in soup with chickpeas, kidney beans, herbed quark, and a drizzle of pumpkin seed oil",
+            "name": "Suppe (Aash)",
+            "price": "10,90\u20ac"
+          },
+          {
+            "description": "Afghan lentil soup",
+            "name": "Suppe (Dal)",
+            "price": "8,90\u20ac"
+          },
+          {
+            "description": "Leek-filled dumplings served on herbed quark",
+            "name": "Ashak",
+            "price": "9,90\u20ac for 5 pieces, 13,90\u20ac for 8 pieces"
+          },
+          {
+            "description": "Pan-fried pumpkin with garlic and ginger in tomato sauce on yogurt-mint and bread",
+            "name": "Borani Kado",
+            "price": "11,90\u20ac"
+          },
+          {
+            "description": "Mixed salad with arugula, tomatoes, cucumbers, and olives",
+            "name": "Pivasta Salat",
+            "price": "7,90\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Main Course",
+        "items": [
+          {
+            "description": "Rice with braised veal shoulder, carrots, and raisins, with Borani Badenjan",
+            "name": "Qabuli-Palau",
+            "price": "15,90\u20ac"
+          },
+          {
+            "description": "Afghan-style meatballs with rice",
+            "name": "Kofta-Chalau",
+            "price": "13,90\u20ac"
+          },
+          {
+            "description": "Pickled and fried eggplant with tomato sauce, garlic, quark, and rice",
+            "name": "Borani Badenjan-Chalau",
+            "price": "13,90\u20ac"
+          },
+          {
+            "description": "Afghan-style lentils with rice",
+            "name": "Dal-Chalau",
+            "price": "12,90\u20ac"
+          },
+          {
+            "description": "Grilled chicken breast, tomatoes, and bell peppers with Afghan rice and coriander dip",
+            "name": "Chicken Tekka Kabab-Chalau",
+            "price": "14,90\u20ac"
+          },
+          {
+            "description": "Grilled lamb, tomatoes, and bell peppers with Afghan rice and coriander dip",
+            "name": "Lamm Tekka Kabab-Chalau",
+            "price": "19,90\u20ac"
+          },
+          {
+            "description": "Spicy minced lamb skewers with Afghan rice and okra",
+            "name": "Gegrillte gehackte Lammspie\u00df-Chalau",
+            "price": "18,90\u20ac"
+          },
+          {
+            "description": "Rice dish with chicken or vegetarian, vegetables, cashews, and peanuts",
+            "name": "Biryani",
+            "price": "12,90\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Pizza",
+        "items": [
+          {
+            "description": "Pizza with tomato sauce, mozzarella, and fresh basil",
+            "name": "Margherita",
+            "price": "8,50\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce, mozzarella, and fresh mushrooms",
+            "name": "Funghi",
+            "price": "10,50\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce, mozzarella, and salami",
+            "name": "Salami",
+            "price": "10,50\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce, mozzarella, garlic sausage, jalapenos, and onions",
+            "name": "Sucuk",
+            "price": "11,90\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce, mozzarella, tuna, and onions",
+            "name": "Tonno",
+            "price": "12,50\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce, mozzarella, and fresh vegetables",
+            "name": "Vegetariana",
+            "price": "12,50\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce and four different cheeses",
+            "name": "Quattro Formaggi",
+            "price": "12,50\u20ac"
+          },
+          {
+            "description": "Pizza with tomato sauce, mozzarella, and ham",
+            "name": "Prosciutto",
+            "price": "10,50\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Burgers",
+        "items": [
+          {
+            "description": "Beef burger with fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+            "name": "Hamburger",
+            "price": "9,90\u20ac"
+          },
+          {
+            "description": "Beef burger with cheese, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+            "name": "Cheeseburger",
+            "price": "10,90\u20ac"
+          },
+          {
+            "description": "Beef burger with jalapenos, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+            "name": "Mexican Burger",
+            "price": "10,90\u20ac"
+          },
+          {
+            "description": "Vegetarian burger with mozzarella, arugula, fresh tomatoes, pickles, and mayonnaise",
+            "name": "Veggie Burger",
+            "price": "11,90\u20ac"
+          },
+          {
+            "description": "Beef burger with bacon, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
+            "name": "Bacon Burger",
+            "price": "11,90\u20ac"
+          },
+          {
+            "description": "Chicken burger with fresh tomatoes, lettuce, and mayonnaise",
+            "name": "Chicken Burger",
+            "price": "10,90\u20ac"
+          },
+          {
+            "description": "French fries",
+            "name": "Pommes",
+            "price": "3,50\u20ac"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "description": "Afghan milk pudding with pistachios",
+            "name": "Firni",
+            "price": "5,90\u20ac"
+          },
+          {
+            "description": "Pistachio cr\u00e8me with white chocolate cr\u00e8me",
+            "name": "Pistazien Cr\u00e8me",
+            "price": "7,50\u20ac"
+          },
+          {
+            "description": "Panna cotta with marinated wild berries",
+            "name": "Panna Cotta",
+            "price": "6,90\u20ac"
+          },
+          {
+            "description": "Piece of cake",
+            "name": "St\u00fcck Kuchen",
+            "price": "3,90\u20ac"
+          }
+        ]
+      }
+    ],
+    "restaurant_name": "Afghan"
+  },
+  {
+    "menu": [
+      {
+        "category": "Entradas",
+        "items": [
+          {
+            "description": "Pan tostado con tomate, ajo y albahaca",
+            "name": "Bruschetta",
+            "price": "$5.00"
+          },
+          {
+            "description": "Calamares frescos rebozados y fritos",
+            "name": "Calamares Fritos",
+            "price": "$8.00"
+          }
+        ]
+      },
+      {
+        "category": "Platos Principales",
+        "items": [
+          {
+            "description": "Lasagna de carne con salsa de tomate y queso",
+            "name": "Lasagna",
+            "price": "$12.00"
+          },
+          {
+            "description": "Pechuga de pollo empanizada con salsa de tomate y queso parmesano",
+            "name": "Pollo Parmesano",
+            "price": "$15.00"
+          }
+        ]
+      },
+      {
+        "category": "Postres",
+        "items": [
+          {
+            "description": "Postre italiano con caf\u00e9, mascarpone y cacao",
+            "name": "Tiramis\u00fa",
+            "price": "$6.00"
+          },
+          {
+            "description": "Helado italiano de diferentes sabores",
+            "name": "Gelato",
+            "price": "$4.00"
+          }
+        ]
+      },
+      {
+        "category": "Bebidas",
+        "items": [
+          {
+            "description": "Caf\u00e9 reci\u00e9n hecho",
+            "name": "Caf\u00e9",
+            "price": "$2.00"
+          },
+          {
+            "description": "Copa de vino tinto",
+            "name": "Vino Tinto",
+            "price": "$7.00"
+          }
+        ]
+      }
+    ],
+    "restaurant_name": "Pasto Munich"
+  },
+  {
+    "menu": [
+      {
+        "category": "LUNCH MENU",
+        "items": [
+          {
+            "description": "ROASTED ALMONDS",
+            "name": "BROCCOLI-COCONUT-CREAM SOUP (VG) A.C.",
+            "price": "7,80"
+          },
+          {
+            "description": "WHEAT TORTILLA | GUACAMOLE | BELL PEPPER | SWEET CORN | KIDNEY BEANS | PEAS | LEEK JALAPENOS | SRIRACHA | CORIANDER",
+            "name": "MEXICAN WRAP (VG) A.C.G",
+            "price": "14,90"
+          },
+          {
+            "description": "BIG SEASONAL SALAD | TUNA | RED ONIONS | BOILED ORGANIC EGG | OLIVES | CAPERS BALSAMIC DRESSING",
+            "name": "SALAD WITH TUNA A.C.G",
+            "price": "15,40"
+          },
+          {
+            "description": "ASPARAGUS | CHERRY TOMATOES | SPRING ONIONS | TRUFFLE SAUCE",
+            "name": "FRESH LINGUINE (V) A.C.G",
+            "price": "16,50"
+          },
+          {
+            "description": "ROASTED POTATOE DUMPLINGS | PLUM SAUCE",
+            "name": "GRILLED TENDER PORK LOIN A.C.G.",
+            "price": "17,20"
+          },
+          {
+            "description": "FRESH VEGETABLES | BASMATI RICE | CORIANDER",
+            "name": "TERIYAKI VEGETABLES (VG) I.F.M",
+            "price": "12,80"
+          },
+          {
+            "description": "APPLE STRUDEL (V) | VANILLA ICE CREAM | WHIPPED CREAM",
+            "name": "DESSERT",
+            "price": "8,50"
+          }
+        ]
+      },
+      {
+        "category": "EVENING- & WEEKENDMENU",
+        "items": [
+          {
+            "description": "ROSTED CASHEWS",
+            "name": "SPINACH-PEAS-COCONUT SOUP (VG) A.C.",
+            "price": "7,80"
+          },
+          {
+            "description": "QUINOA | ARUGOLA | GRILLED CHEESE | CHERRY TOMATOES | SPRING ONIONS | BELL PEPPER CUCUMBER | OLIVES | EDAMAME | GOJIBERRIES | HEMP SEEDS | BALSAMIC DRESSING",
+            "name": "HALLOUMI BOWL (V) A.C.G",
+            "price": "17,20"
+          },
+          {
+            "description": "ASPARAGUS | SPRING ONIONS | CHERRY TOMATOES | ARUGOLA | PARMESAN",
+            "name": "SAFFRON RISOTTO (V) A,C,G,N,A1",
+            "price": "17,50"
+          },
+          {
+            "description": "JUICY BREADED CHICKEN BREAST | CHEDDAR CHEESE | GUACAMOLE | JALAPENOS | ICEBERG LETTUCE | TOMATOES | RED ONIONS | WHEAT BRIOCHE BUN | BURGER SAUCE",
+            "name": "MEXICAN CRISPY CHICKEN BURGER A.C.G",
+            "price": "17,80"
+          },
+          {
+            "description": "PEAR-WALNUT-GORGONZOLA SAUCE | BABY SPINACH | PARMESAN",
+            "name": "FRESH PAPPARDELLE (V) A.C.G.",
+            "price": "17,50"
+          },
+          {
+            "description": "TRADITIONAL SPINACH NOODLES | CREAMY MUSHROOM SAUCE | ROASTED ONIONS",
+            "name": "GRILLED PORK TENDERLOIN A.C.G.",
+            "price": "20,90"
+          },
+          {
+            "description": "FRESH VEGETABLES ASIA STYLE | BASMATI RICE | CORIANDER",
+            "name": "FISCH CURRY A,C,G,N,A1",
+            "price": "21,90"
+          },
+          {
+            "description": "HOMEMADE RHUBARB COMPOTE (V) | MASCARPONE CREAM",
+            "name": "DESSERT",
+            "price": "8,50"
+          }
+        ]
+      },
+      {
+        "category": "MITTAGSKARTE",
+        "items": [
+          {
+            "description": "GER\u00d6STETE MANDELN",
+            "name": "BROKKOLI-KOKOS-CREMESUPPE (VG) A.C.",
+            "price": "7,80"
+          },
+          {
+            "description": "WEIZEN TORTILLA | GUACAMOLE | PAPRIKA | MAIS | KIDNEY BOHNEN | ERBSEN | LAUCH JALAPENOS | SRIRACHA | KORIANDER",
+            "name": "MEXICAN WRAP (VG) A.C.G",
+            "price": "14,90"
+          },
+          {
+            "description": "GROSSER FR\u00dcHLINGSSALAT | THUNFISCH | ROTE ZWIEBELN | GEKOCHTES BIO EI OLIVEN | KAPERN | BALSAMICO DRESSING",
+            "name": "SALAT AL TONNO A.C.G",
+            "price": "15,40"
+          },
+          {
+            "description": "SPARGEL | KIRSCHTOMATEN | LAUCHZWIEBELN | TR\u00dcFFELSAUCE",
+            "name": "FRISCHE LINGUINE (V) A.C.G",
+            "price": "16,50"
+          },
+          {
+            "description": "GEBRATENE KARTOFFELKN\u00d6DEL | PFLAUMENSAUCE",
+            "name": "GEGRILLTE SCHWEINELENDE A.C.G.",
+            "price": "17,20"
+          },
+          {
+            "description": "FRISCHES GEM\u00dcSE | BASMATIREIS | KORIANDER",
+            "name": "TERIYAKI GEM\u00dcSE (VG) I.F.M",
+            "price": "12,80"
+          },
+          {
+            "description": "APFELSTRUDEL (V) | VANILLEEIS | SAHNE",
+            "name": "DESSERT",
+            "price": "8,50"
+          }
+        ]
+      }
+    ],
+    "restaurant_name": "Bohnen und Malz"
+  }
+]
