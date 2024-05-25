@@ -14,3 +14,7 @@ pydantic
 openai
 scrapy==2.11.2
 html2text
+requests
+PyMuPDF
+pytesseract
+pillow

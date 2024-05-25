@@ -123,7 +123,7 @@ class MenuSpider(CrawlSpider):
         if any(
             keyword.lower() in markdown_content.lower() for keyword in self.keywords
         ):
-            yield {"menu_text_markdown": markdown_content}
+            yield {"menu_text": markdown_content}
 
 
 # To run this spider:
