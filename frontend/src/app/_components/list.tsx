@@ -1,6 +1,6 @@
 import {Box} from "@/app/_components/box";
 import React from 'react';
-import {Paper, Text, Button, Rating, Tooltip} from '@mantine/core';
+import {Paper, Text, Button, Rating, Tooltip, Skeleton} from '@mantine/core';
 import {IconClock, IconMap} from '@tabler/icons-react';
 import {styled} from "styled-components";
 import {Restaurant} from "@/app/page";
@@ -97,6 +97,10 @@ const calculateAllTimeLeft = (restaurants: Restaurant[]) => {
 }
 
 export const List = (props: ListProps) => {
+    if (props.restaurants.length === 0) {
+        return <ListPlaceholder locateRestaurant={props.locateRestaurant} setHoveringOver={props.setHoveringOver}
+                                searched={props.searched} restaurants={[]}/>;
+    }
     const [timeLeft, setTimeLeft] = React.useState(() => calculateAllTimeLeft(props.restaurants));
 
     React.useEffect(() => {
@@ -148,7 +152,7 @@ export const List = (props: ListProps) => {
                                 </Paper>
                             </div>
                             <Divider/>
-                            <MenuItemsTable menuItems={restaurant.top3MenuItems}/>
+                            <MenuItemsTable menuItems={restaurant.highlights}/>
                         </div>
                         <Text size="xxl" style={{
                             textAlign: 'right',
@@ -162,3 +166,16 @@ export const List = (props: ListProps) => {
         </Box>
     );
 };
+
+const ListPlaceholder = ({searched}: ListProps) => {
+    const skeletons = [];
+    for (let i = 0; i < 20; i++) {
+        skeletons.push(<Skeleton key={i} height={50} style={{marginBottom: 10}}/>);
+    }
+
+    return (
+        <Box $searched={searched}>
+            {skeletons}
+        </Box>
+    );
+}

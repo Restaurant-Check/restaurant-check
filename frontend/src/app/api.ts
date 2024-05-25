@@ -1,4 +1,5 @@
 import axios from 'axios';
+import {Restaurant} from "@/app/page";
 
 function generateRandomCoordinates(): [number, number] {
     const minLat = 48.0616; // Munich latitude bounds
@@ -16,55 +17,48 @@ function generateRandomRating(): number {
 }
 
 interface MenuItem {
-  description: string;
-  name: string;
-  price: string;
+    description: string;
+    name: string;
+    price: string;
 }
 
 interface MenuCategory {
-  category: string;
-  items: MenuItem[];
+    category: string;
+    items: MenuItem[];
 }
 
 interface RestaurantData {
-  menu: MenuCategory[];
-  restaurant_name: string;
+    menu: MenuCategory[];
+    restaurant_name: string;
 }
 
 interface Highlight {
-  category: string;
-  description: string;
-  name: string;
-  price: string;
-}
-
-interface Restaurant {
-  restaurantName: string;
-  highlights: string[];
+    category: string;
+    description: string;
+    name: string;
+    price: string;
 }
 
 export const fetchRestaurants = async (query: string): Promise<Restaurant[]> => {
-  try {
-    const response = await axios.get('http://localhost:8000/query?query='+query);
+    try {
+        const response = await axios.get('http://localhost:8000/query?query=' + query);
 
-    const restaurantsData = response.data.restaurants;
+        const restaurantsData = response.data.restaurants;
 
-    const restaurants: Restaurant[] = restaurantsData.map((restaurant: { data: string, highlights: string[] }) => {
-    const parsedData: RestaurantData = JSON.parse(restaurant.data);
+        return restaurantsData.map((restaurant: { data: string, highlights: string[] }) => {
+            const parsedData: RestaurantData = JSON.parse(restaurant.data);
 
-    return {
-        restaurantName: parsedData.restaurant_name,
-        highlights: restaurant.highlights,
-        coordinates: generateRandomCoordinates(),
-        rating: generateRandomRating(),
-        closing_time: '22:00',
-        distance: '1.2km',
-        };
-    });
-
-    return restaurants;
-  } catch (error) {
-    console.error('Error fetching restaurants:', error);
-    throw error;
-  }
+            return {
+                name: parsedData.restaurant_name,
+                highlights: restaurant.highlights,
+                coordinates: generateRandomCoordinates(),
+                rating: generateRandomRating(),
+                closingTime: '22:00',
+                distance: '1.2km',
+            };
+        });
+    } catch (error) {
+        console.error('Error fetching restaurants:', error);
+        throw error;
+    }
 };
