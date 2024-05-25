@@ -1,6 +1,6 @@
 import subprocess
 from scraper.content_parser import convert_pdf, convert_image
-from typing import Union
+from typing import Union, List, Tuple
 import json
 import requests
 import random
@@ -12,11 +12,14 @@ START_OF_MENU = "### START OF MENU ###\n"
 END_OF_MENU = "### END OF MENU ###\n"
 
 
-def _post_processing(output_file: str) -> str:
+def _post_processing(output_file: str, convert_local: bool) -> Tuple[str, List[str]]:
     print("starting post processing")
 
     # store the content of everything
     content = ""
+
+    # also store the links of images and pdf files
+    links = []
 
     # load the json file
     with open(output_file, "r") as file:
@@ -27,6 +30,11 @@ def _post_processing(output_file: str) -> str:
     for pdf_link in pdf_links:
         # download the PDF file
         pdf_url = pdf_link
+
+        links.append(pdf_url)
+
+        if not convert_local:
+            continue
 
         random_string = "".join(
             random.choices(string.ascii_lowercase + string.digits, k=10)
@@ -57,6 +65,11 @@ def _post_processing(output_file: str) -> str:
     for image_link in image_links:
         # download the image file
         image_url = image_link
+
+        links.append(image_url)
+
+        if not convert_local:
+            continue
 
         random_string = "".join(
             random.choices(string.ascii_lowercase + string.digits, k=10)
@@ -90,18 +103,24 @@ def _post_processing(output_file: str) -> str:
         t += END_OF_MENU
         content += t
 
-    return content
+    return content, links
 
 
-def scraper(url: str) -> Union[str, None]:
+def scraper(
+    url: str, convert_pdfs_local: bool = False
+) -> Union[Tuple[str, List[str]], None]:
     """
-    Runs the Scrapy spider to scrape menu data from a specified URL and saves it to a file.
+    Executes the Scrapy spider to extract menu information 
+    from a given URL and returns the parsed content.
 
     Args:
-        url (str): The URL of the restaurant's homepage from which to scrape data.
+        url (str): The URL of the restaurant's website 
+        from which the data is to be extracted.
 
     Returns:
-        Union[str, None]: The scraped data as a string if successful, or None if an error occurs.
+        Union[Tuple[str, List[str]], None]: A tuple containing the scraped data as a string 
+        and a list of links if successful, 
+        or None if an error is encountered.
     """
 
     # Run the Scrapy spider with the given URL and save the output to the specified file
@@ -121,12 +140,12 @@ def scraper(url: str) -> Union[str, None]:
             cwd="scraper",
         )
         process.wait()
-        content = _post_processing(output_file)
+        content, links = _post_processing(output_file, convert_pdfs_local)
 
         # delete the output file again
         subprocess.run(["rm", output_file])
 
-        return content
+        return content, links
 
     except Exception as e:
         print(f"Error running scraper: {e}")
