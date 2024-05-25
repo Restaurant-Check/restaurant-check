@@ -21,6 +21,10 @@ pillow
 tesseract
 faiss-cpu
 pypdf
+marker-pdf
+pdfminer
+pdfminer.six
+beautifulsoup4
 
 # TODO: installing this package might raise an error
 # maybe remove if not needed

@@ -3,8 +3,12 @@ import requests
 from flask import Blueprint, render_template, request, jsonify, current_app
 from time import sleep
 from app.menu_to_json import process_menu_text
+from app.generate_for_restaurant import generate_for_restaurant
 from scraper.scrape import scraper
 from app.vector_db.vector_db import RestaurantVectorDB
+from langchain_community.document_loaders import PDFMinerPDFasHTMLLoader
+from bs4 import BeautifulSoup
+
 
 bp = Blueprint('main', __name__)
 
@@ -129,6 +133,13 @@ def get_restaurants_with_menu():
         if website:
             menu = get_menu(website)
             result['menu'] = menu
+
+            #Check if result['menu'] is empty
+            if result['menu'] == None:
+                result['menu'] = generate_for_restaurant(result)['menu']
+                print(f"Generated menu for {result['name']}")
+                print(f"Menu: {result['menu']}")
+
         else:
             result['menu'] = "No website available"
 
@@ -149,11 +160,64 @@ def get_menu(website_url=''):
     # Here the website url gets passed to the parsing function
     try:
         # TODO: send the links of pdfs also to langchain
-        menu_text, links = scraper(website_url)
+        result = scraper(website_url)
     except Exception as e:
         print(f"Error running scraper: {e}")
         return jsonify({'error': 'Failed to scrape menu data'}), 500
+    
+    if result == None:        
+        return jsonify({'error': 'Failed to scrape menu data'}), 500
+    else:
+        menu_text, links = result
+        # TODO logic
+        # Download the pdfs in the links into a "downloads" folder
 
+        # Create the downloads folder if it doesn't exist
+        downloads_folder = os.path.join(os.getcwd(), 'downloads')
+        os.makedirs(downloads_folder, exist_ok=True)
+
+        # Download each PDF link
+        for link in links[:5]:  # Restrict to the first 5 links
+            try:
+                response = requests.get(link)
+                response.raise_for_status()  # Check if the request was successful
+                pdf_filename = os.path.join(downloads_folder, os.path.basename(link))
+                with open(pdf_filename, 'wb') as pdf_file:
+                    pdf_file.write(response.content)
+                print(f"Downloaded {link} to {pdf_filename}")
+            except Exception as e:
+                print(f"Failed to download {link}: {e}")
+        
+
+        #Loop through the pdfs and load them into PDFMinerPDFasHTMLLoader
+        pdf_files = [f for f in os.listdir(downloads_folder) if f.endswith('.pdf')]
+        for pdf_file in pdf_files:
+            pdf_path = os.path.join(downloads_folder, pdf_file)
+            loader = PDFMinerPDFasHTMLLoader(pdf_path)
+            data = loader.load()[0]  # entire PDF is loaded as a single Document
+
+            # Extract HTML content
+            html_content = data.page_content
+
+            # Parse the HTML content with BeautifulSoup
+            soup = BeautifulSoup(html_content, 'html.parser')
+
+            # Extract text content that is not inside a span
+            content = ''.join(soup.stripped_strings)
+
+            if any(word in content.lower() for word in ['menu', 'speise', 'karte', 'menü']):
+                print(f"Loaded PDF: {pdf_path}")
+                menu_text += content
+                print(f"Added text from PDF: {pdf_path}")
+                print(f"Menu text: {menu_text}")
+                break
+        # Delete all pdfs in downloads
+        
+        for pdf_file in os.listdir(downloads_folder):
+            if pdf_file.endswith('.pdf'):
+                pdf_path = os.path.join(downloads_folder, pdf_file)
+                os.remove(pdf_path)
+                print(f"Deleted PDF: {pdf_path}")
 
 
     #Check if menu_text is None
