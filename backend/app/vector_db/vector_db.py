@@ -104,6 +104,9 @@ class RestaurantVectorDB:
                     restaurant_menu_db.set_knowledge_base(pickle.load(f))
                 self.restaurants_menus_dbs.append(restaurant_menu_db)
 
+        else:
+            print("No existing data directory found")
+
     def save(self):
         # create data directory if it doesn't exist
         if not os.path.exists(self.data_path):

@@ -172,7 +172,8 @@ def get_menu(website_url=''):
 
 
 
-database = RestaurantVectorDB("./data")
+database = RestaurantVectorDB("./app/vector_db/data")
+assert not database.get_restaurants_db().is_empty()
 print("loaded database")
 
 @bp.route('/', methods=['GET'])
