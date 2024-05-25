@@ -3,15 +3,7 @@ import React from 'react';
 import {Paper, Text, Button, Rating, Tooltip} from '@mantine/core';
 import {IconClock} from '@tabler/icons-react';
 import {styled} from "styled-components";
-
-
-interface Restaurant {
-    name: string;
-    rating: number;
-    distance: string;
-    closingTime: string;
-    top3MenuItems: string[];
-}
+import {Restaurant} from "@/app/page";
 
 interface ListProps {
     searched: boolean;
@@ -75,7 +67,9 @@ const MenuItemsTable = ({menuItems}: { menuItems: string[] }) => {
                 </React.Fragment>
             ))}
             <tr>
-                <MenuButton variant="light" radius="lg">Show whole menu</MenuButton>
+                <td>
+                    <MenuButton variant="light" radius="lg">Show whole menu</MenuButton>
+                </td>
             </tr>
             </tbody>
         </table>
@@ -112,11 +106,13 @@ export const List = (props: ListProps) => {
     }, [props.restaurants]);
 
     return (
-        <Box searched={props.searched}>
+        <Box $searched={props.searched}>
             {props.restaurants.map((restaurant, index) => (
                 <div key={index}
                      style={{display: 'flex', flexDirection: 'column', marginBottom: '10px'}}
-                     onMouseEnter={() => props.setHoveringOver(index)}>
+                     onMouseEnter={() => props.setHoveringOver(index)}
+                     onMouseLeave={() => props.setHoveringOver(-1)}
+                >
                     <Paper style={{display: 'flex', justifyContent: 'space-between'}}>
                         <div style={{display: 'flex', flexDirection: 'row'}}>
                             <div style={{display: 'flex', flexDirection: 'column'}}>
