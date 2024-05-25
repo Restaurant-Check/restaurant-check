@@ -3,6 +3,7 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from urllib.parse import urlparse
 import re
+import html2text
 
 
 class MenuSpider(CrawlSpider):
@@ -37,9 +38,12 @@ class MenuSpider(CrawlSpider):
         self.visited_urls = set()
 
         # flag to track if any PDF or image has been found
+        # then we don't need to check for text content
         self.found_media = False
 
     def parse_item(self, response):
+        self.log(f"parse item : {response.url}")
+
         menu_urls = set()
 
         for keyword in self.keywords:
@@ -54,6 +58,8 @@ class MenuSpider(CrawlSpider):
             )
 
         menu_urls.update(response.xpath('//a[contains(@href, ".pdf")]/@href').extract())
+
+        self.log(f"for site {response.url} found menu urls: {menu_urls}")
 
         if menu_urls:
 
@@ -75,24 +81,49 @@ class MenuSpider(CrawlSpider):
                     elif re.search(r"\.(jpg|jpeg|png|gif|bmp|tiff)$", menu_url):
                         self.found_media = True
                         yield {"menu_image": menu_url}
+                    elif keyword in response.url:
+                        yield from self.parse_menu_text(response)
                     else:
                         yield scrapy.Request(menu_url, callback=self.parse_menu_text)
+
+                if not self.found_media:
+                    yield from self.parse_menu_text(response)
         else:
-            # check for embedded menu content only if no media has been found yet
-            if not self.found_media:
-                text_content = " ".join(response.xpath("//text()").extract())
-                if any(
-                    keyword.lower() in text_content.lower() for keyword in self.keywords
-                ):
-                    yield {"menu_text": text_content.strip()}
+            self.log("in else")
+            yield from self.parse_menu_text(response)
 
     def parse_menu_text(self, response):
-        # check for embedded menu content only if no media has been found yet
-        if not self.found_media:
-            text_content = " ".join(response.xpath("//text()").extract())
-            if "menu" in text_content.lower() and response.url not in self.visited_urls:
-                self.visited_urls.add(response.url)
-                yield {"menu_text": text_content.strip()}
+        # TODO: might be too much filtering
+        if not any(keyword in response.url for keyword in self.keywords):
+            return
+
+        self.log(f"parse menu text : {response.url}")
+
+        if self.found_media:
+            return
+
+        self.visited_urls.add(response.url)
+
+        # Initialize html2text converter
+        converter = html2text.HTML2Text()
+        converter.ignore_links = True
+        converter.ignore_images = True
+        converter.ignore_emphasis = False
+
+        # Extract HTML from more specific elements
+        html_content = response.xpath(
+            "//*[not(self::script) and not(self::style)]/text()"
+        ).getall()
+        html_content = " ".join(html_content)
+
+        # Convert HTML to Markdown
+        markdown_content = converter.handle(html_content)
+
+        # Check for keywords in the Markdown text
+        if any(
+            keyword.lower() in markdown_content.lower() for keyword in self.keywords
+        ):
+            yield {"menu_text_markdown": markdown_content}
 
 
 # To run this spider:
