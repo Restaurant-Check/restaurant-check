@@ -11,18 +11,17 @@ const BoxWrapper = styled.div<{ searched: boolean }>`
     max-width: 1500px;
     transition: all 0.2s ease-in-out;
     opacity: ${(props) => props.searched ? 1 : 0};
-    z-index: -1;
 `;
 
 interface BoxProps {
-  searched: boolean;
-  children: React.ReactNode;
+    searched: boolean;
+    children: React.ReactNode;
 }
 
 export const Box = (props: BoxProps) => {
-  return (
-    <BoxWrapper searched={props.searched}>
-      {props.children}
-    </BoxWrapper>
-  );
+    return (
+        <BoxWrapper searched={props.searched}>
+            {props.children}
+        </BoxWrapper>
+    );
 }

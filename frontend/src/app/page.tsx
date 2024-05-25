@@ -20,70 +20,81 @@ const ContentContainer = styled.div`
     flex-direction: column;;
 `;
 
-const SampleData = [
-  {
-    name: 'Restaurant 1',
-    rating: 4.5,
-    distance: '1.2km',
-  },
-  {
-    name: 'Restaurant 2',
-    rating: 4.2,
-    distance: '2.1km',
-  },
-  {
-    name: 'Restaurant 3',
-    rating: 4.8,
-    distance: '0.5km',
-  },
-  {
-    name: 'Restaurant 4',
-    rating: 4.1,
-    distance: '3.2km',
-  },
-  {
-    name: 'Restaurant 5',
-    rating: 4.9,
-    distance: '0.3km',
-  },
-  {
-    name: 'Restaurant 6',
-    rating: 4.6,
-    distance: '2.5km',
-  },
-  {
-    name: 'Restaurant 7',
-    rating: 4.3,
-    distance: '1.7km',
-  },
-  {
-    name: 'Restaurant 8',
-    rating: 4.7,
-    distance: '0.8km',
-  },
-  {
-    name: 'Restaurant 9',
-    rating: 4.4,
-    distance: '2.9km',
-  },
-  {
-    name: 'Restaurant 10',
-    rating: 4.0,
-    distance: '3.9km',
-  },
+const SampleData = [ // TODO: Add coordinates to the data
+    {
+        name: 'Restaurant 1',
+        rating: 4.5,
+        distance: '1.2km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 2',
+        rating: 4.2,
+        distance: '2.1km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 3',
+        rating: 4.8,
+        distance: '0.5km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 4',
+        rating: 4.1,
+        distance: '3.2km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 5',
+        rating: 4.9,
+        distance: '0.3km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 6',
+        rating: 4.6,
+        distance: '2.5km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 7',
+        rating: 4.3,
+        distance: '1.7km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 8',
+        rating: 4.7,
+        distance: '0.8km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 9',
+        rating: 4.4,
+        distance: '2.9km',
+        closingTime: '22:00',
+    },
+    {
+        name: 'Restaurant 10',
+        rating: 4.0,
+        distance: '3.9km',
+        closingTime: '22:00',
+    },
 ];
 
 export default function Home() {
-  const [searched, setSearched] = useState(false);
+    const [searched, setSearched] = useState(false);
+    const [hoveringOver, setHoveringOver] = useState(-1);
 
-  return (
-    <PageContainer>
-      <ContentContainer>
-        <MapComponent searched={searched} markers={[]}/>
-        <List searched={searched} restaurants={SampleData}/>
-      </ContentContainer>
-      <Searchbar onSearch={(query) => {
-      }} setSearched={setSearched} searched={searched}/>
-    </PageContainer>
-  );
+    return ( // TODO: when scrolling, the map should stick to the top of the page and get a bit slimmer, also highlight the marker of the restaurant that is currently being hovered over
+        <PageContainer>
+            <ContentContainer>
+                <MapComponent searched={searched} markers={[]}/>
+                <List searched={searched} restaurants={SampleData} setHoveringOver={setHoveringOver}/>
+            </ContentContainer>
+            <Searchbar onSearch={(query) => {
+            }} setSearched={setSearched} searched={searched}/>
+        </PageContainer>
+    );
 }

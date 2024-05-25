@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head>
-            <ColorSchemeScript/>
+            <ColorSchemeScript/><title>Restaurant Check</title>
         </head>
         <body>
         <StyledComponentsRegistry>
