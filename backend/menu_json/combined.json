@@ -1,5 +1,45 @@
 [
   {
+    "restaurant_name": "Iraqi Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Kubba Halab",
+            "description": "Fried bulgur wheat stuffed with spiced ground meat",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Lamb Biryani",
+            "description": "Tender lamb cooked with fragrant basmati rice and aromatic spices",
+            "price": "$15.99"
+          },
+          {
+            "name": "Saffron Chicken Biryani",
+            "description": "A flavorful rice dish with tender chicken marinated in saffron and spices",
+            "price": "$12.99"
+          },
+          {
+            "name": "Kebab Platter",
+            "description": "Grilled skewers of marinated meat served with rice and salad",
+            "price": "$15.99"
+          },
+          {
+            "name": "Saffron Chicken Kebab",
+            "description": "Tender chicken marinated in saffron and grilled to perfection",
+            "price": "$15.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "menu": [
       {
         "category": "LUNCH MENU",
@@ -130,464 +170,50 @@
     "restaurant_name": "Slurp Nudelbar"
   },
   {
+    "restaurant_name": "Armenian Restaurant",
     "menu": [
-      {
-        "category": "Beverages",
-        "items": [
-          {
-            "description": "Regular coffee",
-            "name": "Tasse Ka\u01d7ee",
-            "price": "2,90\u20ac"
-          },
-          {
-            "description": "Large coffee",
-            "name": "Tasse Ka\u01d7ee Grande",
-            "price": "3,50\u20ac"
-          },
-          {
-            "description": "Regular decaffeinated coffee",
-            "name": "Tasse Ka\u01d7ee (decaffeinated)",
-            "price": "3,20\u20ac"
-          },
-          {
-            "description": "Large decaffeinated coffee",
-            "name": "Tasse Ka\u01d7ee Grande (decaffeinated)",
-            "price": "4,20\u20ac"
-          },
-          {
-            "description": "Single shot of espresso",
-            "name": "Espresso",
-            "price": "2,50\u20ac"
-          },
-          {
-            "description": "Double shot of espresso",
-            "name": "Espresso Doppio",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Espresso with a dash of milk foam",
-            "name": "Espresso Macchiato",
-            "price": "2,90\u20ac"
-          },
-          {
-            "description": "Latte with a shot of espresso",
-            "name": "Latte Macchiato 8g",
-            "price": "3,50\u20ac"
-          },
-          {
-            "description": "Cappuccino with frothy milk",
-            "name": "Cappuccino 8g",
-            "price": "3,40\u20ac"
-          },
-          {
-            "description": "Large cappuccino with frothy milk",
-            "name": "Cappuccino Grande 8g",
-            "price": "4,00\u20ac"
-          },
-          {
-            "description": "Hot chocolate, optionally with whipped cream",
-            "name": "Hei\u00dfe Schokolade",
-            "price": "4,00\u20ac"
-          },
-          {
-            "description": "Chai tea latte",
-            "name": "Chai Latte",
-            "price": "4,50\u20ac"
-          },
-          {
-            "description": "Cup of tea",
-            "name": "Tasse Tee",
-            "price": "2,70\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Beers",
-        "items": [
-          {
-            "description": "Paulaner Lager Beer",
-            "name": "Paulaner Hell 0.50l",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Paulaner Wheat Beer",
-            "name": "Paulaner Wei\u00dfbier 0.50l",
-            "price": "4,10\u20ac"
-          },
-          {
-            "description": "Paulaner Pilsner",
-            "name": "Paulaner Pils 0.33l",
-            "price": "3,40\u20ac"
-          },
-          {
-            "description": "Non-alcoholic Paulaner Lager",
-            "name": "Paulaner Hell Alkoholfrei 0.33l",
-            "price": "3,40\u20ac"
-          },
-          {
-            "description": "Beer mixed with lemonade",
-            "name": "Radler 0.50l",
-            "price": "4,00\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Wines",
-        "items": [
-          {
-            "description": "Beer with Lugana wine",
-            "name": "Bier m Lugana 0.10l",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Beer with Gavi wine",
-            "name": "Bier m Gavi 0.10l",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Beer with Chianti wine",
-            "name": "Bier m Chianti 0.10l",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Beer with Necroamaro wine",
-            "name": "Bier m Necroamaro 0.10l",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Beer with Santa Cristina Rose wine",
-            "name": "Bier m Santa Cristina Rose 0.10l",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Hugo wine",
-            "name": "Wein Hugo 0.20l",
-            "price": "6,50\u20ac"
-          },
-          {
-            "description": "Red touch wine",
-            "name": "Tocco Rosso 0.20l",
-            "price": "6,50\u20ac"
-          },
-          {
-            "description": "Aperol Spritz",
-            "name": "Aperol Spritz 0.20l",
-            "price": "6,50\u20ac"
-          },
-          {
-            "description": "Veneto Spritz",
-            "name": "Veneto Spritz 0.20l",
-            "price": "6,50\u20ac"
-          },
-          {
-            "description": "Campari with orange juice",
-            "name": "Campari Orange 0.20l",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Aperol with orange juice",
-            "name": "Aperol Orange 0.20l",
-            "price": "5,90\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Longdrinks",
-        "items": [
-          {
-            "description": "Martini Bianco",
-            "name": "Martini Bianco 2cl",
-            "price": "3,80\u20ac"
-          },
-          {
-            "description": "Martini Extra Dry",
-            "name": "Martini Extra Dry 2cl",
-            "price": "3,80\u20ac"
-          },
-          {
-            "description": "Amaretto",
-            "name": "Amaretto 2cl",
-            "price": "3,80\u20ac"
-          },
-          {
-            "description": "Sambuca",
-            "name": "Sambuca 2cl",
-            "price": "3,80\u20ac"
-          },
-          {
-            "description": "Ramazotti",
-            "name": "Ramazotti 2cl",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Averna",
-            "name": "Averna 2cl",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Vodka",
-            "name": "Wodka 2cl",
-            "price": "3,90\u20ac"
-          },
-          {
-            "description": "Jim Beam or Jack Daniels",
-            "name": "Jim Beam or Jack Daniels 2cl",
-            "price": "4,50\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Frozen Drinks",
-        "items": [
-          {
-            "description": "Iced coffee with vanilla ice cream and whipped cream",
-            "name": "Eiska\u01d7ee",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Iced chocolate with vanilla ice cream and whipped cream",
-            "name": "Eisschokolade",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Frozen white chocolate with vanilla ice cream and whipped cream",
-            "name": "Frozen White Chocolate",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Vanilla milkshake",
-            "name": "Vanille Shake",
-            "price": "4,90\u20ac"
-          },
-          {
-            "description": "Strawberry milkshake",
-            "name": "Erdbeer Shake",
-            "price": "4,90\u20ac"
-          },
-          {
-            "description": "Chocolate milkshake",
-            "name": "Schokoladen Shake",
-            "price": "4,90\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Ice Treats",
-        "items": [
-          {
-            "description": "Vanilla ice cream with hot raspberries",
-            "name": "Hei\u00dfe Liebe",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Chocolate ice cream with chocolate sauce and whipped cream",
-            "name": "Schokoladentraum",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Strawberry ice cream with whipped cream and strawberry sauce",
-            "name": "Erdbeertraum",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "One scoop of ice cream",
-            "name": "Ein Kugel Eis",
-            "price": "1,50\u20ac"
-          },
-          {
-            "description": "Mixed ice cream with 3 scoops and whipped cream",
-            "name": "Gemischtes Eis mit 3 Kugeln und Sahne",
-            "price": "4,90\u20ac"
-          },
-          {
-            "description": "Fruit cup with 3 scoops of ice cream, fresh fruit pieces, and whipped cream",
-            "name": "Fr\u00fcchte-Becher Vita",
-            "price": "6,90\u20ac"
-          },
-          {
-            "description": "Banana split with vanilla ice cream, whipped cream, chocolate sauce, and a fresh banana",
-            "name": "Bananen Splitt",
-            "price": "5,90\u20ac"
-          },
-          {
-            "description": "Children's cup with ice cream",
-            "name": "Kinderbecher Pinocchino",
-            "price": "3,90\u20ac"
-          }
-        ]
-      },
       {
         "category": "Appetizers",
         "items": [
           {
-            "description": "Steamed dumplings filled with minced meat and onions, topped with lentil sauce and quark",
-            "name": "Mantu",
-            "price": "9,90\u20ac for 5 pieces, 13,90\u20ac for 8 pieces"
+            "name": "Sizzling Firecracker Shrimp",
+            "description": "Crispy shrimp tossed in a spicy Sriracha aioli",
+            "price": "$9.99"
           },
           {
-            "description": "Pastry filled with minced meat and onions",
-            "name": "Sambosa",
-            "price": "11,90\u20ac"
+            "name": "Baba Ghanoush",
+            "description": "Roasted eggplant mixed with tahini, garlic, and lemon juice",
+            "price": "$8.99"
           },
           {
-            "description": "Pastry filled with potatoes and onions",
-            "name": "Sambosa vegetarian",
-            "price": "11,90\u20ac"
-          },
-          {
-            "description": "Handmade noodles in soup with chickpeas, kidney beans, herbed quark, and a drizzle of pumpkin seed oil",
-            "name": "Suppe (Aash)",
-            "price": "10,90\u20ac"
-          },
-          {
-            "description": "Afghan lentil soup",
-            "name": "Suppe (Dal)",
-            "price": "8,90\u20ac"
-          },
-          {
-            "description": "Leek-filled dumplings served on herbed quark",
-            "name": "Ashak",
-            "price": "9,90\u20ac for 5 pieces, 13,90\u20ac for 8 pieces"
-          },
-          {
-            "description": "Pan-fried pumpkin with garlic and ginger in tomato sauce on yogurt-mint and bread",
-            "name": "Borani Kado",
-            "price": "11,90\u20ac"
-          },
-          {
-            "description": "Mixed salad with arugula, tomatoes, cucumbers, and olives",
-            "name": "Pivasta Salat",
-            "price": "7,90\u20ac"
+            "name": "Armenian Cheese Borek",
+            "description": "Crispy phyllo pastry filled with melted cheese and herbs",
+            "price": "$8.99"
           }
         ]
       },
       {
-        "category": "Main Course",
+        "category": "Main Courses",
         "items": [
           {
-            "description": "Rice with braised veal shoulder, carrots, and raisins, with Borani Badenjan",
-            "name": "Qabuli-Palau",
-            "price": "15,90\u20ac"
+            "name": "Armenian Lamb Kebabs",
+            "description": "Tender lamb marinated in traditional Armenian spices and grilled to perfection. Served with rice pilaf and grilled vegetables.",
+            "price": "$16.99"
           },
           {
-            "description": "Afghan-style meatballs with rice",
-            "name": "Kofta-Chalau",
-            "price": "13,90\u20ac"
+            "name": "Dolma",
+            "description": "Grape leaves stuffed with a delicious mix of rice, herbs, and minced meat",
+            "price": "$12.99"
           },
           {
-            "description": "Pickled and fried eggplant with tomato sauce, garlic, quark, and rice",
-            "name": "Borani Badenjan-Chalau",
-            "price": "13,90\u20ac"
+            "name": "\"Grilled Armenian Lamb Skewers\"",
+            "description": "Tender lamb pieces marinated in traditional Armenian spices and grilled to perfection",
+            "price": "$15.99"
           },
           {
-            "description": "Afghan-style lentils with rice",
-            "name": "Dal-Chalau",
-            "price": "12,90\u20ac"
-          },
-          {
-            "description": "Grilled chicken breast, tomatoes, and bell peppers with Afghan rice and coriander dip",
-            "name": "Chicken Tekka Kabab-Chalau",
-            "price": "14,90\u20ac"
-          },
-          {
-            "description": "Grilled lamb, tomatoes, and bell peppers with Afghan rice and coriander dip",
-            "name": "Lamm Tekka Kabab-Chalau",
-            "price": "19,90\u20ac"
-          },
-          {
-            "description": "Spicy minced lamb skewers with Afghan rice and okra",
-            "name": "Gegrillte gehackte Lammspie\u00df-Chalau",
-            "price": "18,90\u20ac"
-          },
-          {
-            "description": "Rice dish with chicken or vegetarian, vegetables, cashews, and peanuts",
-            "name": "Biryani",
-            "price": "12,90\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Pizza",
-        "items": [
-          {
-            "description": "Pizza with tomato sauce, mozzarella, and fresh basil",
-            "name": "Margherita",
-            "price": "8,50\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce, mozzarella, and fresh mushrooms",
-            "name": "Funghi",
-            "price": "10,50\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce, mozzarella, and salami",
-            "name": "Salami",
-            "price": "10,50\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce, mozzarella, garlic sausage, jalapenos, and onions",
-            "name": "Sucuk",
-            "price": "11,90\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce, mozzarella, tuna, and onions",
-            "name": "Tonno",
-            "price": "12,50\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce, mozzarella, and fresh vegetables",
-            "name": "Vegetariana",
-            "price": "12,50\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce and four different cheeses",
-            "name": "Quattro Formaggi",
-            "price": "12,50\u20ac"
-          },
-          {
-            "description": "Pizza with tomato sauce, mozzarella, and ham",
-            "name": "Prosciutto",
-            "price": "10,50\u20ac"
-          }
-        ]
-      },
-      {
-        "category": "Burgers",
-        "items": [
-          {
-            "description": "Beef burger with fresh tomatoes, pickles, lettuce, onions, and burger sauce",
-            "name": "Hamburger",
-            "price": "9,90\u20ac"
-          },
-          {
-            "description": "Beef burger with cheese, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
-            "name": "Cheeseburger",
-            "price": "10,90\u20ac"
-          },
-          {
-            "description": "Beef burger with jalapenos, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
-            "name": "Mexican Burger",
-            "price": "10,90\u20ac"
-          },
-          {
-            "description": "Vegetarian burger with mozzarella, arugula, fresh tomatoes, pickles, and mayonnaise",
-            "name": "Veggie Burger",
-            "price": "11,90\u20ac"
-          },
-          {
-            "description": "Beef burger with bacon, fresh tomatoes, pickles, lettuce, onions, and burger sauce",
-            "name": "Bacon Burger",
-            "price": "11,90\u20ac"
-          },
-          {
-            "description": "Chicken burger with fresh tomatoes, lettuce, and mayonnaise",
-            "name": "Chicken Burger",
-            "price": "10,90\u20ac"
-          },
-          {
-            "description": "French fries",
-            "name": "Pommes",
-            "price": "3,50\u20ac"
+            "name": "Kofta Kebab",
+            "description": "Grilled minced meat skewers seasoned with traditional Armenian spices",
+            "price": "$12.99"
           }
         ]
       },
@@ -595,29 +221,603 @@
         "category": "Desserts",
         "items": [
           {
-            "description": "Afghan milk pudding with pistachios",
-            "name": "Firni",
-            "price": "5,90\u20ac"
+            "name": "Armenian Baklava",
+            "description": "Layers of flaky pastry filled with nuts and sweetened with honey",
+            "price": "$5.99"
           },
           {
-            "description": "Pistachio cr\u00e8me with white chocolate cr\u00e8me",
-            "name": "Pistazien Cr\u00e8me",
-            "price": "7,50\u20ac"
+            "name": "Baklava",
+            "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey or syrup",
+            "price": "$5.99"
           },
           {
-            "description": "Panna cotta with marinated wild berries",
-            "name": "Panna Cotta",
-            "price": "6,90\u20ac"
+            "name": "Honey Nut Pastry",
+            "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey syrup",
+            "price": "$5.99"
           },
           {
-            "description": "Piece of cake",
-            "name": "St\u00fcck Kuchen",
-            "price": "3,90\u20ac"
+            "name": "\"Honey Nut Tart\"",
+            "description": "Layers of phyllo pastry filled with nuts and sweet syrup",
+            "price": "$5.99"
           }
         ]
       }
-    ],
-    "restaurant_name": "Afghan"
+    ]
+  },
+  {
+    "restaurant_name": "Turkish Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Bosphorus Bites",
+            "description": "Savory pastry filled with feta cheese and spinach",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Sultan's Lamb Shank",
+            "description": "Tender slow-cooked lamb shank in a rich tomato and herb sauce, served with fragrant rice",
+            "price": "$18.99"
+          },
+          {
+            "name": "\"Bosphorus Delight\"",
+            "description": "Fried feta cheese wrapped in phyllo dough",
+            "price": "$8.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Bahraini Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Sizzling Saffron Shrimp",
+            "description": "Juicy shrimp cooked in a rich saffron sauce, served sizzling hot",
+            "price": "$12.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Bahraini Lamb Kebabs",
+            "description": "Tender lamb skewers marinated in Middle Eastern spices, grilled to perfection",
+            "price": "$15.99"
+          },
+          {
+            "name": "Lamb Kabsa",
+            "description": "Tender lamb cooked with fragrant rice and Arabic spices",
+            "price": "$15.99"
+          },
+          {
+            "name": "Spicy Lamb Biryani",
+            "description": "Tender lamb cooked with aromatic spices and basmati rice.",
+            "price": "$15.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Kenyan Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Safari Spring Rolls",
+            "description": "Crispy spring rolls filled with a flavorful mix of minced meat and vegetables",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Jungle Spring Rolls\"",
+            "description": "Crispy spring rolls filled with a mix of vegetables and served with a sweet chili sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Savannah Samosas",
+            "description": "Crispy pastry filled with spiced minced meat and vegetables",
+            "price": "$6.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Savannah Spiced Chicken",
+            "description": "Grilled chicken marinated in traditional African spices, served with a side of plantain chips.",
+            "price": "$12.99"
+          },
+          {
+            "name": "Savannah Steak",
+            "description": "Grilled steak seasoned with African spices, served with a side of plantain chips",
+            "price": "$15.99"
+          },
+          {
+            "name": "Mombasa Coconut Curry",
+            "description": "Tender chicken cooked in a rich coconut curry sauce, served with fragrant rice",
+            "price": "$12.99"
+          },
+          {
+            "name": "\"Savannah Sirloin\"",
+            "description": "Tender grilled steak seasoned with African spices, served with roasted vegetables and plantain chips",
+            "price": "$18.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Maji ya Ukwaju",
+            "description": "Tangy tamarind juice served with a hint of sugar",
+            "price": "Ksh 150"
+          },
+          {
+            "name": "Maji ya Ubuyu",
+            "description": "Refreshing baobab fruit juice served with a scoop of vanilla ice cream",
+            "price": "10.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Uzbek Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Spiced Lamb Skewers",
+            "description": "Tender lamb marinated in aromatic spices and grilled to perfection",
+            "price": "$10.99"
+          },
+          {
+            "name": "Samosa",
+            "description": "Crispy pastry filled with spiced potatoes and peas",
+            "price": "$5.99"
+          },
+          {
+            "name": "Samosas",
+            "description": "Crispy pastry filled with spiced potatoes and peas",
+            "price": "$5.99"
+          },
+          {
+            "name": "Savory Samsa",
+            "description": "Flaky pastry filled with seasoned lamb and onions",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Pomegranate Glazed Lamb",
+            "description": "Tender lamb marinated in a flavorful pomegranate glaze, served with aromatic saffron rice",
+            "price": "$18.99"
+          },
+          {
+            "name": "Spicy Lamb Pilaf",
+            "description": "Tender lamb cooked with aromatic spices, served with flavorful rice",
+            "price": "$18.99"
+          },
+          {
+            "name": "Saffron-infused Lamb Pilaf",
+            "description": "Tender lamb cooked with aromatic saffron rice and a blend of traditional Uzbek spices",
+            "price": "$18.99"
+          },
+          {
+            "name": "Saffron Chicken Pilaf",
+            "description": "Tender chicken cooked with fragrant saffron rice and traditional Uzbek spices",
+            "price": "$12.99"
+          },
+          {
+            "name": "Saffron Infused Hummus",
+            "description": "Creamy hummus with a hint of saffron, served with warm pita bread",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Baklava",
+            "description": "Layers of filo pastry filled with chopped nuts and sweetened with honey",
+            "price": "$5.99"
+          },
+          {
+            "name": "Saffron Rosewater Baklava",
+            "description": "Layers of phyllo dough filled with pistachios and walnuts, soaked in a saffron and rosewater syrup",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Honey Nut Pastry\"",
+            "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey",
+            "price": "$5.99"
+          },
+          {
+            "name": "Rosewater Baklava",
+            "description": "Layers of crispy phyllo pastry filled with honey, pistachios, and a hint of rosewater",
+            "price": "$8.99"
+          },
+          {
+            "name": "Royal Baklava",
+            "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey",
+            "price": "$8.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Indian Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Samosa Chaat",
+            "description": "Crispy pastry filled with spiced potatoes, topped with yogurt, chutneys, and crunchy sev",
+            "price": "$6.99"
+          },
+          {
+            "name": "Spicy Potato Samosas",
+            "description": "Crispy pastry filled with seasoned potatoes and spices",
+            "price": "$5.99"
+          },
+          {
+            "name": "\"Samosa Chaat\" can be renamed to \"Samosa Plate\" in the \"Appetizers\" category.",
+            "description": "Crispy samosas topped with tangy chutneys, yogurt, and spices",
+            "price": "$6.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Spicy Paneer Tikka",
+            "description": "Marinated cottage cheese cubes grilled to perfection",
+            "price": "$9.99"
+          },
+          {
+            "name": "\"Spicy Potato Samosa Chaat\"",
+            "description": "Crispy samosas topped with chutneys and yogurt",
+            "price": "$7.99"
+          },
+          {
+            "name": "\"Paneer Tikka Masala\"",
+            "description": "Marinated cottage cheese cubes grilled to perfection",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Mango Kulfi",
+            "description": "Creamy mango-flavored ice cream topped with pistachios",
+            "price": "$5.99"
+          },
+          {
+            "name": "Gulab Jamun",
+            "description": "Deep-fried milk balls soaked in sugar syrup",
+            "price": "$5.99"
+          },
+          {
+            "name": "\"Rose Jamun\"",
+            "description": "Deep-fried milk balls soaked in sugar syrup",
+            "price": "$5.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "Mango Lassi",
+            "description": "A refreshing yogurt-based drink with mango puree",
+            "price": "$4.99"
+          },
+          {
+            "name": "Mango Smoothie",
+            "description": "A refreshing blend of mango, yogurt, and spices",
+            "price": "$3.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Lebanese Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Hummus Trio",
+            "description": "A trio of creamy hummus flavors: traditional, roasted red pepper, and garlic.",
+            "price": "$8.99"
+          },
+          {
+            "name": "Harissa Halloumi",
+            "description": "Grilled halloumi cheese served with spicy harissa sauce",
+            "price": "$9.99"
+          },
+          {
+            "name": "\"Three-way Hummus Platter\"",
+            "description": "A trio of classic hummus, roasted red pepper hummus, and spicy black bean hummus served with pita bread.",
+            "price": "$9.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Shawarma Platter",
+            "description": "Tender slices of marinated beef or chicken, served with rice pilaf, hummus, and pita bread",
+            "price": "$15.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Baklava",
+            "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey",
+            "price": "$5.99"
+          },
+          {
+            "name": "Honey Nut Pastry",
+            "description": "Layers of phyllo pastry filled with nuts and sweetened with honey",
+            "price": "$5.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Iraqi Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Lamb Kebabs",
+            "description": "Tender pieces of grilled marinated lamb served with a side of garlic sauce.",
+            "price": "$9.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Saffron Chicken Kabob",
+            "description": "Tender chicken marinated in saffron and spices, grilled to perfection",
+            "price": "$15.99"
+          },
+          {
+            "name": "Lamb Biryani",
+            "description": "Tender lamb cooked with aromatic spices and basmati rice",
+            "price": "$15.99"
+          },
+          {
+            "name": "Lamb Mansaf",
+            "description": "Tender lamb cooked in yogurt sauce, served with aromatic rice and toasted nuts",
+            "price": "$16.99"
+          },
+          {
+            "name": "\"Spicy Lamb Pilaf\"",
+            "description": "Tender lamb cooked with fragrant rice and spices, served with raita",
+            "price": "$15.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Tongan Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Lu Pulu Rolls",
+            "description": "Taro leaves stuffed with coconut cream and corned beef, wrapped in banana leaves and steamed to perfection",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Coconut Crusted Mahi Mahi",
+            "description": "Fresh mahi mahi fillet coated in crispy coconut flakes, served with pineapple salsa and steamed rice.",
+            "price": "$16.99"
+          },
+          {
+            "name": "Island Spice Grilled Mahi Mahi",
+            "description": "Fresh mahi mahi marinated in Tongan spices and grilled to perfection. Served with coconut rice and saut\u00e9ed vegetables.",
+            "price": "$18.99"
+          },
+          {
+            "name": "Coconut Curry Chicken",
+            "description": "Tender chicken cooked in a rich coconut curry sauce, served with steamed rice",
+            "price": "$12.99"
+          },
+          {
+            "name": "Lu Sipi",
+            "description": "Braised lamb with taro leaves and coconut milk",
+            "price": "$15.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Korean Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Kimchi Pancakes",
+            "description": "Savory pancakes made with fermented kimchi and served with a spicy soy dipping sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Kimchi Fritters",
+            "description": "Savory pancakes made with kimchi and served with a spicy dipping sauce",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Bulgogi Beef",
+            "description": "Marinated slices of beef grilled to perfection",
+            "price": "$15.99"
+          },
+          {
+            "name": "Bulgogi Beef Bibimbap",
+            "description": "Marinated beef with mixed vegetables and rice, served in a hot stone bowl",
+            "price": "$15.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Bingsu Delight",
+            "description": "Shaved ice dessert with sweet toppings like red bean, fruit, and condensed milk",
+            "price": "$8.99"
+          },
+          {
+            "name": "Bingsu Bonanza",
+            "description": "Shaved ice dessert topped with sweet red bean paste, fruit, and condensed milk",
+            "price": "$8.99"
+          },
+          {
+            "name": "Bingsu",
+            "description": "Shaved ice topped with sweet red bean paste, fruit, and condensed milk",
+            "price": "$8.99"
+          },
+          {
+            "name": "Matcha Green Tea Tiramisu",
+            "description": "Layers of matcha-infused sponge cake, creamy mascarpone filling, and dusted with matcha powder",
+            "price": "$8.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Slovak Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Bryndzov\u00e9 Halu\u0161ky",
+            "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+            "price": "$9.99"
+          },
+          {
+            "name": "\"Bryndzov\u00e9 Halu\u0161ky\" is a traditional Slovak dish made of potato dumplings with sheep cheese. \nTo avoid confusion, a different name suggestion for this item in the \"Appetizers\" category could be \"Slovak Potato Dumplings with Sheep Cheese\".",
+            "description": "Traditional Slovak potato dumplings with sheep cheese sauce and bacon",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "\"Bryndzov\u00e9 Halu\u0161ky\" can be renamed to \"Slovak Potato Dumplings with Sheep Cheese\"",
+            "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+            "price": "$12.99"
+          },
+          {
+            "name": "\"Slovak Potato Dumplings with Sheep Cheese\"",
+            "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+            "price": "$12.99"
+          },
+          {
+            "name": "\"Traditional Slovak Potato Dumplings with Sheep Cheese\"",
+            "description": "Traditional potato dumplings with sheep cheese and bacon",
+            "price": "$12.99"
+          },
+          {
+            "name": "Slovak Potato Dumplings with Sheep Cheese",
+            "description": "Traditional Slovak potato dumplings with sheep cheese and bacon",
+            "price": "$12.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Honey Walnut Cake",
+            "description": "A decadent cake made with layers of honey-infused sponge and walnuts, topped with a creamy frosting",
+            "price": "$7.99"
+          },
+          {
+            "name": "Halu\u0161ky Cake",
+            "description": "A delicious cake inspired by the traditional Slovak dish Halu\u0161ky, made with potato dumplings and bacon",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Halu\u0161ky Cake\" could be renamed to \"Slovak Potato Dumpling Cake\" in the Desserts category.",
+            "description": "A decadent cake made with potato dumplings, poppy seeds, and honey",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "Kofola",
+            "description": "A popular Slovak soda made from a secret blend of herbs and spices",
+            "price": "$2.50"
+          },
+          {
+            "name": "\"Cola\"",
+            "description": "A popular Slovak soft drink with a unique flavor",
+            "price": "3.50"
+          },
+          {
+            "name": "Sure, a different proper food name for \"Kofola\" in the Beverages category could be \"Czech Cola\".",
+            "description": "A popular Slovakian cola-like soft drink with a unique taste",
+            "price": "2.50"
+          }
+        ]
+      }
+    ]
   },
   {
     "menu": [
@@ -685,133 +885,1163 @@
     "restaurant_name": "Pasto Munich"
   },
   {
+    "restaurant_name": "Indian Restaurant",
     "menu": [
       {
-        "category": "LUNCH MENU",
+        "category": "Appetizers",
         "items": [
           {
-            "description": "ROASTED ALMONDS",
-            "name": "BROCCOLI-COCONUT-CREAM SOUP (VG) A.C.",
-            "price": "7,80"
+            "name": "Samosa Chaat",
+            "description": "A popular Indian street food made with crispy samosas topped with yogurt, chutneys, and spices",
+            "price": "$5.99"
           },
           {
-            "description": "WHEAT TORTILLA | GUACAMOLE | BELL PEPPER | SWEET CORN | KIDNEY BEANS | PEAS | LEEK JALAPENOS | SRIRACHA | CORIANDER",
-            "name": "MEXICAN WRAP (VG) A.C.G",
-            "price": "14,90"
+            "name": "Tandoori Chicken Tikka",
+            "description": "Tender pieces of chicken marinated in yogurt and spices, cooked in a tandoor",
+            "price": "$9.99"
           },
           {
-            "description": "BIG SEASONAL SALAD | TUNA | RED ONIONS | BOILED ORGANIC EGG | OLIVES | CAPERS BALSAMIC DRESSING",
-            "name": "SALAD WITH TUNA A.C.G",
-            "price": "15,40"
+            "name": "\"Punjabi Samosa Chaat\"",
+            "description": "Crispy samosas topped with tangy tamarind chutney and yogurt",
+            "price": "$7.99"
           },
           {
-            "description": "ASPARAGUS | CHERRY TOMATOES | SPRING ONIONS | TRUFFLE SAUCE",
-            "name": "FRESH LINGUINE (V) A.C.G",
-            "price": "16,50"
-          },
-          {
-            "description": "ROASTED POTATOE DUMPLINGS | PLUM SAUCE",
-            "name": "GRILLED TENDER PORK LOIN A.C.G.",
-            "price": "17,20"
-          },
-          {
-            "description": "FRESH VEGETABLES | BASMATI RICE | CORIANDER",
-            "name": "TERIYAKI VEGETABLES (VG) I.F.M",
-            "price": "12,80"
-          },
-          {
-            "description": "APPLE STRUDEL (V) | VANILLA ICE CREAM | WHIPPED CREAM",
-            "name": "DESSERT",
-            "price": "8,50"
+            "name": "\"Samosa Chaat\" can be renamed to \"Spicy Samosa Salad\" in the \"Appetizers\" category.",
+            "description": "Crispy samosas topped with tangy chutneys and yogurt",
+            "price": "$6.99"
           }
         ]
       },
       {
-        "category": "EVENING- & WEEKENDMENU",
+        "category": "Main Courses",
         "items": [
           {
-            "description": "ROSTED CASHEWS",
-            "name": "SPINACH-PEAS-COCONUT SOUP (VG) A.C.",
-            "price": "7,80"
+            "name": "Tandoori Chicken",
+            "description": "Chicken marinated in yogurt and spices, cooked in a clay oven",
+            "price": "$10.99"
           },
           {
-            "description": "QUINOA | ARUGOLA | GRILLED CHEESE | CHERRY TOMATOES | SPRING ONIONS | BELL PEPPER CUCUMBER | OLIVES | EDAMAME | GOJIBERRIES | HEMP SEEDS | BALSAMIC DRESSING",
-            "name": "HALLOUMI BOWL (V) A.C.G",
-            "price": "17,20"
+            "name": "Samosa",
+            "description": "Crispy pastry filled with spiced potatoes and peas",
+            "price": "$5.99"
           },
           {
-            "description": "ASPARAGUS | SPRING ONIONS | CHERRY TOMATOES | ARUGOLA | PARMESAN",
-            "name": "SAFFRON RISOTTO (V) A,C,G,N,A1",
-            "price": "17,50"
-          },
-          {
-            "description": "JUICY BREADED CHICKEN BREAST | CHEDDAR CHEESE | GUACAMOLE | JALAPENOS | ICEBERG LETTUCE | TOMATOES | RED ONIONS | WHEAT BRIOCHE BUN | BURGER SAUCE",
-            "name": "MEXICAN CRISPY CHICKEN BURGER A.C.G",
-            "price": "17,80"
-          },
-          {
-            "description": "PEAR-WALNUT-GORGONZOLA SAUCE | BABY SPINACH | PARMESAN",
-            "name": "FRESH PAPPARDELLE (V) A.C.G.",
-            "price": "17,50"
-          },
-          {
-            "description": "TRADITIONAL SPINACH NOODLES | CREAMY MUSHROOM SAUCE | ROASTED ONIONS",
-            "name": "GRILLED PORK TENDERLOIN A.C.G.",
-            "price": "20,90"
-          },
-          {
-            "description": "FRESH VEGETABLES ASIA STYLE | BASMATI RICE | CORIANDER",
-            "name": "FISCH CURRY A,C,G,N,A1",
-            "price": "21,90"
-          },
-          {
-            "description": "HOMEMADE RHUBARB COMPOTE (V) | MASCARPONE CREAM",
-            "name": "DESSERT",
-            "price": "8,50"
+            "name": "Crispy Cauliflower Bites",
+            "description": "Battered cauliflower florets fried to perfection, served with a tangy dipping sauce",
+            "price": "$8.99"
           }
         ]
       },
       {
-        "category": "MITTAGSKARTE",
+        "category": "Desserts",
         "items": [
           {
-            "description": "GER\u00d6STETE MANDELN",
-            "name": "BROKKOLI-KOKOS-CREMESUPPE (VG) A.C.",
-            "price": "7,80"
+            "name": "Gulab Jamun",
+            "description": "Deep-fried milk-solid dumplings soaked in sugar syrup, served warm",
+            "price": "$5.99"
           },
           {
-            "description": "WEIZEN TORTILLA | GUACAMOLE | PAPRIKA | MAIS | KIDNEY BOHNEN | ERBSEN | LAUCH JALAPENOS | SRIRACHA | KORIANDER",
-            "name": "MEXICAN WRAP (VG) A.C.G",
-            "price": "14,90"
+            "name": "Gulab Jamun Cheesecake",
+            "description": "A fusion of traditional Indian Gulab Jamun with creamy cheesecake",
+            "price": "$8.99"
           },
           {
-            "description": "GROSSER FR\u00dcHLINGSSALAT | THUNFISCH | ROTE ZWIEBELN | GEKOCHTES BIO EI OLIVEN | KAPERN | BALSAMICO DRESSING",
-            "name": "SALAT AL TONNO A.C.G",
-            "price": "15,40"
+            "name": "\"Rose Jamun Cheesecake\"",
+            "description": "A fusion of traditional Indian Gulab Jamun and creamy cheesecake",
+            "price": "$8.99"
           },
           {
-            "description": "SPARGEL | KIRSCHTOMATEN | LAUCHZWIEBELN | TR\u00dcFFELSAUCE",
-            "name": "FRISCHE LINGUINE (V) A.C.G",
-            "price": "16,50"
-          },
+            "name": "\"Rose Jamun Delight\"",
+            "description": "A fusion of traditional Indian Gulab Jamun with creamy cheesecake, topped with saffron-infused syrup",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
           {
-            "description": "GEBRATENE KARTOFFELKN\u00d6DEL | PFLAUMENSAUCE",
-            "name": "GEGRILLTE SCHWEINELENDE A.C.G.",
-            "price": "17,20"
-          },
-          {
-            "description": "FRISCHES GEM\u00dcSE | BASMATIREIS | KORIANDER",
-            "name": "TERIYAKI GEM\u00dcSE (VG) I.F.M",
-            "price": "12,80"
-          },
-          {
-            "description": "APFELSTRUDEL (V) | VANILLEEIS | SAHNE",
-            "name": "DESSERT",
-            "price": "8,50"
+            "name": "Mango Lassi",
+            "description": "A refreshing blend of mango, yogurt, and spices",
+            "price": "$3.99"
           }
         ]
       }
-    ],
-    "restaurant_name": "Bohnen und Malz"
+    ]
+  },
+  {
+    "restaurant_name": "Omani Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Spiced Chickpea Fritters",
+            "description": "Crispy fritters made from chickpeas and traditional Omani spices",
+            "price": "7.99"
+          },
+          {
+            "name": "Spiced Lamb Samosas",
+            "description": "Crispy pastry filled with spiced minced lamb",
+            "price": "5.99"
+          },
+          {
+            "name": "Spiced Chickpea Salad",
+            "description": "A refreshing salad with chickpeas, tomatoes, cucumbers, and a blend of Middle Eastern spices.",
+            "price": "$8.99"
+          },
+          {
+            "name": "Golden Falafel",
+            "description": "Crispy chickpea fritters served with tahini sauce",
+            "price": "5.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Spiced Lamb Shank",
+            "description": "Tender lamb shank marinated in Omani spices, slow-cooked to perfection",
+            "price": "25.99 OMR"
+          },
+          {
+            "name": "Saffron Chicken Kabsa",
+            "description": "Fragrant basmati rice cooked with saffron and tender chicken, served with a side of cucumber yogurt salad.",
+            "price": "12.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Saffron Rose Baklava",
+            "description": "A delicately layered pastry filled with pistachios and infused with saffron and rose water",
+            "price": "5.99 OMR"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "Sultan's Special Tea",
+            "description": "A rich blend of black tea, cardamom, and saffron",
+            "price": "5.99"
+          },
+          {
+            "name": "Saffron Rosewater Lemonade",
+            "description": "A refreshing blend of saffron-infused rosewater and freshly squeezed lemon juice.",
+            "price": "3.50 OMR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Malian Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Spicy Peanut Soup",
+            "description": "A traditional Malian soup made with ground peanuts, tomatoes, and spices",
+            "price": "$7.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Savannah Steak",
+            "description": "Grilled steak marinated in a blend of African spices, served with plantain fries and saut\u00e9ed vegetables",
+            "price": "$15.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Malian Mango Delight",
+            "description": "Fresh Malian mango slices served with a scoop of vanilla ice cream",
+            "price": "$8.99"
+          },
+          {
+            "name": "Mango Madness",
+            "description": "Fresh mango slices served with a scoop of vanilla ice cream",
+            "price": "$7.99"
+          },
+          {
+            "name": "Malian Mango Tart",
+            "description": "Flaky pastry crust filled with fresh Malian mangoes and a hint of cinnamon",
+            "price": "$8.99"
+          },
+          {
+            "name": "Malian Mango Sorbet",
+            "description": "Refreshing sorbet made from fresh Malian mangoes",
+            "price": "$6.99"
+          },
+          {
+            "name": "Bambara Banana Fritters",
+            "description": "Sweet fritters made with ripe bananas and coated in honey",
+            "price": "$6.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "Saharan Sunrise",
+            "description": "A refreshing blend of hibiscus tea and mint with a hint of lemon",
+            "price": "$4.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Mexican Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Crunchy Calamari",
+            "description": "Crispy fried calamari served with a zesty marinara sauce",
+            "price": "$9.99"
+          },
+          {
+            "name": "Guacamole Fresco",
+            "description": "Freshly made guacamole with ripe avocados, tomatoes, onions, and cilantro",
+            "price": "$8.99"
+          },
+          {
+            "name": "Chili Lime Shrimp",
+            "description": "Grilled shrimp marinated in chili and lime, served with a side of guacamole",
+            "price": "$12.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Spicy Shrimp Taco",
+            "description": "Grilled shrimp with spicy chipotle sauce, cilantro, and lime on a warm tortilla",
+            "price": "$8.99"
+          },
+          {
+            "name": "Tacos al Pastor",
+            "description": "Marinated pork cooked on a vertical spit, served with pineapple, onions, and cilantro on a corn tortilla",
+            "price": "$10.99"
+          },
+          {
+            "name": "Spicy Szechuan Stir-Fry",
+            "description": "A flavorful stir-fry with bell peppers, broccoli, and chicken in a spicy Szechuan sauce.",
+            "price": "$12.99"
+          },
+          {
+            "name": "Spicy Shrimp Tacos",
+            "description": "Grilled shrimp served in warm corn tortillas with spicy chipotle sauce, avocado, and cilantro",
+            "price": "$12.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Ethiopian Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Savory Samosas",
+            "description": "Crispy pastry filled with spiced potatoes and peas, served with mint chutney",
+            "price": "$6.99"
+          },
+          {
+            "name": "Spicy Mango Shrimp",
+            "description": "Grilled shrimp marinated in a spicy mango sauce",
+            "price": "$12.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Samosa",
+            "description": "Crispy pastry filled with spiced potatoes and peas",
+            "price": "$5.99"
+          },
+          {
+            "name": "Berbere Chicken",
+            "description": "Tender chicken marinated in spicy berbere sauce, served with injera",
+            "price": "$12.99"
+          },
+          {
+            "name": "Safari Stew",
+            "description": "A hearty stew with a blend of African spices, vegetables, and your choice of protein",
+            "price": "$12.99"
+          },
+          {
+            "name": "Samosa Chaat",
+            "description": "Crispy pastry filled with spiced potatoes and peas, topped with yogurt, tamarind chutney, and chaat masala",
+            "price": "$5.99"
+          },
+          {
+            "name": "Safari Lamb Stew",
+            "description": "Tender lamb slow-cooked in a blend of African spices, served with injera bread",
+            "price": "$15.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Samoan Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Taro Fritters",
+            "description": "Crispy fritters made from mashed taro mixed with coconut milk and spices",
+            "price": "$5.99"
+          },
+          {
+            "name": "Palusami Rolls",
+            "description": "Taro leaves filled with coconut cream and onions, wrapped in breadfruit leaves.",
+            "price": "$9.99"
+          },
+          {
+            "name": "Crispy Taro Bites",
+            "description": "Crispy fritters made from mashed taro and coconut milk, served with a tangy tamarind dipping sauce.",
+            "price": "$8.99"
+          },
+          {
+            "name": "Palusami",
+            "description": "Taro leaves baked in coconut cream",
+            "price": "$8.99"
+          },
+          {
+            "name": "Golden Taro Tidbits",
+            "description": "Deep-fried taro balls served with a spicy mango dipping sauce",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "\"Coconut Creamed Spinach\"",
+            "description": "Taro leaves baked in coconut cream",
+            "price": "$12.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Timorese Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Sizzling Shrimp Skewers",
+            "description": "Grilled shrimp skewers marinated in a spicy Timorese sauce",
+            "price": "$12.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Grilled Coconut Chicken",
+            "description": "Tender chicken marinated in coconut milk and spices, grilled to perfection",
+            "price": "$12.99"
+          },
+          {
+            "name": "Braised Lamb Shank",
+            "description": "Tender lamb shank slow-cooked in a savory broth with fragrant spices",
+            "price": "$18.99"
+          },
+          {
+            "name": "Grilled Octopus with Piri Piri Sauce",
+            "description": "Tender octopus grilled to perfection and served with a spicy Timorese Piri Piri sauce",
+            "price": "$18.99"
+          },
+          {
+            "name": "Grilled Marinated Barramundi",
+            "description": "Fresh barramundi fillet marinated in Timorese spices and grilled to perfection. Served with fragrant rice and sauteed vegetables.",
+            "price": "$18.99"
+          },
+          {
+            "name": "Grilled Crocodile Skewers",
+            "description": "Tender crocodile meat marinated in Timorese spices and grilled to perfection. Served with a side of sambal matah.",
+            "price": "$15.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Bebinca",
+            "description": "A traditional layered pudding made with coconut milk, eggs, and sugar.",
+            "price": "$5.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Turkish Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Bosphorus Bites",
+            "description": "Crispy phyllo pastry filled with savory feta cheese and parsley",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Turkish Delight Bites\"",
+            "description": "Delicious fried pastry filled with feta cheese and herbs",
+            "price": "$8.99"
+          },
+          {
+            "name": "Borek",
+            "description": "Flaky pastry filled with minced meat and spices",
+            "price": "$8.99"
+          },
+          {
+            "name": "One possible alternative name for the item could be \"Turkish Borek\".",
+            "description": "Flaky pastry filled with cheese and parsley",
+            "price": "$7.99"
+          },
+          {
+            "name": "Sure, how about changing the name of the item to \"Turkish Cheese Pastry\" in the menu category \"Appetizers\"?",
+            "description": "Flaky pastry filled with cheese and parsley",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Sultan's Delight",
+            "description": "Tender lamb kebabs served with creamy eggplant puree and grilled tomatoes",
+            "price": "$18.99"
+          },
+          {
+            "name": "Spinach and Feta Borek",
+            "description": "Pastry filled with cheese and parsley",
+            "price": "$7.99"
+          },
+          {
+            "name": "Sultan's Lamb Kebab",
+            "description": "Tender lamb marinated in Turkish spices and grilled to perfection. Served with rice pilaf and grilled vegetables.",
+            "price": "$18.99"
+          },
+          {
+            "name": "Istanbul Kofta",
+            "description": "Delicious beef and lamb meatballs served with a side of pita bread and tzatziki sauce.",
+            "price": "$15.99"
+          },
+          {
+            "name": "\"Royal Lamb Stew\"",
+            "description": "Tender lamb stewed in rich tomato sauce and served over creamy eggplant puree",
+            "price": "$19.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Baklava",
+            "description": "Layers of phyllo pastry filled with chopped nuts and sweetened with honey",
+            "price": "$5.99"
+          },
+          {
+            "name": "\"Honey Nut Pastry\"",
+            "description": "Layers of flaky pastry filled with nuts and sweet syrup",
+            "price": "$5.99"
+          },
+          {
+            "name": "Honey Walnut Pastry",
+            "description": "Layers of phyllo dough filled with nuts and sweetened with honey syrup",
+            "price": "$5.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "Turkish Delight Tea",
+            "description": "A fragrant blend of Turkish black tea with hints of rose petals and spices",
+            "price": "$3.50"
+          },
+          {
+            "name": "\"Rose-infused Turkish Delight Tea\"",
+            "description": "A fragrant blend of black tea with a hint of rosewater and Turkish delight sweetness",
+            "price": "$4.99"
+          },
+          {
+            "name": "\"Turkish Delight Infusion\"",
+            "description": "A fragrant blend of black tea with hints of rose and spices",
+            "price": "$3.50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Malian Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Savory Suya Skewers",
+            "description": "Grilled skewers of marinated beef with a spicy peanut sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Savannah Sambusas",
+            "description": "Crispy pastry filled with seasoned ground beef and vegetables, served with spicy dipping sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Savannah Samosas",
+            "description": "Crispy pastry filled with spiced minced meat and vegetables, served with tangy tamarind chutney",
+            "price": "$7.99"
+          },
+          {
+            "name": "Suya Skewers",
+            "description": "Grilled spicy beef skewers with a peanut dipping sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Savory Plantain Fritters",
+            "description": "Crispy fritters made from ripe plantains and savory spices",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Grilled Safari Steak",
+            "description": "Tender steak marinated in African spices, grilled to perfection",
+            "price": "$19.99"
+          },
+          {
+            "name": "Grilled Mango Chicken",
+            "description": "Tender grilled chicken marinated in a savory mango sauce, served with a side of plantains and couscous",
+            "price": "$15.99"
+          },
+          {
+            "name": "Savory Coconut Curry",
+            "description": "Tender chicken simmered in a rich coconut curry sauce, served with fragrant jasmine rice",
+            "price": "$15.99"
+          },
+          {
+            "name": "Grilled Lamb Chops",
+            "description": "Tender grilled lamb chops marinated in savory herbs and spices",
+            "price": "$17.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Tajik Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Silk Road Sampler",
+            "description": "A delightful platter of hummus, baba ganoush, tabbouleh, and pita bread",
+            "price": "$12.99"
+          },
+          {
+            "name": "Spiced Lamb Samosas",
+            "description": "Flaky pastry filled with savory spiced lamb, served with mint chutney",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Exotic Spice Platter\"",
+            "description": "A delightful mix of hummus, baba ganoush, and tabbouleh served with warm pita bread",
+            "price": "$9.99"
+          },
+          {
+            "name": "Saffron-infused Meatballs",
+            "description": "Juicy meatballs seasoned with aromatic saffron and herbs",
+            "price": "$9.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Spiced Lamb Pilaf",
+            "description": "Tender lamb cooked with fragrant spices and mixed with fluffy rice.",
+            "price": "$15.99"
+          },
+          {
+            "name": "Spicy Szechuan Beef",
+            "description": "Tender beef stir-fried with Szechuan peppers and mixed vegetables",
+            "price": "$15.99"
+          },
+          {
+            "name": "Silk Road Lamb Kebabs",
+            "description": "Tender lamb skewers marinated in exotic spices and grilled to perfection",
+            "price": "$15.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Filipino Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Adobo Flakes",
+            "description": "Crispy shredded pork marinated in soy sauce, vinegar, and spices, served with garlic rice",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Adobo Chicken",
+            "description": "Tender chicken cooked in a savory soy sauce and vinegar marinade",
+            "price": "$12.99"
+          },
+          {
+            "name": "Lechon Kawali",
+            "description": "Crispy fried pork belly served with garlic rice and pickled vegetables.",
+            "price": "$12.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Ethiopian Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Savory Stuffed Mushrooms",
+            "description": "Mushrooms stuffed with a blend of herbs, spices, and cheese, baked to perfection",
+            "price": "$8.99"
+          },
+          {
+            "name": "Safari Spring Rolls",
+            "description": "Crispy spring rolls filled with a blend of seasoned vegetables and served with a tangy dipping sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Safari Skewers",
+            "description": "Grilled skewers of marinated meats and vegetables, served with a spicy dipping sauce",
+            "price": "$9.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Spicy Thai Basil Chicken",
+            "description": "Stir-fried chicken with Thai basil, bell peppers, and chili garlic sauce",
+            "price": "$12.99"
+          },
+          {
+            "name": "Safari Stew",
+            "description": "A hearty blend of wild game meats simmered in a rich tomato and spice sauce, served with injera bread.",
+            "price": "$15.99"
+          },
+          {
+            "name": "\"Wild Game Skewers\"",
+            "description": "Tender grilled meat skewers served with a side of spicy peanut sauce.",
+            "price": "$12.99"
+          },
+          {
+            "name": "Samosa Chaat",
+            "description": "Crispy pastry filled with spiced potatoes, topped with yogurt, chutneys, and spices",
+            "price": "$7.99"
+          },
+          {
+            "name": "\"Wild Bush Stew\"",
+            "description": "Tender pieces of wild game simmered in a rich tomato and peanut sauce, served with couscous",
+            "price": "$18.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "German Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Bavarian Pretzel",
+            "description": "Soft pretzel served with mustard and cheese dip",
+            "price": "$5.99"
+          },
+          {
+            "name": "\"German Soft Pretzel\"",
+            "description": "Freshly baked pretzel served with spicy mustard and cheese dip",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Schweinshaxe",
+            "description": "Slow-roasted pork knuckle with crispy skin, served with sauerkraut and mashed potatoes",
+            "price": "$18.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Black Forest Cake",
+            "description": "A decadent chocolate cake layered with cherries and whipped cream, topped with chocolate shavings.",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Forest Berry Delight\"",
+            "description": "A traditional German dessert made with layers of chocolate cake, whipped cream, and cherries.",
+            "price": "$6.99"
+          },
+          {
+            "name": "Schwarzw\u00e4lder Kirschtorte",
+            "description": "Layers of chocolate sponge cake, whipped cream, and cherries soaked in cherry brandy",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"German Chocolate Cake\"",
+            "description": "A rich chocolate cake layered with cherries and whipped cream, topped with chocolate shavings",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Forest Noir Cake\"",
+            "description": "A traditional Black Forest cake made with layers of chocolate sponge, cherries, and whipped cream, soaked in cherry brandy",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "Black Forest Brew",
+            "description": "A dark and rich German beer brewed in-house",
+            "price": "$6.99"
+          },
+          {
+            "name": "Apfelwein",
+            "description": "Traditional German apple wine",
+            "price": "$8.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "American (Southern) Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Fried Green Tomatoes",
+            "description": "Sliced green tomatoes coated in cornmeal and fried to a golden crisp. Served with a side of tangy remoulade sauce.",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Southern Fried Green Tomato Slices\"",
+            "description": "Sliced green tomatoes breaded and fried to perfection, served with a tangy remoulade sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Crispy Green Tomato Slices",
+            "description": "Sliced green tomatoes coated in cornmeal and fried to crispy perfection. Served with a side of tangy remoulade sauce.",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Cajun Fried Chicken",
+            "description": "Crispy fried chicken seasoned with Cajun spices",
+            "price": "$12.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Pecan Pie",
+            "description": "A classic Southern dessert made with pecans, butter, sugar, and eggs in a flaky crust.",
+            "price": "$6.99"
+          },
+          {
+            "name": "\"Praline Pecan Pie\"",
+            "description": "A classic Southern dessert made with pecans and a buttery crust",
+            "price": "$6.99"
+          },
+          {
+            "name": "\"Southern Pecan Pie\"",
+            "description": "A classic Southern dessert made with pecans, sugar, and butter in a flaky crust.",
+            "price": "$6.99"
+          },
+          {
+            "name": "\"Southern Pecan Delight\"",
+            "description": "A classic Southern dessert made with pecans, sugar, and butter in a flaky crust",
+            "price": "$6.99"
+          },
+          {
+            "name": "Southern Pecan Pie",
+            "description": "A classic Southern dessert made with pecans, sugar, and butter in a flaky crust.",
+            "price": "$8.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Iraqi Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Fried Kibbeh",
+            "description": "Ground meat mixed with bulgur wheat, onions, and spices, then deep-fried to perfection",
+            "price": "$8.99"
+          },
+          {
+            "name": "Kubba Mosul",
+            "description": "Fried bulgur wheat with a spiced ground meat filling",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Sultan's Delight",
+            "description": "Tender lamb stewed in a savory tomato sauce, served with fluffy basmati rice",
+            "price": "$15.99"
+          },
+          {
+            "name": "\"Sultan's Feast\"",
+            "description": "Tender lamb cooked in a savory tomato sauce, served with fluffy rice",
+            "price": "$14.99"
+          },
+          {
+            "name": "Lamb Shawarma Plate",
+            "description": "Tender slices of marinated lamb served with saffron rice and grilled vegetables",
+            "price": "$15.99"
+          },
+          {
+            "name": "Saffron Chicken",
+            "description": "Tender chicken marinated in saffron-infused yogurt and grilled to perfection",
+            "price": "$15.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Baklava",
+            "description": "Layers of phyllo pastry filled with chopped nuts and sweetened with honey",
+            "price": "$5.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "British Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Yorkshire Pudding Bites",
+            "description": "Crispy bites filled with savory beef and onion gravy",
+            "price": "$8.99"
+          },
+          {
+            "name": "Yorkshire Pudding",
+            "description": "Traditional British dish made of a savory batter baked until crispy",
+            "price": "$8.99"
+          },
+          {
+            "name": "Crispy Fish and Chips Bites",
+            "description": "Mini fish and chips served with tartar sauce",
+            "price": "$9.99"
+          },
+          {
+            "name": "\"Mini Yorkshire Puddings\"",
+            "description": "Mini Yorkshire puddings filled with savory beef and gravy",
+            "price": "$8.99"
+          },
+          {
+            "name": "\"Yorkshire Pudding Bites\"",
+            "description": "Fluffy mini Yorkshire puddings filled with savory beef and onion gravy",
+            "price": "$9.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Spiced Carrot Soup",
+            "description": "Deliciously spiced carrot soup served with a hint of coconut milk",
+            "price": "$8.99"
+          },
+          {
+            "name": "Roasted Lamb Shank",
+            "description": "Tender lamb shank slow-roasted with rosemary and garlic, served with minted peas and roasted potatoes",
+            "price": "$18.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Sticky Toffee Pudding",
+            "description": "A classic British dessert made with dates and topped with a rich toffee sauce",
+            "price": "$8.99"
+          },
+          {
+            "name": "Royal Bread Pudding",
+            "description": "Traditional British bread pudding served with a dollop of vanilla custard",
+            "price": "$8.99"
+          },
+          {
+            "name": "Toffee Bread Pudding",
+            "description": "A classic British pudding made with dates, covered in a rich toffee sauce, and served with vanilla ice cream.",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "London Fog Latte",
+            "description": "Earl Grey tea infused with frothy steamed milk and vanilla syrup",
+            "price": "$4.50"
+          },
+          {
+            "name": "Earl Grey Delight",
+            "description": "A classic British black tea infused with bergamot oil, served with a splash of milk",
+            "price": "$3.50"
+          },
+          {
+            "name": "\"Earl Grey Fog Latte\"",
+            "description": "Earl Grey tea with steamed milk and a hint of vanilla",
+            "price": "$4.50"
+          },
+          {
+            "name": "Earl Grey Tea",
+            "description": "A classic British black tea with bergamot flavor",
+            "price": "$3.50"
+          },
+          {
+            "name": "Earl Grey Elixir",
+            "description": "A classic British black tea with a hint of bergamot",
+            "price": "$3.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Seychellois Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Coconut Shrimp",
+            "description": "Crispy shrimp coated in shredded coconut, served with a tangy mango salsa",
+            "price": "$9.99"
+          },
+          {
+            "name": "\"Crunchy Coconut Shrimp\"",
+            "description": "Crispy shrimp coated in coconut flakes, served with a tangy mango dipping sauce",
+            "price": "$10.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Creole Grilled Fish",
+            "description": "Fresh fish marinated in Creole spices and grilled to perfection. Served with a side of coconut rice and sauteed vegetables.",
+            "price": "$18.99"
+          },
+          {
+            "name": "Coconut Curry Shrimp",
+            "description": "Juicy shrimp cooked in a rich coconut curry sauce with a blend of Seychellois spices",
+            "price": "$18.99"
+          },
+          {
+            "name": "Coconut-Crusted Mahi Mahi",
+            "description": "Fresh mahi mahi coated in a crispy coconut crust, served with pineapple salsa.",
+            "price": "$18.99"
+          },
+          {
+            "name": "Tropical Mahi Mahi",
+            "description": "Fresh Mahi Mahi coated in a crispy coconut crust, served with pineapple salsa and jasmine rice",
+            "price": "$18.99"
+          },
+          {
+            "name": "Creole Fish Curry",
+            "description": "Fresh fish cooked in a rich and spicy coconut curry sauce, served with fragrant rice",
+            "price": "$15.99"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "Coconut Creme Brulee",
+            "description": "Creamy coconut custard topped with caramelized sugar",
+            "price": "$8.99"
+          },
+          {
+            "name": "Coconut Flan",
+            "description": "Creamy flan infused with tropical coconut flavors",
+            "price": "$7.99"
+          },
+          {
+            "name": "Coconut Caramel Pudding",
+            "description": "Creamy pudding made with fresh coconut milk and topped with caramel sauce",
+            "price": "$7.99"
+          },
+          {
+            "name": "Coconut Dream",
+            "description": "A heavenly combination of coconut cream, fresh pineapple, and a hint of rum, served with a side of vanilla ice cream.",
+            "price": "$8.99"
+          },
+          {
+            "name": "Coco Loco Cake",
+            "description": "Decadent chocolate cake infused with coconut cream and topped with shredded coconut",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "name": "\"Coconut Bliss\"",
+            "description": "Refreshing coconut water served in a chilled coconut shell",
+            "price": "$5.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Persian Restaurant",
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Saffron-spiced Meatballs",
+            "description": "Juicy meatballs seasoned with saffron and served with a tangy yogurt sauce",
+            "price": "$9.99"
+          },
+          {
+            "name": "Saffron Infused Hummus",
+            "description": "Creamy chickpea dip with a hint of saffron",
+            "price": "$8.99"
+          },
+          {
+            "name": "Persian Lamb Kebabs",
+            "description": "Tender lamb skewers marinated in saffron and spices, grilled to perfection",
+            "price": "$12.99"
+          },
+          {
+            "name": "Saffron Infused Meatballs",
+            "description": "Juicy meatballs cooked in a saffron-infused sauce",
+            "price": "$9.99"
+          },
+          {
+            "name": "Kashk-e Bademjan",
+            "description": "Eggplant dip with whey, mint, and garlic",
+            "price": "$8.99"
+          }
+        ]
+      },
+      {
+        "category": "Main Courses",
+        "items": [
+          {
+            "name": "Saffron Chicken Kabobs",
+            "description": "Tender chicken marinated in saffron and spices, grilled to perfection",
+            "price": "$15.99"
+          },
+          {
+            "name": "Tahchin",
+            "description": "Baked saffron rice cake with chicken",
+            "price": "$15.99"
+          },
+          {
+            "name": "\"Persian Lamb Skewers\"",
+            "description": "Grilled lamb skewers marinated in saffron and spices",
+            "price": "$12.99"
+          }
+        ]
+      }
+    ]
   }
 ]
