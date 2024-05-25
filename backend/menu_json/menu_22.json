@@ -1,0 +1,50 @@
+{
+    "restaurant_name": "Lebanese Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Hummus Trio",
+                    "description": "A trio of creamy hummus flavors: traditional, roasted red pepper, and garlic.",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Harissa Halloumi",
+                    "description": "Grilled halloumi cheese served with spicy harissa sauce",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "\"Three-way Hummus Platter\"",
+                    "description": "A trio of classic hummus, roasted red pepper hummus, and spicy black bean hummus served with pita bread.",
+                    "price": "$9.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Shawarma Platter",
+                    "description": "Tender slices of marinated beef or chicken, served with rice pilaf, hummus, and pita bread",
+                    "price": "$15.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Baklava",
+                    "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Honey Nut Pastry",
+                    "description": "Layers of phyllo pastry filled with nuts and sweetened with honey",
+                    "price": "$5.99"
+                }
+            ]
+        }
+    ]
+}

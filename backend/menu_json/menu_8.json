@@ -1,0 +1,70 @@
+{
+    "restaurant_name": "Omani Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Spiced Chickpea Fritters",
+                    "description": "Crispy fritters made from chickpeas and traditional Omani spices",
+                    "price": "7.99"
+                },
+                {
+                    "name": "Spiced Lamb Samosas",
+                    "description": "Crispy pastry filled with spiced minced lamb",
+                    "price": "5.99"
+                },
+                {
+                    "name": "Spiced Chickpea Salad",
+                    "description": "A refreshing salad with chickpeas, tomatoes, cucumbers, and a blend of Middle Eastern spices.",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Golden Falafel",
+                    "description": "Crispy chickpea fritters served with tahini sauce",
+                    "price": "5.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Spiced Lamb Shank",
+                    "description": "Tender lamb shank marinated in Omani spices, slow-cooked to perfection",
+                    "price": "25.99 OMR"
+                },
+                {
+                    "name": "Saffron Chicken Kabsa",
+                    "description": "Fragrant basmati rice cooked with saffron and tender chicken, served with a side of cucumber yogurt salad.",
+                    "price": "12.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Saffron Rose Baklava",
+                    "description": "A delicately layered pastry filled with pistachios and infused with saffron and rose water",
+                    "price": "5.99 OMR"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Sultan's Special Tea",
+                    "description": "A rich blend of black tea, cardamom, and saffron",
+                    "price": "5.99"
+                },
+                {
+                    "name": "Saffron Rosewater Lemonade",
+                    "description": "A refreshing blend of saffron-infused rosewater and freshly squeezed lemon juice.",
+                    "price": "3.50 OMR"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "restaurant_name": "Turkish Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Bosphorus Bites",
+                    "description": "Savory pastry filled with feta cheese and spinach",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Sultan's Lamb Shank",
+                    "description": "Tender slow-cooked lamb shank in a rich tomato and herb sauce, served with fragrant rice",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "\"Bosphorus Delight\"",
+                    "description": "Fried feta cheese wrapped in phyllo dough",
+                    "price": "$8.99"
+                }
+            ]
+        }
+    ]
+}

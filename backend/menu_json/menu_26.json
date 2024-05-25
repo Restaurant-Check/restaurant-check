@@ -1,0 +1,30 @@
+{
+    "restaurant_name": "Filipino Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Adobo Flakes",
+                    "description": "Crispy shredded pork marinated in soy sauce, vinegar, and spices, served with garlic rice",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Adobo Chicken",
+                    "description": "Tender chicken cooked in a savory soy sauce and vinegar marinade",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Lechon Kawali",
+                    "description": "Crispy fried pork belly served with garlic rice and pickled vegetables.",
+                    "price": "$12.99"
+                }
+            ]
+        }
+    ]
+}

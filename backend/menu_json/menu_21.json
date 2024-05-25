@@ -1,0 +1,65 @@
+{
+    "restaurant_name": "American (Southern) Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Fried Green Tomatoes",
+                    "description": "Sliced green tomatoes coated in cornmeal and fried to a golden crisp. Served with a side of tangy remoulade sauce.",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Southern Fried Green Tomato Slices\"",
+                    "description": "Sliced green tomatoes breaded and fried to perfection, served with a tangy remoulade sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Crispy Green Tomato Slices",
+                    "description": "Sliced green tomatoes coated in cornmeal and fried to crispy perfection. Served with a side of tangy remoulade sauce.",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Cajun Fried Chicken",
+                    "description": "Crispy fried chicken seasoned with Cajun spices",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Pecan Pie",
+                    "description": "A classic Southern dessert made with pecans, butter, sugar, and eggs in a flaky crust.",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "\"Praline Pecan Pie\"",
+                    "description": "A classic Southern dessert made with pecans and a buttery crust",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "\"Southern Pecan Pie\"",
+                    "description": "A classic Southern dessert made with pecans, sugar, and butter in a flaky crust.",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "\"Southern Pecan Delight\"",
+                    "description": "A classic Southern dessert made with pecans, sugar, and butter in a flaky crust",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "Southern Pecan Pie",
+                    "description": "A classic Southern dessert made with pecans, sugar, and butter in a flaky crust.",
+                    "price": "$8.99"
+                }
+            ]
+        }
+    ]
+}

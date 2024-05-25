@@ -1,0 +1,65 @@
+{
+    "restaurant_name": "Malian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Spicy Peanut Soup",
+                    "description": "A traditional Malian soup made with ground peanuts, tomatoes, and spices",
+                    "price": "$7.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Savannah Steak",
+                    "description": "Grilled steak marinated in a blend of African spices, served with plantain fries and sautéed vegetables",
+                    "price": "$15.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Malian Mango Delight",
+                    "description": "Fresh Malian mango slices served with a scoop of vanilla ice cream",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Mango Madness",
+                    "description": "Fresh mango slices served with a scoop of vanilla ice cream",
+                    "price": "$7.99"
+                },
+                {
+                    "name": "Malian Mango Tart",
+                    "description": "Flaky pastry crust filled with fresh Malian mangoes and a hint of cinnamon",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Malian Mango Sorbet",
+                    "description": "Refreshing sorbet made from fresh Malian mangoes",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "Bambara Banana Fritters",
+                    "description": "Sweet fritters made with ripe bananas and coated in honey",
+                    "price": "$6.99"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Saharan Sunrise",
+                    "description": "A refreshing blend of hibiscus tea and mint with a hint of lemon",
+                    "price": "$4.99"
+                }
+            ]
+        }
+    ]
+}

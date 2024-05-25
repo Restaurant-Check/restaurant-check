@@ -1,0 +1,80 @@
+{
+    "restaurant_name": "Indian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Samosa Chaat",
+                    "description": "Crispy pastry filled with spiced potatoes, topped with yogurt, chutneys, and crunchy sev",
+                    "price": "$6.99"
+                },
+                {
+                    "name": "Spicy Potato Samosas",
+                    "description": "Crispy pastry filled with seasoned potatoes and spices",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "\"Samosa Chaat\" can be renamed to \"Samosa Plate\" in the \"Appetizers\" category.",
+                    "description": "Crispy samosas topped with tangy chutneys, yogurt, and spices",
+                    "price": "$6.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Spicy Paneer Tikka",
+                    "description": "Marinated cottage cheese cubes grilled to perfection",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "\"Spicy Potato Samosa Chaat\"",
+                    "description": "Crispy samosas topped with chutneys and yogurt",
+                    "price": "$7.99"
+                },
+                {
+                    "name": "\"Paneer Tikka Masala\"",
+                    "description": "Marinated cottage cheese cubes grilled to perfection",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Mango Kulfi",
+                    "description": "Creamy mango-flavored ice cream topped with pistachios",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Gulab Jamun",
+                    "description": "Deep-fried milk balls soaked in sugar syrup",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "\"Rose Jamun\"",
+                    "description": "Deep-fried milk balls soaked in sugar syrup",
+                    "price": "$5.99"
+                }
+            ]
+        },
+        {
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Mango Lassi",
+                    "description": "A refreshing yogurt-based drink with mango puree",
+                    "price": "$4.99"
+                },
+                {
+                    "name": "Mango Smoothie",
+                    "description": "A refreshing blend of mango, yogurt, and spices",
+                    "price": "$3.99"
+                }
+            ]
+        }
+    ]
+}

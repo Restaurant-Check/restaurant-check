@@ -1,0 +1,50 @@
+{
+    "restaurant_name": "Tajik Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Silk Road Sampler",
+                    "description": "A delightful platter of hummus, baba ganoush, tabbouleh, and pita bread",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Spiced Lamb Samosas",
+                    "description": "Flaky pastry filled with savory spiced lamb, served with mint chutney",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Exotic Spice Platter\"",
+                    "description": "A delightful mix of hummus, baba ganoush, and tabbouleh served with warm pita bread",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "Saffron-infused Meatballs",
+                    "description": "Juicy meatballs seasoned with aromatic saffron and herbs",
+                    "price": "$9.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Spiced Lamb Pilaf",
+                    "description": "Tender lamb cooked with fragrant spices and mixed with fluffy rice.",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Spicy Szechuan Beef",
+                    "description": "Tender beef stir-fried with Szechuan peppers and mixed vegetables",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Silk Road Lamb Kebabs",
+                    "description": "Tender lamb skewers marinated in exotic spices and grilled to perfection",
+                    "price": "$15.99"
+                }
+            ]
+        }
+    ]
+}

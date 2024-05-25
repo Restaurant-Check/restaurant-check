@@ -1,0 +1,75 @@
+{
+    "restaurant_name": "Armenian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Sizzling Firecracker Shrimp",
+                    "description": "Crispy shrimp tossed in a spicy Sriracha aioli",
+                    "price": "$9.99"
+                },
+                {
+                    "name": "Baba Ghanoush",
+                    "description": "Roasted eggplant mixed with tahini, garlic, and lemon juice",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Armenian Cheese Borek",
+                    "description": "Crispy phyllo pastry filled with melted cheese and herbs",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Armenian Lamb Kebabs",
+                    "description": "Tender lamb marinated in traditional Armenian spices and grilled to perfection. Served with rice pilaf and grilled vegetables.",
+                    "price": "$16.99"
+                },
+                {
+                    "name": "Dolma",
+                    "description": "Grape leaves stuffed with a delicious mix of rice, herbs, and minced meat",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "\"Grilled Armenian Lamb Skewers\"",
+                    "description": "Tender lamb pieces marinated in traditional Armenian spices and grilled to perfection",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Kofta Kebab",
+                    "description": "Grilled minced meat skewers seasoned with traditional Armenian spices",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Armenian Baklava",
+                    "description": "Layers of flaky pastry filled with nuts and sweetened with honey",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Baklava",
+                    "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey or syrup",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Honey Nut Pastry",
+                    "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey syrup",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "\"Honey Nut Tart\"",
+                    "description": "Layers of phyllo pastry filled with nuts and sweet syrup",
+                    "price": "$5.99"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "restaurant_name": "Ethiopian Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Savory Stuffed Mushrooms",
+                    "description": "Mushrooms stuffed with a blend of herbs, spices, and cheese, baked to perfection",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Safari Spring Rolls",
+                    "description": "Crispy spring rolls filled with a blend of seasoned vegetables and served with a tangy dipping sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Safari Skewers",
+                    "description": "Grilled skewers of marinated meats and vegetables, served with a spicy dipping sauce",
+                    "price": "$9.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Spicy Thai Basil Chicken",
+                    "description": "Stir-fried chicken with Thai basil, bell peppers, and chili garlic sauce",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Safari Stew",
+                    "description": "A hearty blend of wild game meats simmered in a rich tomato and spice sauce, served with injera bread.",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "\"Wild Game Skewers\"",
+                    "description": "Tender grilled meat skewers served with a side of spicy peanut sauce.",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Samosa Chaat",
+                    "description": "Crispy pastry filled with spiced potatoes, topped with yogurt, chutneys, and spices",
+                    "price": "$7.99"
+                },
+                {
+                    "name": "\"Wild Bush Stew\"",
+                    "description": "Tender pieces of wild game simmered in a rich tomato and peanut sauce, served with couscous",
+                    "price": "$18.99"
+                }
+            ]
+        }
+    ]
+}

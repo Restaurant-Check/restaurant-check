@@ -1,0 +1,90 @@
+{
+    "restaurant_name": "Uzbek Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Spiced Lamb Skewers",
+                    "description": "Tender lamb marinated in aromatic spices and grilled to perfection",
+                    "price": "$10.99"
+                },
+                {
+                    "name": "Samosa",
+                    "description": "Crispy pastry filled with spiced potatoes and peas",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Samosas",
+                    "description": "Crispy pastry filled with spiced potatoes and peas",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Savory Samsa",
+                    "description": "Flaky pastry filled with seasoned lamb and onions",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Pomegranate Glazed Lamb",
+                    "description": "Tender lamb marinated in a flavorful pomegranate glaze, served with aromatic saffron rice",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "Spicy Lamb Pilaf",
+                    "description": "Tender lamb cooked with aromatic spices, served with flavorful rice",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "Saffron-infused Lamb Pilaf",
+                    "description": "Tender lamb cooked with aromatic saffron rice and a blend of traditional Uzbek spices",
+                    "price": "$18.99"
+                },
+                {
+                    "name": "Saffron Chicken Pilaf",
+                    "description": "Tender chicken cooked with fragrant saffron rice and traditional Uzbek spices",
+                    "price": "$12.99"
+                },
+                {
+                    "name": "Saffron Infused Hummus",
+                    "description": "Creamy hummus with a hint of saffron, served with warm pita bread",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Baklava",
+                    "description": "Layers of filo pastry filled with chopped nuts and sweetened with honey",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Saffron Rosewater Baklava",
+                    "description": "Layers of phyllo dough filled with pistachios and walnuts, soaked in a saffron and rosewater syrup",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "\"Honey Nut Pastry\"",
+                    "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey",
+                    "price": "$5.99"
+                },
+                {
+                    "name": "Rosewater Baklava",
+                    "description": "Layers of crispy phyllo pastry filled with honey, pistachios, and a hint of rosewater",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Royal Baklava",
+                    "description": "Layers of phyllo dough filled with chopped nuts and sweetened with honey",
+                    "price": "$8.99"
+                }
+            ]
+        }
+    ]
+}

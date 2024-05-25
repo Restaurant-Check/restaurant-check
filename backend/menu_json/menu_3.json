@@ -1,0 +1,35 @@
+{
+    "restaurant_name": "Bahraini Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Sizzling Saffron Shrimp",
+                    "description": "Juicy shrimp cooked in a rich saffron sauce, served sizzling hot",
+                    "price": "$12.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Bahraini Lamb Kebabs",
+                    "description": "Tender lamb skewers marinated in Middle Eastern spices, grilled to perfection",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Lamb Kabsa",
+                    "description": "Tender lamb cooked with fragrant rice and Arabic spices",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Spicy Lamb Biryani",
+                    "description": "Tender lamb cooked with aromatic spices and basmati rice.",
+                    "price": "$15.99"
+                }
+            ]
+        }
+    ]
+}

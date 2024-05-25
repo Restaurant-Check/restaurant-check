@@ -1,0 +1,40 @@
+{
+    "restaurant_name": "Iraqi Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Lamb Kebabs",
+                    "description": "Tender pieces of grilled marinated lamb served with a side of garlic sauce.",
+                    "price": "$9.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Saffron Chicken Kabob",
+                    "description": "Tender chicken marinated in saffron and spices, grilled to perfection",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Lamb Biryani",
+                    "description": "Tender lamb cooked with aromatic spices and basmati rice",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Lamb Mansaf",
+                    "description": "Tender lamb cooked in yogurt sauce, served with aromatic rice and toasted nuts",
+                    "price": "$16.99"
+                },
+                {
+                    "name": "\"Spicy Lamb Pilaf\"",
+                    "description": "Tender lamb cooked with fragrant rice and spices, served with raita",
+                    "price": "$15.99"
+                }
+            ]
+        }
+    ]
+}

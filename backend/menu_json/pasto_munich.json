@@ -1,0 +1,65 @@
+{
+    "menu": [
+        {
+            "category": "Entradas",
+            "items": [
+                {
+                    "description": "Pan tostado con tomate, ajo y albahaca",
+                    "name": "Bruschetta",
+                    "price": "$5.00"
+                },
+                {
+                    "description": "Calamares frescos rebozados y fritos",
+                    "name": "Calamares Fritos",
+                    "price": "$8.00"
+                }
+            ]
+        },
+        {
+            "category": "Platos Principales",
+            "items": [
+                {
+                    "description": "Lasagna de carne con salsa de tomate y queso",
+                    "name": "Lasagna",
+                    "price": "$12.00"
+                },
+                {
+                    "description": "Pechuga de pollo empanizada con salsa de tomate y queso parmesano",
+                    "name": "Pollo Parmesano",
+                    "price": "$15.00"
+                }
+            ]
+        },
+        {
+            "category": "Postres",
+            "items": [
+                {
+                    "description": "Postre italiano con café, mascarpone y cacao",
+                    "name": "Tiramisú",
+                    "price": "$6.00"
+                },
+                {
+                    "description": "Helado italiano de diferentes sabores",
+                    "name": "Gelato",
+                    "price": "$4.00"
+                }
+            ]
+        },
+        {
+            "category": "Bebidas",
+            "items": [
+                {
+                    "description": "Café recién hecho",
+                    "name": "Café",
+                    "price": "$2.00"
+                },
+                {
+                    "description": "Copa de vino tinto",
+                    "name": "Vino Tinto",
+                    "price": "$7.00"
+                }
+            ]
+        }
+    ],
+    "restaurant_name": "Pasto Munich"
+}

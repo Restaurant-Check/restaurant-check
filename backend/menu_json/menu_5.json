@@ -1,0 +1,60 @@
+{
+    "restaurant_name": "Korean Restaurant",
+    "menu": [
+        {
+            "category": "Appetizers",
+            "items": [
+                {
+                    "name": "Kimchi Pancakes",
+                    "description": "Savory pancakes made with fermented kimchi and served with a spicy soy dipping sauce",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Kimchi Fritters",
+                    "description": "Savory pancakes made with kimchi and served with a spicy dipping sauce",
+                    "price": "$8.99"
+                }
+            ]
+        },
+        {
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Bulgogi Beef",
+                    "description": "Marinated slices of beef grilled to perfection",
+                    "price": "$15.99"
+                },
+                {
+                    "name": "Bulgogi Beef Bibimbap",
+                    "description": "Marinated beef with mixed vegetables and rice, served in a hot stone bowl",
+                    "price": "$15.99"
+                }
+            ]
+        },
+        {
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Bingsu Delight",
+                    "description": "Shaved ice dessert with sweet toppings like red bean, fruit, and condensed milk",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Bingsu Bonanza",
+                    "description": "Shaved ice dessert topped with sweet red bean paste, fruit, and condensed milk",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Bingsu",
+                    "description": "Shaved ice topped with sweet red bean paste, fruit, and condensed milk",
+                    "price": "$8.99"
+                },
+                {
+                    "name": "Matcha Green Tea Tiramisu",
+                    "description": "Layers of matcha-infused sponge cake, creamy mascarpone filling, and dusted with matcha powder",
+                    "price": "$8.99"
+                }
+            ]
+        }
+    ]
+}
